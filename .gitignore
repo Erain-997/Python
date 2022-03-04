@@ -1,0 +1,10 @@
+##ignore this file##
+/target/
+.idea
+__pycache__
+.pytest_cache
+result.txt
+/log
+/img/*.png
+/venv/
+/reports/
