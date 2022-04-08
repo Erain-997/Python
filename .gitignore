@@ -4,7 +4,10 @@
 __pycache__
 .pytest_cache
 result.txt
+/img/
 /log
-/img/*.png
 /venv/
 /reports/
+/service/log/
+/api/to_be_test_img/
+
