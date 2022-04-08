@@ -1,23 +1,32 @@
 [[source]]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+url = "https://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 name = "pypi"
 
 [[source]]
-url = "https://pypi.dianchu.cc/simple"
+url = "https://pypi.dianchu.cc/simple/"
 verify_ssl = true
 name = "dianchu"
 
 [[source]]
-url = "https://pypi.org/simple"
+url = "https://pypi.org/simple/"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-test-components = "*"
+test-components = {version = "==1.3.38", index = "https://pypi.dianchu.cc/simple"}
 airtest = "==1.2.1"
+pytest = "*"
+allure-pytest = "==2.8.18"
+poco = "*"
+pymysql = "==1.0.2"
+pocoui = "==1.0.74"
+pytest-ordering = "*"
+grpcio = "==1.34.0"
+grpcio-tools = "==1.34.0"
+func-timeout = "*"
+
+[dev-packages]
 
 [requires]
 python_version = "3.7"
-

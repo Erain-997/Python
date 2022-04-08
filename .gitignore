@@ -1,10 +1,10 @@
 ##ignore this file##
 /target/
+*.png
 .idea
 __pycache__
 .pytest_cache
+report
 result.txt
-/log
-/img/*.png
+
 /venv/
-/reports/
