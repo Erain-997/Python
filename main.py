@@ -1,6 +1,6 @@
-# -*- encoding=utf8 -*-
-# Time：2021/08/13
-__author__ = "2018248"
+# _*_coding:utf-8_*_
+# Author：Erain
+# Time：2021/04/13
 
 from gevent import pywsgi
 from service.localhost import *
