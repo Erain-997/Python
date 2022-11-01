@@ -1,2 +1,2 @@
 # Python
-Python项目
+https://www.freesion.com/article/4145836360/
