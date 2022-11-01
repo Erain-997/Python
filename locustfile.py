@@ -1,10 +1,9 @@
 from locust import HttpUser, TaskSet, between
 
-url = "http://10.6.27.69:6060/test"
 
 
 def login(l):
-    l.client.post(url, {})
+    l.client.post("/", {})
 
 
 def logout(l):
@@ -21,7 +20,7 @@ def profile(l):
 
 # 用户
 class UserBehavior(TaskSet):
-    tasks = {index: 2, profile: 1}
+    tasks = {index: 2, profile: 1}  # 配置权重,越大权重越高
 
     # 用户行为
     def on_start(self):
@@ -36,5 +35,7 @@ class UserBehavior(TaskSet):
 
 # 继承locust类,并添加client属性,用于发出http请求
 class WebsiteUser(HttpUser):
+    host = "http://10.6.27.69:6060/test"
+
     task_set = UserBehavior
     wait_time = between(5.0, 9.0)
