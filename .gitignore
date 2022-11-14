@@ -1,1 +1,6 @@
 .idea/
+*.pytest_cache*
+*.pyc*
+test_data.yaml
+*.mp4
+*.xls

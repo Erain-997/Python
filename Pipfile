@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+airtest = "*"
+poco = "*"
+pocoui = "==1.0.74"
+xlutils = "*"
+setuptools = "==57.5.0"
+
+xlwt = "*"
+xlrd = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
