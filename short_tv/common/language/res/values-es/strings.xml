@@ -1,0 +1,691 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">No se puede conectar al servidor, por favor intente más tarde</string>
+    <string name="common_unknown_exception">Excepción desconocida</string>
+    <string name="common_login_expired">Tu sesión ha expirado, por favor, inicia sesión de nuevo.</string>
+    <string name="common_re_login">Reingresar</string>
+    <string name="common_error_code">Código de error: %1$s</string>
+    <string name="common_waiting">Esperando…</string>
+    <string name="common_retry">Intenta de Nuevo</string>
+    <string name="common_no_more_data">No hay más datos</string>
+    <string name="common_data_empty">Aquí no hay nada</string>
+    <string name="common_not_find_app_to_send_email">No se encontró app de correo</string>
+    <string name="common_google_pay_not_support">Tu dispositivo actual no es compatible con Google Pay.</string>
+    <string name="common_user_canceled">Usuario canceló</string>
+    <string name="common_coins">%1$s Monedas</string>
+    <string name="common_bonus">%1$s Bono</string>
+    <string name="common_current_ep">EP.%1$s</string>
+    <string name="common_total_ep">EP: %1$s</string>
+    <string name="common_delete">Eliminar</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_continue">Continuar</string>
+    <string name="common_confirm">Confirmar</string>
+    <string name="common_submit">Enviar</string>
+    <string name="common_play_failed">Reproducción fallida</string>
+    <string name="common_server_error">Error del servidor</string>
+    <string name="common_copy_success">copiado</string>
+    <string name="common_duplicate_op_tip">Por favor, evite operaciones repetidas.</string>
+    <string name="common_later">Luego</string>
+    <string name="common_yes">Sí</string>
+    <string name="common_no">No</string>
+    <string name="common_ok">Bien</string>
+    <string name="common_allow">Permitir</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">El drama ha sido retirado</string>
+    <string name="common_recharge_not_supported">La recarga no es compatible con el país o región actual</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">Descubrir</string>
+    <string name="main_activity_tab_shorts">Shorts</string>
+    <string name="main_activity_tab_my_list">Mi Lista</string>
+    <string name="main_activity_tab_profile">Perfil</string>
+    <string name="main_activity_tab_reward">Prêmio</string>
+    <string name="main_activity_tab_guide_tip_1">[ Recompensas ] La entrada se ha trasladado aquí</string>
+    <string name="main_activity_tab_guide_tip_2">[ Mi Lista ] La entrada se ha trasladado aquí</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">Reproducir</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">Próximamente</string>
+    <string name="discover_fragment_reserve_succeed">Reserva exitosa, busque esto en Mi lista</string>
+    <string name="discover_fragment_coming_soon_more">Más</string>
+    <string name="discover_fragment_low_sku_template_notification_go">Comprar ahora</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">Mi billetera</string>
+    <string name="profile_fragment_coins">Monedas</string>
+    <string name="profile_fragment_bonus">Bono</string>
+    <string name="profile_fragment_top_up">Recargar</string>
+    <string name="profile_fragment_rewards">Prêmio</string>
+    <string name="profile_fragment_feedback">Reseñas</string>
+    <string name="profile_fragment_language">Idioma</string>
+    <string name="profile_fragment_settings">Configuración</string>
+    <string name="profile_fragment_guest">Visitante %1$s</string>
+    <string name="profile_fragment_user">Usuario %1$s</string>
+    <string name="profile_fragment_feedback_content">Describa su problema en detalle: describa su problema o necesidad
+        en detalle a continuación para ayudarnos a comprender y resolver mejor su problema. (Revisaremos su consulta y
+        nos esforzaremos por responderle dentro de 3 a 7 días hábiles).\n\nTipo de problema (seleccione problemas
+        funcionales, problemas de pago, sugerencias y comentarios, otros):\n\nInformación relacionada:\ nUID ( no
+        eliminar):%1$s\nNúmero de versión de la aplicación (no eliminar):%2$s\nSistema operativo y modelo de dispositivo
+        (no eliminar):%3$s\nCaptura de pantalla o archivo adjunto (si corresponde):\ nPago Problemas: número de pedido e
+        ID de cuenta (obligatorio):\n
+    </string>
+    <string name="profile_fragment_login_tip">¡Inicia sesión y recibe un regalo!</string>
+    <string name="profile_fragment_reward_tip">Obtener bonos</string>
+    <string name="profile_fragment_reward_tip1">Drama corto gratis</string>
+    <string name="profile_fragment_reward_tip2">Obtenga un bono de %1$s</string>
+
+    <string name="profile_fragment_official_social_media">Medios Oficiales</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">Política de Privacidad</string>
+    <string name="settings_fragment_user_agreement">Acuerdo del Usuario</string>
+    <string name="settings_fragment_delete_account">Eliminar cuenta</string>
+    <string name="settings_fragment_logout">Salir</string>
+    <string name="settings_fragment_version">Versión %1$s</string>
+    <string name="settings_fragment_personal">Información personal</string>
+    <string name="settings_fragment_account_info">Datos de cuenta</string>
+    <string name="settings_fragment_else">Otros</string>
+    <string name="settings_fragment_permissions">Permisos</string>
+    <string name="settings_fragment_automatic_episode_unlock">Desbloqueo Ep</string>
+    <string name="settings_fragment_fsi_permission">Notificaciones de pantalla completa</string>
+    <string name="settings_fragment_pip_mode">Modo de imagen en imagen</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">Idioma</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">Ingresar con %1$s</string>
+    <string name="login_activity_desc">Estimado usuario, iniciar sesión es para Protege tu propiedad y registro de
+        visualización; no almacenamos tu información, ¡puedes estar seguro al iniciar sesión!
+    </string>
+    <string name="login_activity_policy">Continuar significa estar de acuerdo con nuestro %1$s y %2$s</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">Atención</string>
+    <string name="delete_account_fragment_desc">¡Hola, fan del drama! Aviso rápido: si eliminas tu cuenta, perderás
+        algunos shows increíbles y no podrás recuperar tus datos (Incluyendo cualquier propiedad como monedas, bonos,
+        etc). ¿Seguro que quieres hacer esto? Si tienes inquietudes, contáctanos. ¡Nos entristecería verte ir! ¡Gracias
+        por los recuerdos!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">Recargar significa aceptar nuestro %1$s</string>
+    <string name="top_up_fragment_recharge_agreement">Acuerdo de Recarga</string>
+    <string name="top_up_fragment_recharge_success">Recarga exitosa</string>
+    <string name="top_up_fragment_restore">Restaurar</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">No hay compra para restaurar</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">Sus monedas compradas previamente se han reabastecido
+        con éxito.
+    </string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">Sus beneficios de suscripción han sido recibidos.
+    </string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">Sus suscripciones y monedas previamente compradas
+        han sido acreditadas.
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">La serie que compraste ha sido desbloqueada, por
+        favor verifica dentro de &lt;%1$s – %2$s&gt;
+    </string>
+    <string name="top_up_fragment_desc_title">Descripción</string>
+    <string name="top_up_fragment_desc_content">1.Desbloqueo de contenido pago: las monedas de oro y los bonos sirven
+        para desbloquear contenido pago dentro de la aplicación.\n2.Equivalencia de recarga: 1 moneda = 1 bono. Tenga en
+        cuenta que no se admiten reembolsos por recarga.\n3.Vencimiento del bono: los bonos caducarán después de un
+        período específico. Verifique el tiempo de vencimiento de sus bonos en la sección \"Mi billetera\" de la
+        aplicación.
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">Precio:</string>
+    <string name="unlock_episode_dialog_fragment_balance">Saldo:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">Tienda de Monedas</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">Ver Anuncios</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">Desbloqueio grátis ao ver anúncios %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">Desbloq</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">Disfruta de privilegios exclusivos con
+        recargas más económicas
+    </string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">Desbloquear desde el episodio actual</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">Desbloquear %1$s episodios</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">Desbloquear todo</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">Desbloqueados en masa %1$s episodios</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">Desbloqueo por publicidad</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">Desbloqueo gratis viendo anuncios %1$s/%2$s
+    </string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">Gratis</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">Mi Colección</string>
+    <string name="my_list_fragment_recently_watched">Vistos Recientemente</string>
+    <string name="my_list_fragment_empty_desc">Ve a la página de inicio para descubrir nuevos dramas populares</string>
+    <string name="my_list_fragment_select_all">Seleccionar todo</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">Por favor, deselecciona la serie escogida</string>
+    <string name="my_list_fragment_delete_tip">Confirmar la eliminación de lo seleccionado?</string>
+    <string name="my_list_fragment_home">Inicio</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">Lista</string>
+    <string name="shorts_fragment_share">Compartir</string>
+    <string name="shorts_fragment_more">Más</string>
+    <string name="shorts_fragment_less">Contraer</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">Actualizar a %1$s/%2$s</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">Por favor, desbloquea los episodios
+        anteriores
+    </string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">Ver ahora</string>
+    <string name="notification_free">Gratis</string>
+    <string name="notification_check_in_button">Consíguelo ahora</string>
+    <string name="notification_daemon_title_1">🥳 ¡Bienvenido/a a ShortMax!</string>
+    <string name="notification_daemon_content_1">💕 Haz clic para entrar~ ¡Más contenido increíble te está esperando!
+    </string>
+    <string name="notification_daemon_title_2">Bienvenido a ShortMax</string>
+    <string name="notification_daemon_content_2">Todas las personas a tu alrededor están viendo</string>
+    <string name="notification_enter_now">Entrar ahora</string>
+    <string name="notification_go_now">Ir ahora</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">Tu bono:</string>
+    <string name="rewards_activity_check_in_title">Registro diario</string>
+    <string name="rewards_activity_check_in_desc">Obtén recompensa por registro</string>
+    <string name="rewards_activity_check_in">Registro diario</string>
+    <string name="rewards_activity_check_in_day">Día %1$s</string>
+    <string name="rewards_activity_watch_ad_title">Ver Anuncios, Ganar bono</string>
+    <string name="rewards_activity_watch_ad_desc">Ver anuncios, más recompensas %1$s</string>
+    <string name="rewards_activity_watch_all_ads_desc">Obtenido %1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s Bono</string>
+    <string name="rewards_activity_watch_ad_get">Recibir</string>
+    <string name="rewards_activity_watch_ad_double_rewards">Recompensas dobles</string>
+    <string name="rewards_activity_get_double_rewards">Obtenga recompensas</string>
+    <string name="rewards_activity_description_title">Descripción</string>
+    <string name="rewards_activity_description_value">1. Todos los derechos de interpretación pertenecen a ShortMax\n2.
+        Los Bonos solo se podrán usar para ver dramas, con un periodo de caducidad de 10 días; úselas antes de que
+        expiren\n3. Se usarán primero las monedas para ver dramas; si no son suficientes, se usarán Bonos
+        automáticamente\n4. Cada noche a las 00:00 hora se actualiza la recompensa de inicio de sesión (UTC+0)
+    </string>
+    <string name="rewards_activity_go">Ve</string>
+    <string name="rewards_activity_accept_task_reward_tip">¡Felicidades! Bono +%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">Episodio %1$s desbloqueado para ti</string>
+    <string name="play_episode_activity_update_speed_tip">Cambiado a reproducción %1$s veces</string>
+    <string name="play_episode_activity_speed_playing">%1$sx Velocidad</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$sx</string>
+    <string name="play_episode_activity_resolution_auto">Auto</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">Error al cargar, cambie a %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">Cargando, por favor espere…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">La red es lenta, se ha seleccionado
+        la mejor calidad para usted.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">O vídeo está a carregar lentamente.
+        Clique para mude a qualidade.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">mude a qualidade</string>
+    <string name="play_episode_activity_switch_resolution_tip">Cambiado a 1080p</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">Cambiando a %1$sp</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">Cambió exitosamente a automático</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">Cambiando a automático</string>
+    <string name="play_episode_activity_progress_adjust">Ajuste de progreso</string>
+    <string name="play_episode_activity_unlock_now">Desbloquear ahora</string>
+    <string name="play_episode_activity_switch_resolution_failed">Falló el cambio, se ha conservado la resolución
+        original
+    </string>
+    <string name="play_episode_activity_swipe_to_watch">Desliza para cambiar de episodio</string>
+    <string name="play_episode_collect_tips_1">Haz clic en favoritos para seguir la serie sin perderte</string>
+    <string name="play_episode_collect_tips_2">Añadido a tu lista de seguimiento</string>
+    <string name="play_episode_collect_tips_3">La serie se ha añadido automáticamente a tu lista de seguimiento</string>
+    <string name="play_episode_activity_discount_unlock_tips">Por favor compruébalo en [%1$s–%2$s]</string>
+    <string name="immersion_activity_purchase_all_episode">Comprar la colección completa</string>
+    <string name="immersion_activity_free_clarity_1080p">Gratis por tiempo limitado</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">Velocidad de reproducción</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">Calidad de imagen</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">¡Felicidades!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">Ver otro anuncio\n¡Duplica el Bono!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">Ver Ahora</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">Ver drama para obtener bono</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Obtén %1$s bonus con Facebook</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Obtén %1$s bonus con Google</string>
+    <string name="facebook_login_dialog_fragment_huge">Abundante</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">Ingrese su número telefónico</string>
+    <string name="phone_auth_fragment_hint_verification_code">Código de verificación</string>
+    <string name="phone_auth_fragment_get">Obtener código</string>
+    <string name="phone_auth_fragment_resend">Reenviar ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">Bienvenido(a),\nVerifique Su Dirección Telefónica</string>
+    <string name="phone_auth_fragment_check_content">¡Por favor, verifica lo que has ingresado!</string>
+    <string name="phone_auth_fragment_succeed">Tu número de teléfono ha sido verificado con éxito.</string>
+    <string name="phone_auth_fragment_invalid_area_code">Por favor, introduce el código de área correcto</string>
+    <string name="phone_auth_fragment_network_error">Por favor revisa el estado de la red</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">Bienvenido(a),\nVerifique Su Dirección de Correo Electrónico</string>
+    <string name="email_auth_fragment_hint_email_address">Ingrese su correo electrónico</string>
+    <string name="email_auth_fragment_check_content">¡Revisa la información introducida!</string>
+    <string name="email_auth_fragment_succeed">Tu correo electrónico ha sido verificado con éxito</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">Tal vez te guste</string>
+    <string name="immersion_back_fragment_button_play">Reproduciendo</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">Seleccione región</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">Biblioteca</string>
+    <string name="library_activity_label_all">Todo</string>
+    <string name="library_activity_label_male">Sección masculina</string>
+    <string name="library_activity_label_female">Sección femenina</string>
+    <string name="library_activity_label_limit">Seleccione hasta 5 contenidos</string>
+    <string name="library_activity_empty_text">Lo sentimos, no se encontraron videos relevantes</string>
+    <string name="library_fragment_title">Filtrar</string>
+    <string name="library_fragment_interest">Interés</string>
+    <string name="library_fragment_type">Tipo</string>
+    <string name="library_fragment_reset">Reiniciar</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax Hot</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">Email</string>
+    <string name="bind_info_fragment_phone">Teléfono</string>
+    <string name="bind_info_fragment_unbound">Desvinculado</string>
+    <string name="bind_info_fragment_bind">Vinculado</string>
+
+    <!-- AD-->
+    <string name="ad_loading">Cargando anuncio</string>
+    <string name="ad_interstitial_remove_ad_by_payment">¡Puedes desactivar los anuncios pagando para obtener una mejor
+        experiencia de reproducción!
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">Obtener %1$s bonos</string>
+    <string name="notification_permission_dialog_des">Activa los permisos de notificación y recibe bonos</string>
+    <string name="notification_permission_dialog_receive">Recibir</string>
+    <string name="notification_permission_dialog_choose_title">Elige el tipo de notificaciones que deseas recibir
+    </string>
+    <string name="notification_permission_dialog_choose_turn_on">Encender</string>
+    <string name="notification_permission_dialog_granted">Recibido %1$s Bonos</string>
+    <string name="notification_permission_dialog_choose_item_0">Nuevos episodios gratis</string>
+    <string name="notification_permission_dialog_choose_item_1">Actualizaciones del episodio actual</string>
+    <string name="notification_permission_dialog_choose_item_2">Recordatorio diario</string>
+    <string name="notification_permission_dialog_choose_item_3">Nueva serie disponible</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">Regalo de gran valor</string>
+    <string name="sku_expansion_dialog_fragment_count_down">Expira después de %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">Para Protege tu propiedad, por favor, inicia sesión para
+        evitar la pérdida de información!
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">Protege tu propiedad</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">Entrar</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">¿Disfrutas de ShortMax?</string>
+    <string name="rating_dialog_desc">Esperamos su apoyo de 5 estrellas, ¡es lo que nos motiva a ofrecer una excelente
+        experiencia de servicio!
+    </string>
+    <string name="rating_dialog_desc_key_word">5 estrellas</string>
+    <string name="rating_dialog_rating_success_tip">Gracias por tu reseña</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">Nueva versión encontrada</string>
+    <string name="update_dialog_now">Actualizar ahora</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">Subido por usuarios, ¡denúncialo!</string>
+    <string name="report_dialog_uploaded_by_users_des">El contenido del programa ha sido subido por este usuario. Por
+        favor, reporta cualquier problema de derechos de autor inmediatamente.
+    </string>
+    <string name="report_dialog_report">Denunciar</string>
+    <string name="report_dialog_drama_upload">Subida del episodio</string>
+    <string name="report_dialog_upload_drama">Subir episodio</string>
+    <string name="report_dialog_add_cover">Agregar nueva portada</string>
+    <string name="report_dialog_your_drama_and_win_coins">Subir episodio y ganar monedas</string>
+    <string name="report_dialog_drama_cover">Portada del episodio</string>
+    <string name="report_dialog_drama_name">Nombre del episodio</string>
+    <string name="report_dialog_drama_name_hint">Ingresa el nombre de la serie</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">Tu email</string>
+    <string name="report_dialog_your_email_hint">Una vez aceptada la serie, nos pondremos en contacto contigo.</string>
+    <string name="report_dialog_upload_video">Subir vídeo</string>
+    <string name="report_dialog_apply">Solicitud</string>
+    <string name="report_dialog_under_review">En revisión</string>
+    <string name="report_dialog_report_succeed">Denuncia exitosa</string>
+    <string name="report_dialog_re_upload">Volver a subir</string>
+    <string name="report_dialog_upload_permission">Se requiere permiso para subir obras de teatro</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">Mi billetera</string>
+    <string name="my_wallet_fragment_empty_record">Sin registro por ahora</string>
+    <string name="my_wallet_fragment_discount">Descuento</string>
+    <string name="my_wallet_fragment_coins_record">Registro de Monedas</string>
+    <string name="my_wallet_fragment_bonus_record">Historial de Bono</string>
+    <string name="my_wallet_fragment_unused">No usado</string>
+    <string name="my_wallet_fragment_used">En uso</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s saltar</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">Bienvenido(a) a ShortMax</string>
+    <string name="home_login_guide_dialog_button">Recibir</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ Espera un minuto, ¿estás seguro de que quieres cerrar sesión en la
+        cuenta?
+    </string>
+    <string name="logout_tip_dialog_desc_1">💕️️ Al permanecer conectado, puedes:</string>
+    <string name="logout_tip_dialog_desc_2">Recibe nuestras últimas recomendaciones de inmediato</string>
+    <string name="logout_tip_dialog_desc_3">Disfruta cómodamente de contenido personalizado</string>
+    <string name="logout_tip_dialog_desc_4">Guarda tu historial de uso para facilitar la lectura o visualización la
+        próxima vez
+    </string>
+    <string name="logout_tip_dialog_reconsider">Reconsiderar</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗ Se ha detectado que hay múltiples cuentas en este dispositivo.</string>
+    <string name="merge_tourist_dialog_content">¿Desea sincronizar la información de propiedad y los registros de
+        visualización de la cuenta antigua a la cuenta actual?
+    </string>
+    <string name="merge_tourist_dialog_processing">Procesando…</string>
+    <string name="merge_tourist_dialog_succeed_title">Le regalamos %1$s Bonos</string>
+    <string name="merge_tourist_dialog_succeed_content">Se ha restaurado el patrimonio y los registros de visualización
+        de su cuenta anterior
+    </string>
+    <string name="merge_tourist_dialog_failed">Se ha detectado que tiene varias cuentas, por favor intente nuevamente
+        para evitar pérdidas patrimoniales
+    </string>
+    <string name="merge_tourist_dialog_retry">Reintentar</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">Rechazar la autorización dificultará la solicitud de publicidad y afectará la
+        visualización de la serie. Asegúrese de autorizar la próxima vez.
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬 ¡Mira una gran cantidad de series populares gratis!</string>
+    <string name="push_check_in_title_1">👇 Haz clic para recibir \"beneficios\"</string>
+    <string name="push_check_in_title_2">¿Has entrado hoy? 💕</string>
+    <string name="push_check_in_title_3">Mira series todos los días, sé feliz todo el día 🎉</string>
+    <string name="push_check_in_title_4">No te puedes perder el beneficio por tiempo limitado 🎁</string>
+    <string name="push_check_in_title_new_0">Registro diario para obtener bonificaciones</string>
+    <string name="push_check_in_title_new_1">¡Gana recompensas por el registro!</string>
+    <string name="push_check_in_title_new_2">¡Recibe bonificaciones al registrarte!</string>
+    <string name="push_check_in_title_new_3">¿Quieres desbloquear series de forma gratuita?</string>
+    <string name="push_check_in_title_new_4">Fácil registro para obtener recompensas</string>
+    <string name="push_check_in_contents_0">Ver series sin costo💰, inicia sesión para recibir entradas gratis para el
+        cine
+    </string>
+    <string name="push_check_in_contents_1">🎉 ¡Beneficios sorpresa! Check–in continuos para obtener entradas de cine
+        gratis!
+    </string>
+    <string name="push_check_in_contents_2">¡Comienza tu viaje de registros consecutivos, mira gratis!</string>
+    <string name="push_check_in_contents_3">🎁 Haz check–in continuo, ¡no pierdas la oportunidad de ver gratis!</string>
+    <string name="push_check_in_contents_4">¡Beneficios de check–in por tiempo limitado! ¡Participa ahora! 🎬</string>
+    <string name="push_check_in_contents_new_0">¡Imperdible!</string>
+    <string name="push_check_in_contents_new_1">¡Recibe regalos todos los días, regístrate ahora!</string>
+    <string name="push_check_in_contents_new_2">¡Ven a reclamar tu recompensa diaria!</string>
+    <string name="push_check_in_contents_new_3">¡Regístrate ahora!</string>
+    <string name="push_check_in_contents_new_4">¡Beneficios diarios, ven y regístrate para ganar recompensas!</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">Suscribirme</string>
+    <string name="profile_subscription_view_default_content">Ver más episodios</string>
+    <string name="profile_subscription_view_unsubscribed">Suscríbase ahora</string>
+    <string name="profile_subscription_view_subscribed">Suscrito</string>
+    <string name="profile_subscription_view_weekly_card">Tarjeta Semanal</string>
+    <string name="profile_subscription_view_monthly_card">Tarjeta Mensual</string>
+    <string name="profile_subscription_view_annual_card">Tarjeta Anual</string>
+    <string name="profile_subscription_view_weekly_pro_card">Pase semanal Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">Pase mensual Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">Pase anual Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">Desbloquea todas las series por una semana</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">Desbloquea todas las series por un mes</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">Desbloquea todas las series por un año</string>
+    <string name="profile_subscription_view_expire_time">Tiempo de expiración:%1$s</string>
+    <string name="profile_subscription_view_unsupport_product">No se puede mostrar, por favor actualiza la versión
+    </string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">Suscripción</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s Grandes Ventajas</string>
+    <string name="subscription_detail_activity_desc_title">Sobre la suscripción</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1. Descripción de la suscripción\n (1) La función de
+        suscripción es solo para mejorar la experiencia de uso de la aplicación y no afecta el uso normal de la
+        aplicación, ya sea que esté suscrito o no. \n2. Explicación de los beneficios\n (1) Después de comprar Weekly
+        PRO/Monthly PRO, podrá ver cualquier episodio sin limitaciones. \n(2) Sin publicidad: después de desbloquear, ya
+        no se mostrarán otros tipos de anuncios, excepto anuncios de incentivo. \n(3) Resolución de 1080P: la
+        reproducción de video admite la selección de una resolución de 1080P. \n3. Acerca de la renovación automática\n
+        (1) La suscripción se renovará automáticamente 24 horas antes de la fecha de vencimiento, puede cancelar la
+        renovación automática en cualquier momento. Cuando la suscripción se renueve correctamente, no será posible
+        realizar ningún reembolso. \n4. Cómo cancelar su suscripción \n (1) Abra %1$s y haga clic en su avatar en la
+        esquina superior derecha. \n(2) Haga clic en “Pago y suscripción” y, a continuación, en “Suscripción”. \n(3)
+        Seleccione su suscripción a ShortMax. \n(4) Haga clic en Cancelar suscripción.
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">Acepta 1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">Eliminar publicidad</string>
+    <string name="subscription_detail_activity_privilege_5_desc">Todo gratis</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">Reproducción gratuita</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">Disfrutá de videos en alta definición</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">Disfrutá de una experiencia visual pura</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">Los usuarios VIP pueden disfrutar de todos los
+        dramas gratis
+    </string>
+    <string name="subscription_detail_activity_subs_success">Suscripción exitosa</string>
+    <string name="subscription_detail_activity_subs_update_success">Nueva suscripción cambiada exitosamente</string>
+    <string name="subscription_day_bonus_claimed">%1$s ¡Bono recogido automáticamente!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">Suscríbete para obtener beneficios exclusivos</string>
+    <string name="subscription_detail_2_activity_subscribed">Suscrito:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">Fecha de expiración:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">Tu drama favorito se está reproduciendo para ti.</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">Total acumulado</string>
+    <string name="subs_type_view_total_earning_2">Total</string>
+    <string name="subs_type_view_get_now">(Enseguida)</string>
+    <string name="subs_type_view_first_recharge_tip">Bonificación por Primera Recarga</string>
+    <string name="subs_type_view_detail">Detalles</string>
+    <string name="subs_type_view_disable_subs_tip">Debido a múltiples contracargos, se ha prohibido el uso de la función
+        de suscripción en su cuenta.
+    </string>
+    <string name="subs_type_view_claim_bonus">(Registro diario)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(Obténla en cualquier momento)</string>
+    <string name="subs_type_view_per_week_new">%1$s/Semana</string>
+    <string name="subs_type_view_per_month_new">%1$s/Mes</string>
+    <string name="subs_type_view_per_year_new">%1$s/Año</string>
+    <string name="subs_type_view_renew_per_week">Renovación %1$s/semana</string>
+    <string name="subs_type_view_renew_per_month">Renovación %1$s/mes</string>
+    <string name="subs_type_view_renew_per_year">Renovación %1$s/año</string>
+
+    <!--Language-->
+    <string name="language_app">Idioma de la App</string>
+    <string name="language_en">Inglés</string>
+    <string name="language_zh_simplified">Chino simplificado</string>
+    <string name="language_zh_traditional">Chino tradicional</string>
+    <string name="language_fil">Filipino</string>
+    <string name="language_hi">Hindi</string>
+    <string name="language_in">Indonesio</string>
+    <string name="language_ja">Japonés</string>
+    <string name="language_ko">Coreano</string>
+    <string name="language_th">Tailandés</string>
+    <string name="language_ar">Árabe</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Portugués</string>
+    <string name="language_vi">vietnamita</string>
+    <string name="language_de">Alemán</string>
+    <string name="language_fr">Francés</string>
+    <string name="language_ms">Malasia</string>
+    <string name="language_ru">Ruso</string>
+    <string name="language_it">Italiano</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">¿No recibió sus benefícios?</string>
+    <string name="restore_tip_view_refresh">Actualizar</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">Lo siento, no hemos podido obtener sus benefícios. Por favor, haz
+        clic para volver a intentarlo.
+    </string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">Ver todos los episodios</string>
+    <string name="shorts_fragment_current_episode_finished">Serie Terminada</string>
+    <string name="shorts_fragment_current_episode_updating">Actualización de la Serie</string>
+    <string name="shorts_fragment_next_episode_tip">Próximamente&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">Tráiler</string>
+    <string name="shorts_fragment_trailer_in_production">Producción de larga duración en progreso, ¡Manténgase atento!
+    </string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">Historial de Búsqueda</string>
+    <string name="search_activity_popular_title">Búsquedas Populares</string>
+    <string name="search_activity_no_result">Sin contenido relacionado</string>
+    <string name="search_activity_more_no_result">Ha llegado al final</string>
+    <string name="search_activity_input_keyword_hint">Por favor, ingrese el contenido a buscar.</string>
+    <string name="search_activity_clear_history_hint">¿Estás seguro de querer eliminar tu registro de búsqueda?</string>
+    <string name="search_activity_search_frequently_tips">Búsquedas muy frecuentes, inténtalo más tarde.</string>
+    <string name="search_activity_redeem_code_disabled">El código de canje no existe</string>
+    <string name="search_activity_redeem_code_delisted">La serie ha sido retirada</string>
+    <string name="search_activity_redeem_code_overdue">El código de canje ha expirado</string>
+    <string name="search_activity_redeem_code_use_up">Llegaste tarde, todos han sido reclamados</string>
+    <string name="search_activity_redeem_code_unsupported">Actualice primero la versión de su aplicación</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">Puedes ver anuncios para desbloquear el episodio actual,
+        ¡inténtalo!
+    </string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">Visto Hoy:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">Vea 1 anuncio para desbloquear el EP.%1$s</string>
+    <string name="ad_continue_dialog_fragment_cancel">Persisto salir</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">Vea 1 anuncio más para desbloquear 1 episodio</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">EP.%1$s desbloqueado</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">Desbloquear EP.%1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">Vea 1 anuncio más</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">Vea el anuncio para desbloquear el próximo episodio gratis
+    </string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">Ya visto hoy (%1$s/%2$s)</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">Oferta exclusiva para nuevos usuarios</string>
+    <string name="new_recommend_shorts_fragment_more_tip">Cada artículo se puede canjear una vez solamente</string>
+    <string name="new_recommend_shorts_fragment_more">Ver más</string>
+    <string name="new_recommend_shorts_fragment_must_read">Consejos para nuevos usuarios</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">Tu suscripción a %1$s ha expirado, no puedes desbloquear ninguna
+        serie. ¿Quieres suscribirte de nuevo?
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">Intercambio exitoso</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">Reciba la Redención de Beneficios</string>
+    <string name="redeem_code_dialog_fragment_received">Recibido</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">¡La función [Imagen en Imagen] está disponible!</string>
+    <string name="play_episode_activity_pip_guide_content">Sigue viendo tus clips favoritos en un reproductor mini
+        mientras navegas. ¡Multitareas hecha fácil!
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">El contenido ha desaparecido~\nPuede volver a [Descubrir] para
+        explorar otros contenidos populares.
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">Regresar</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">Todo</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">Iniciar Ahora</string>
+    <string name="sign_in_reminder_fragment_content">Activa los recordatorios de registro para firmar con éxito de
+        manera retroactiva, +%1$s Bono
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">Firma de recuperación exitosa</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s Bono</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">Mira un anuncio para registrarte con éxito de manera retroactiva y
+        gana +%1$s Bono
+    </string>
+    <string name="sign_in_watch_ad_fragment_btn">Ver Anuncios (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">Comprado</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">Habilitar los permisos para recibir notificaciones con
+        mayor rapidez.
+    </string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">Disfrute de privilegios</string>
+    <string name="rfm_guide_dialog_content">Precios más bajos, más descuentos</string>
+    <string name="rfm_guide_dialog_btn">Recargue ahora</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">Fallo en la recarga</string>
+    <string name="billing_unavailable_tip_dialog_content">Su conexión de red es anormal o su cuenta de Google es
+        anormal. Puede contactar a nuestro servicio de atención al cliente para reportar el problema.
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">Confirmar el cambio de suscripción</string>
+    <string name="subs_update_dialog_current_subs_title">Suscripción actual</string>
+    <string name="subs_update_dialog_new_subs_title">Nueva suscripción</string>
+    <string name="subs_update_dialog_upgrade_content">Su nueva suscripción entrará en vigencia de inmediato y el tiempo
+        restante de su suscripción actual se convertirá en el tiempo de la nueva suscripción.
+    </string>
+    <string name="subs_update_dialog_downgrade_content">Su suscripción actual vencerá el %1$s, momento en el cual
+        entrará en vigencia la nueva suscripción.
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">%1$s limitado</string>
+    <string name="task_coin_view_completed">Misión cumplida\nObtención total de %1$s de recompensa</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">Ver dramas</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">Vea el drama para obtener un
+        bono
+    </string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">Bono total de %1$s</string>
+</resources>

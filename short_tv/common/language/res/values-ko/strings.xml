@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">서버에 연결할 수 없습니다. 나중에 다시 시도하세요.</string>
+    <string name="common_unknown_exception">알 수 없는 예외</string>
+    <string name="common_login_expired">기간이 만료되었습니다. 다시 로그인해주세요.</string>
+    <string name="common_re_login">재 로그인</string>
+    <string name="common_error_code">오류 코드: %1$s</string>
+    <string name="common_waiting">기다리는 중…</string>
+    <string name="common_retry">다시 시도하세요</string>
+    <string name="common_no_more_data">더 이상 데이터가 없습니다</string>
+    <string name="common_data_empty">비어있습니다</string>
+    <string name="common_not_find_app_to_send_email">이메일을 보낼 수 있는 앱을 찾을 수 없습니다.</string>
+    <string name="common_google_pay_not_support">현재 기기는 Google 결제를 지원하지 않습니다.</string>
+    <string name="common_user_canceled">사용자가 취소함</string>
+    <string name="common_coins">%1$s 코인</string>
+    <string name="common_bonus">%1$s 보너스</string>
+    <string name="common_current_ep">제 %1$s 화</string>
+    <string name="common_total_ep">%1$s세트</string>
+    <string name="common_delete">삭제</string>
+    <string name="common_cancel">취소</string>
+    <string name="common_continue">계속</string>
+    <string name="common_confirm">확인</string>
+    <string name="common_submit">제출</string>
+    <string name="common_play_failed">플레이 실패</string>
+    <string name="common_server_error">서버 오류</string>
+    <string name="common_copy_success">복사 완료</string>
+    <string name="common_duplicate_op_tip">중복된 작업입니다</string>
+    <string name="common_later">나중에</string>
+    <string name="common_yes">예</string>
+    <string name="common_no">아니오</string>
+    <string name="common_ok">좋아</string>
+    <string name="common_allow">허용하기</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">시리즈 서비스 종료</string>
+    <string name="common_recharge_not_supported">현재 국가/지역에서는 충전이 지원되지 않습니다.</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">발견</string>
+    <string name="main_activity_tab_shorts">단막극</string>
+    <string name="main_activity_tab_my_list">시청 목록</string>
+    <string name="main_activity_tab_profile">프로필</string>
+    <string name="main_activity_tab_reward">리워드</string>
+    <string name="main_activity_tab_guide_tip_1">[ 보상 ] 입구가 여기로 이동했습니다</string>
+    <string name="main_activity_tab_guide_tip_2">[ 시청 목록 ] 입구가 여기로 이동했습니다</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">지금 재생</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">준비 중</string>
+    <string name="discover_fragment_reserve_succeed">예약 성공, 시청 목록에서 찾아보세요</string>
+    <string name="discover_fragment_coming_soon_more">더 보기</string>
+    <string name="discover_fragment_low_sku_template_notification_go">지금 구매</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">내 지갑</string>
+    <string name="profile_fragment_coins">코인</string>
+    <string name="profile_fragment_bonus">보너스</string>
+    <string name="profile_fragment_top_up">충전</string>
+    <string name="profile_fragment_rewards">보상</string>
+    <string name="profile_fragment_feedback">피드백</string>
+    <string name="profile_fragment_language">언어</string>
+    <string name="profile_fragment_settings">설정</string>
+    <string name="profile_fragment_guest">방문자 %1$s</string>
+    <string name="profile_fragment_user">사용자 %1$s</string>
+    <string name="profile_fragment_feedback_content">아래에 문제를 자세히 설명해주십시오. 이는 우리가 당신의 필요성과 문제를 더 잘 이해하고 해결하는데 도움이 됩니다.
+        (우리는 귀하의 문의사항을 검토하고 3–7일 이내에 답변하려 노력할 것입니다.)\n\n\n 문제 유형 (기능 문제, 결제 문제, 피드백 제안, 기타): \n\n 관련 정보: \n UID (지우지
+        마세요): %1$s\n App 버전 번호 (지우지 마세요): %2$s\n운영 체제 및 장치 모델 (지우지 마세요):%3$s\n스크린샷 이나 첨부 파일 (해당하는 경우):\n 결제 문제 – 주문 번호
+        &amp; 계정 ID (필수):\n
+    </string>
+    <string name="profile_fragment_login_tip">로그인 혜택 있음!</string>
+    <string name="profile_fragment_reward_tip">보너스 받기</string>
+    <string name="profile_fragment_reward_tip1">무료 미니드라마</string>
+    <string name="profile_fragment_reward_tip2">%1$s 보너스 획득</string>
+
+    <string name="profile_fragment_official_social_media">공식 미디어</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">개인정보 처리방침</string>
+    <string name="settings_fragment_user_agreement">사용자 약관</string>
+    <string name="settings_fragment_delete_account">계정 삭제</string>
+    <string name="settings_fragment_logout">로그아웃</string>
+    <string name="settings_fragment_version">버전 %1$s</string>
+    <string name="settings_fragment_personal">개인</string>
+    <string name="settings_fragment_account_info">계정 정보</string>
+    <string name="settings_fragment_else">기타</string>
+    <string name="settings_fragment_permissions">허가</string>
+    <string name="settings_fragment_automatic_episode_unlock">에피소드 자동 잠금 해제</string>
+    <string name="settings_fragment_fsi_permission">전체 화면 알림</string>
+    <string name="settings_fragment_pip_mode">PIP 모드</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">언어 설정</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">%1$s로 로그인하기</string>
+    <string name="login_activity_desc">친애하는 사용자님, 계정에 로그인하는 것은 자산 및 시청 기록을 보다 잘 보호하기 위한 것입니다. 귀하의 정보는 저장하지 않으므로 안심하고
+        로그인하십시오!
+    </string>
+    <string name="login_activity_policy">계속 진행하면\n %1$s 및 %2$s에 동의하는 것을 의미합니다.</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">주의하세요</string>
+    <string name="delete_account_fragment_desc">안녕하세요, 드라마 팬 여러분! 잠깐 알립니다: 계정을 삭제하면 멋진 프로그램을 놓칠 수 있고 데이터를 되돌릴 수 없습니다(코인,
+        보너스 등 모든 재산 포함). 정말로 삭제하시겠습니까? 문의 사항이 있으시면 연락 바랍니다. 다시 한번 생각해 주시고, 지금까지의 지지와 성원에 감사드립니다!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">충전 시 %1$s에 동의하는 것을 의미합니다</string>
+    <string name="top_up_fragment_recharge_agreement">충전 약관</string>
+    <string name="top_up_fragment_recharge_success">충전 성공</string>
+    <string name="top_up_fragment_restore">복원하기</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">복구 가능한 구매 내역 없음</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">예전에 구매하신 코인이 추가 지급됐습니다</string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">계정에서 VIP 혜택을 확인했습니다</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">예전에 구매하신 VIP 구독 혜택 및 코인을 계정에서 확인했습니다</string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">구매하신 시리즈가 잠금 해제되었습니다, &lt;%1$s – %2$s&gt; 내에서
+        확인하세요
+    </string>
+    <string name="top_up_fragment_desc_title">설명하다</string>
+    <string name="top_up_fragment_desc_content">1.유료 콘텐츠 잠금 해제: 금화와 보너스는 애플리케이션 내 유료 콘텐츠를 잠금 해제하기 위한 것입니다.\n2.충전 등가: 1
+        코인=1 보너스. 충전에 따른 환불은 지원되지 않으니 주의하시기 바랍니다.\n3.보너스 만료: 보너스는 지정된 기간이 지나면 만료됩니다. 앱의 \"내 지갑\" 섹션에서 보너스 만료 시간을 확인하세요.
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">가격:</string>
+    <string name="unlock_episode_dialog_fragment_balance">잔액:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">코인 스토어</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">광고 시청</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">광고 시청 시 무료 해제 %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">잠금 해제</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">특별한 혜택으로 더욱 저렴하게 충전하기</string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">현재 에피소드부터 잠금 해제</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">EP.%1$s 잠금 해제</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">모든 에피소드 잠금 해제</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">%1$s 에피소드가 일괄적으로 잠금 해제되었습니다.</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">광고 잠금 해제</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">광고 보기 무료 잠금 해제 %1$s/%2$s</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">무료로 잠금 해제하기</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">내 컬렉션</string>
+    <string name="my_list_fragment_recently_watched">최근 시청 기록</string>
+    <string name="my_list_fragment_empty_desc">최신 인기 드라마를 찾으려면 홈으로 이동하세요</string>
+    <string name="my_list_fragment_select_all">전체 선택</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">먼저 선택한 드라마의 선택을 취소하십시오</string>
+    <string name="my_list_fragment_delete_tip">현재 선택한 항목을 삭제하시겠습니까?</string>
+    <string name="my_list_fragment_home">홈</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">목록</string>
+    <string name="shorts_fragment_share">공유하기</string>
+    <string name="shorts_fragment_more">더 보기</string>
+    <string name="shorts_fragment_less">접기</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">업데이트 됨 EP.%1$s/EP.%2$s</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">먼저 이전 에피소드를 잠금 해제하세요</string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">지금 시청</string>
+    <string name="notification_free">무료</string>
+    <string name="notification_check_in_button">지금 받기</string>
+    <string name="notification_daemon_title_1">🥳 ShortMax에 오신 것을 환영합니다!</string>
+    <string name="notification_daemon_content_1">💕클릭하여 입력더 많은 흥미로운 콘텐츠가 여러분을 기다리고 있습니다!</string>
+    <string name="notification_daemon_title_2">ShortMax에 오신 것을 환영합니다</string>
+    <string name="notification_daemon_content_2">주변 모든 사람들이 시청하고 있습니다.</string>
+    <string name="notification_enter_now">지금 입장하세요</string>
+    <string name="notification_go_now">이동</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">나의 보너스:</string>
+    <string name="rewards_activity_check_in_title">일일 출석 체크</string>
+    <string name="rewards_activity_check_in_desc">출석 체크로 보상받기</string>
+    <string name="rewards_activity_check_in">출석 체크</string>
+    <string name="rewards_activity_check_in_day">%1$s 일</string>
+    <string name="rewards_activity_watch_ad_title">광고 시청하고 보너스 받기</string>
+    <string name="rewards_activity_watch_ad_desc">모든 광고를 시청하고 추가 %1$s 보너스 받기</string>
+    <string name="rewards_activity_watch_all_ads_desc">%1$s 이미 획득했습니다</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s 보너스</string>
+    <string name="rewards_activity_watch_ad_get">받기</string>
+    <string name="rewards_activity_watch_ad_double_rewards">보상 2배</string>
+    <string name="rewards_activity_get_double_rewards">보상 수령</string>
+    <string name="rewards_activity_description_title">설명</string>
+    <string name="rewards_activity_description_value">1. 보너스의 모든 해석 권리는 ShortMax에 속합니다.\n2. 보너스는 드라마 시청에만 사용할 수 있으며,
+        10일간 유효합니다. 만료 후 자동으로 소멸 및 정리됩니다.\n3. 드라마 시청 시 코인이 먼저 사용되며, 부족할 경우 자동으로 보너스가 사용됩니다.\n4. 출석 보상은 매일 밤 0시 (UTC+0)에
+        갱신됩니다.
+    </string>
+    <string name="rewards_activity_go">완성하기</string>
+    <string name="rewards_activity_accept_task_reward_tip">축하합니다! +%1$s 보너스</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">%1$s 에피소드가 당신을 위해 언락되었습니다</string>
+    <string name="play_episode_activity_update_speed_tip">%1$s번 재생으로 전환됨</string>
+    <string name="play_episode_activity_speed_playing">%1$s배속 재생</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$s</string>
+    <string name="play_episode_activity_resolution_auto">자동</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">로드에 실패했습니다. %1$sp로 전환하세요.</string>
+    <string name="play_episode_activity_resolution_loading_tip">로딩 중, 잠시만 기다려 주세요…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">네트워크 속도가 느리기 때문에 가장 좋은 품질이
+        선택되었습니다.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">비디오가 느리게 로딩되고 있습니다. 클릭하여 화질을 전환하세요.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">화질을 전환</string>
+    <string name="play_episode_activity_switch_resolution_tip">1080p로 전환</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">%1$sp(으)로 전환 중</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">자동으로 전환 성공</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">자동으로 전환 중</string>
+    <string name="play_episode_activity_progress_adjust">진도 조절</string>
+    <string name="play_episode_activity_unlock_now">즉시 잠금 해제</string>
+    <string name="play_episode_activity_switch_resolution_failed">전환에 실패하였으며, 원래의 해상도가 유지되었습니다.</string>
+    <string name="play_episode_activity_swipe_to_watch">스크롤해서 다음 화로 넘어가기</string>
+    <string name="play_episode_collect_tips_1">즐겨찾기 추가 시 빠른 시청 가능</string>
+    <string name="play_episode_collect_tips_2">내 시청 리스트에 추가 완료</string>
+    <string name="play_episode_collect_tips_3">이미 내 시청 리스트에 포함</string>
+    <string name="play_episode_activity_discount_unlock_tips">[%1$s–%2$s]로 확인해주세요.</string>
+    <string name="immersion_activity_purchase_all_episode">전집 구입</string>
+    <string name="immersion_activity_free_clarity_1080p">기간한정 무료</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">재생 속도</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">화질</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">축하합니다!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">광고를 보고,\n두 배의 보상을 받으세요!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">지금 시청</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">드라마 시청 시 보너스 획득</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Facebook 로그인으로 %1$s 보너스 받기</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Google 로그인으로 %1$s 보너스 받기</string>
+    <string name="facebook_login_dialog_fragment_huge">풍부한</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">전화번호를 입력하세요</string>
+    <string name="phone_auth_fragment_hint_verification_code">인증코드를 입력하세요</string>
+    <string name="phone_auth_fragment_get">코드 받기</string>
+    <string name="phone_auth_fragment_resend">재발송 ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">환영합니다.\n 휴대폰 인증을 완료하세요</string>
+    <string name="phone_auth_fragment_check_content">입력한 내용을 확인하세요!</string>
+    <string name="phone_auth_fragment_succeed">당신의 전화번호가 성공적으로 검증되었습니다.</string>
+    <string name="phone_auth_fragment_invalid_area_code">정확한 지역 코드를 입력해 주세요.</string>
+    <string name="phone_auth_fragment_network_error">네트워크 상태를 확인하세요</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">이메일\n 주소를 확인하세요</string>
+    <string name="email_auth_fragment_hint_email_address">이메일 주소를 입력하세요</string>
+    <string name="email_auth_fragment_check_content">입력한 내용을 확인하세요!</string>
+    <string name="email_auth_fragment_succeed">귀하의 이메일이 인증되었습니다.</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">관심 주제</string>
+    <string name="immersion_back_fragment_button_play">재생</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">지역 선택</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">라이브러리</string>
+    <string name="library_activity_label_all">전체</string>
+    <string name="library_activity_label_male">남성</string>
+    <string name="library_activity_label_female">여성</string>
+    <string name="library_activity_label_limit">선택한 콘텐츠는 5개를 초과할 수 없습니다.</string>
+    <string name="library_activity_empty_text">죄송합니다. 필터링된 관련 동영상이 없습니다.</string>
+    <string name="library_fragment_title">필터</string>
+    <string name="library_fragment_interest">관심</string>
+    <string name="library_fragment_type">유형</string>
+    <string name="library_fragment_reset">리셋</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax 인기</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">이메일</string>
+    <string name="bind_info_fragment_phone">전화</string>
+    <string name="bind_info_fragment_unbound">미연동</string>
+    <string name="bind_info_fragment_bind">연동 완료</string>
+
+    <!-- AD-->
+    <string name="ad_loading">광고 로딩 중</string>
+    <string name="ad_interstitial_remove_ad_by_payment">유료 결제로 광고를 제거할 수 있습니다.</string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">%1$s 보너스 받기</string>
+    <string name="notification_permission_dialog_des">알림 권한을 켜고 보너스를 받으세요</string>
+    <string name="notification_permission_dialog_receive">받다</string>
+    <string name="notification_permission_dialog_choose_title">받고 싶은 알림 유형을 선택하세요.</string>
+    <string name="notification_permission_dialog_choose_turn_on">켜다</string>
+    <string name="notification_permission_dialog_granted">%1$s 보너스를 받았습니다</string>
+    <string name="notification_permission_dialog_choose_item_0">무료 새 에피소드</string>
+    <string name="notification_permission_dialog_choose_item_1">현재 에피소드 업데이트</string>
+    <string name="notification_permission_dialog_choose_item_2">매일 체크인 알림</string>
+    <string name="notification_permission_dialog_choose_item_3">신규 드라마 출시</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">초특가 증정</string>
+    <string name="sku_expansion_dialog_fragment_count_down">후 만료됩니다 %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">귀하의 재산 보호 및 정보 유출을 방지하기 위해 계정에 로그인하십시오!</string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">귀하의 재산 보호</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">로그인</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">ShortMax 이용에 만족하십니까?</string>
+    <string name="rating_dialog_desc">별 5개 리뷰를 남겨주세요!귀하의 리뷰는 저희에게 큰 도움이 됩니다.</string>
+    <string name="rating_dialog_desc_key_word">5별</string>
+    <string name="rating_dialog_rating_success_tip">리뷰를 남겨주셔서 감사합니다.</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">신규 버전 출시</string>
+    <string name="update_dialog_now">지금 업데이트</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">사용자가 업로드하였습니다. 신고해주세요!</string>
+    <string name="report_dialog_uploaded_by_users_des">프로그램의 콘텐츠는 이 사용자가 업로드한 것입니다. 저작권 문제가 있을 경우 즉시 신고해 주세요.</string>
+    <string name="report_dialog_report">신고</string>
+    <string name="report_dialog_drama_upload">드라마 업로드</string>
+    <string name="report_dialog_upload_drama">드라마를 업로드하세요</string>
+    <string name="report_dialog_add_cover">커버 추가</string>
+    <string name="report_dialog_your_drama_and_win_coins">드라마를 업로드하고 코인을 획득하세요</string>
+    <string name="report_dialog_drama_cover">드라마 커버</string>
+    <string name="report_dialog_drama_name">드라마 이름</string>
+    <string name="report_dialog_drama_name_hint">드라마 이름 입력</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">이메일 주소</string>
+    <string name="report_dialog_your_email_hint">시리즈가 승인되면 연락드리겠습니다.</string>
+    <string name="report_dialog_upload_video">비디오 업로드</string>
+    <string name="report_dialog_apply">신청</string>
+    <string name="report_dialog_under_review">심사 중</string>
+    <string name="report_dialog_report_succeed">신고 성공</string>
+    <string name="report_dialog_re_upload">재업로드</string>
+    <string name="report_dialog_upload_permission">드라마를 업로드하려면 권한이 필요합니다</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">내 지갑</string>
+    <string name="my_wallet_fragment_empty_record">기록 없음</string>
+    <string name="my_wallet_fragment_discount">할인</string>
+    <string name="my_wallet_fragment_coins_record">금화 기록</string>
+    <string name="my_wallet_fragment_bonus_record">보너스 코인 기록</string>
+    <string name="my_wallet_fragment_unused">사용하지 않음</string>
+    <string name="my_wallet_fragment_used">사용함</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s 건너뛰기</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">ShortMax에 오신 것을 환영합니다</string>
+    <string name="home_login_guide_dialog_button">받다</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ 잠시만 기다려주세요. 계정을 로그아웃하시겠습니까?</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ 로그인 상태를 유지하면 다음과 같은 기능을 사용할 수 있습니다:</string>
+    <string name="logout_tip_dialog_desc_2">최신 추천 정보를 가장 빠르게 받아보기.</string>
+    <string name="logout_tip_dialog_desc_3">개인화된 콘텐츠를 편리하게 즐기기.</string>
+    <string name="logout_tip_dialog_desc_4">사용 기록을 저장하여 다음에 읽거나 시청하기 편리하게 하기.</string>
+    <string name="logout_tip_dialog_reconsider">다시 생각해보세요</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗ 기기에 여러 계정이 감지되었습니다.</string>
+    <string name="merge_tourist_dialog_content">이전 계정의 자산 정보와 시청 기록을 현재 계정으로 동기화하시겠습니까?</string>
+    <string name="merge_tourist_dialog_processing">처리 중입니다…</string>
+    <string name="merge_tourist_dialog_succeed_title">보너스 코인%1$s개 지급</string>
+    <string name="merge_tourist_dialog_succeed_content">귀하의 과거 계정의 속성 및 영화 시청 기록이 복원되었습니다.</string>
+    <string name="merge_tourist_dialog_failed">여러 개의 계정이 감지되었습니다. 재산 손실을 피하기 위해 다시 시도하십시오</string>
+    <string name="merge_tourist_dialog_retry">다시 시도하다</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">미승인 시 광고를 요청할 수 없어 후속편 시청에 영향을 줄 수 있습니다. 다음에 반드시 승인해 주시기 바랍니다.</string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬 무료로 대량의 핫한 드라마를 보세요!</string>
+    <string name="push_check_in_title_1">👇 \"혜택\"을 받기 위해 클릭하세요</string>
+    <string name="push_check_in_title_2">오늘 들어왔나요? 💕</string>
+    <string name="push_check_in_title_3">매일 드라마를 보며 하루 종일 행복하게 지내세요🎉</string>
+    <string name="push_check_in_title_4">너가 놓쳐서는 안 될 제한 시간 혜택🎁</string>
+    <string name="push_check_in_title_new_0">매일 로그인하여 보너스 받기</string>
+    <string name="push_check_in_title_new_1">로그인하고 보상을 받으세요</string>
+    <string name="push_check_in_title_new_2">로그인하고 보너스를 받으세요</string>
+    <string name="push_check_in_title_new_3">에피소드를 무료로 잠금 해제하고 싶으신가요?</string>
+    <string name="push_check_in_title_new_4">로그인하고 쉽게 받으세요</string>
+    <string name="push_check_in_contents_0">드라마를 쫓는데 돈이 들지 않아요💰, 로그인하여 영화 티켓을 얻어 무료로 시청하세요</string>
+    <string name="push_check_in_contents_1">🎉 깜짝 혜택! 연속으로 체크인하고, 영화 티켓을 무료로 가져가세요!</string>
+    <string name="push_check_in_contents_2">🍿 연속 체크인 여정을 시작하고, 영화를 무료로 보세요!</string>
+    <string name="push_check_in_contents_3">🎁 연속하여 체크인하고, 영화를 무료로 보는 기회를 놓치지 마세요</string>
+    <string name="push_check_in_contents_4">제한 시간 체크인 혜택이 대폭 배포됩니다! 이제 참여하세요! 🎬</string>
+    <string name="push_check_in_contents_new_0">놓치지 마세요!</string>
+    <string name="push_check_in_contents_new_1">매일매일 좋은 선물 받고, 로그인 하세요!</string>
+    <string name="push_check_in_contents_new_2">와서 일일 보상을 받으세요!</string>
+    <string name="push_check_in_contents_new_3">와서 로그인하세요!</string>
+    <string name="push_check_in_contents_new_4">매일매일 혜택이 오니, 오셔서 로그인하시고 보상 받아가세요!</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">구독</string>
+    <string name="profile_subscription_view_default_content">더 많은 에피소드 보기</string>
+    <string name="profile_subscription_view_unsubscribed">지금 구독</string>
+    <string name="profile_subscription_view_subscribed">구독 완료</string>
+    <string name="profile_subscription_view_weekly_card">주간 카드</string>
+    <string name="profile_subscription_view_monthly_card">월간 카드</string>
+    <string name="profile_subscription_view_annual_card">연간 카드</string>
+    <string name="profile_subscription_view_weekly_pro_card">주간 카드 Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">월간 카드 Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">연간 카드 Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">일주일 동안 모든 시리즈 잠금 해제</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">한 달 동안 모든 시리즈 잠금 해제</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">일 년 동안 모든 시리즈 잠금 해제</string>
+    <string name="profile_subscription_view_expire_time">만료 시간: %1$s</string>
+    <string name="profile_subscription_view_unsupport_product">표시할 수 없습니다. 버전을 업데이트하세요.</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">프리미엄</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s 권한</string>
+    <string name="subscription_detail_activity_desc_title">구독 관련</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1. 구독 설명\n (1) 구독 기능은 APP 사용 경험을 향상시키기 위한 것일 뿐, 구독
+        여부와 관계없이 APP의 정상적인 사용에는 영향을 미치지 않습니다.\n2. 혜택 설명\n (1) Weekly PRO/Monthly PRO를 구매한 후에는 모든 에피소드를 아무런 제한 없이 시청할 수
+        있습니다.\n(2) 광고 없음: 잠금 해제 후에는 인센티브 광고를 제외한 다른 유형의 광고가 더 이상 표시되지 않습니다.\n(3) 1080P 해상도: 비디오 재생은 1080P 해상도 선택을
+        지원합니다.\n3. 자동 갱신에 대하여\n (1) 구독은 만료일 24시간 전에 자동 갱신되며, 언제든지 자동 갱신을 취소할 수 있습니다. 구독이 성공적으로 갱신되면 환불이 불가능합니다.\n4. 구독
+        취소 방법\n (1) %1$s을 열고 오른쪽 상단 모서리에 있는 아바타를 클릭합니다. \n(2) “결제 및 구독”을 클릭한 다음 “구독”을 클릭합니다. \n(3) ShortMax 구독을 선택합니다.
+        \n(4) 구독 취소를 클릭합니다.
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">1080p 지원</string>
+    <string name="subscription_detail_activity_privilege_4_desc">광고하기</string>
+    <string name="subscription_detail_activity_privilege_5_desc">전체 무료</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">전체 무료</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">고화질 영상을 감상하세요</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">순수한 시청 경험을 즐기세요</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIP는 모든 드라마를 무료로 감상합니다</string>
+    <string name="subscription_detail_activity_subs_success">구독 성공</string>
+    <string name="subscription_detail_activity_subs_update_success">구독 변경 성공</string>
+    <string name="subscription_day_bonus_claimed">%1$s 보너스 자동 수령!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">구독하고 전용 혜택을 누리세요</string>
+    <string name="subscription_detail_2_activity_subscribed">구독 완료:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">유효기간:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">선호하시는 드라마가 방영 중입니다</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">누적 획득</string>
+    <string name="subs_type_view_total_earning_2">총합</string>
+    <string name="subs_type_view_get_now">(즉시 획득)</string>
+    <string name="subs_type_view_first_recharge_tip">첫 충전 혜택</string>
+    <string name="subs_type_view_detail">자세히 보기</string>
+    <string name="subs_type_view_disable_subs_tip">환불 요청 건이 여러 번 확인되어 귀하의 계정으로는 구독할 수 없습니다</string>
+    <string name="subs_type_view_claim_bonus">(일일 출석 체크)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(언제든지 수령 가능)</string>
+    <string name="subs_type_view_per_week_new">%1$s/주</string>
+    <string name="subs_type_view_per_month_new">%1$s/월</string>
+    <string name="subs_type_view_per_year_new">%1$s/년</string>
+    <string name="subs_type_view_renew_per_week">연장 요금 %1$s/주</string>
+    <string name="subs_type_view_renew_per_month">연장 비용 %1$s/월</string>
+    <string name="subs_type_view_renew_per_year">연장 비용 %1$s/년</string>
+
+    <!--Language-->
+    <string name="language_app">앱 언어</string>
+    <string name="language_en">영어</string>
+    <string name="language_zh_simplified">중국어 간체</string>
+    <string name="language_zh_traditional">중국어 번체</string>
+    <string name="language_fil">필리핀어</string>
+    <string name="language_hi">힌디어</string>
+    <string name="language_in">인도네시아어</string>
+    <string name="language_ja">일본어</string>
+    <string name="language_ko">한국어</string>
+    <string name="language_th">태국어</string>
+    <string name="language_ar">아라비아 말</string>
+    <string name="language_es">스페인어</string>
+    <string name="language_pt">포르투갈어</string>
+    <string name="language_vi">베트남어</string>
+    <string name="language_de">독일어</string>
+    <string name="language_fr">프랑스어</string>
+    <string name="language_ms">말레이시아어</string>
+    <string name="language_ru">러시아어</string>
+    <string name="language_it">이탈리아어</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">계정에서 VIP 혜택을 확인할 수 없나요?</string>
+    <string name="restore_tip_view_refresh">새로고침</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">죄송합니다. 계정에서 VIP 혜택을 확인할 수 없습니다. 재시도하세요</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">전체 에피소드 보기</string>
+    <string name="shorts_fragment_current_episode_finished">시리즈 종료</string>
+    <string name="shorts_fragment_current_episode_updating">업데이트 중</string>
+    <string name="shorts_fragment_next_episode_tip">상영 예정 &lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">트레일러</string>
+    <string name="shorts_fragment_trailer_in_production">제작 중, 많은 기대 부탁드립니다!</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">검색 기록</string>
+    <string name="search_activity_popular_title">인기 검색</string>
+    <string name="search_activity_no_result">관련 내용 없음</string>
+    <string name="search_activity_more_no_result">– 종료 –</string>
+    <string name="search_activity_input_keyword_hint">검색 내용을 입력하세요</string>
+    <string name="search_activity_clear_history_hint">검색 기록 내 기록을 삭제하시겠습니까?</string>
+    <string name="search_activity_search_frequently_tips">검색이 너무 자주 발생합니다. 나중에 다시 시도하세요.</string>
+    <string name="search_activity_redeem_code_disabled">교환 코드가 존재하지 않습니다.</string>
+    <string name="search_activity_redeem_code_delisted">드라마가 삭제되었습니다.</string>
+    <string name="search_activity_redeem_code_overdue">교환 코드가 만료되었습니다.</string>
+    <string name="search_activity_redeem_code_use_up">아쉽지만 모두 소진되었습니다.</string>
+    <string name="search_activity_redeem_code_unsupported">먼저 애플리케이션 버전을 업그레이드하세요.</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">광고를 시청하면 현재 에피소드를 해제할 수 있습니다. 시도해보세요!</string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">오늘 시청함:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">광고 1개 시청 시 제%1$s화 잠금 해제</string>
+    <string name="ad_continue_dialog_fragment_cancel">강제 종료</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">광고 1개 더 시청 시 1화 잠금 해제</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">제%1$s화 잠금 해제 완료</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">제%1$s화 잠금 해제 완료</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">광고 1개 더 시청</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">광고 시청 시 다음 에피소드 무료 해제</string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">오늘 이미 시청함 (%1$s/%2$s)</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">신규 회원 전용</string>
+    <string name="new_recommend_shorts_fragment_more_tip">모든 제품은 한 번만 수령할 수 있습니다.</string>
+    <string name="new_recommend_shorts_fragment_more">더 보기</string>
+    <string name="new_recommend_shorts_fragment_must_read">신규 회원 필독 사항</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">%1$s 구독이 만료되어 에피소드를 오픈할 수 없습니다. 다시 구독하시겠습니까?</string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">교환 성공</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">리워드 받기</string>
+    <string name="redeem_code_dialog_fragment_received">수령함</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">[화면 속 화면] 기능이 출시되었습니다~</string>
+    <string name="play_episode_activity_pip_guide_content">브라우징을 하면서 미니 플레이어에서 좋아하는 클립을 계속 시청하세요. 멀티태스킹이 쉬워졌어요!</string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">콘텐츠를 찾을 수 없습니다~\n[발견]으로 돌아가 다른 인기 콘텐츠를 탐색할 수 있습니다.</string>
+    <string name="discover_more_fragment_empty_btn_text">돌아가기</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">전부</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">즉시 시작</string>
+    <string name="sign_in_reminder_fragment_content">출석체크 알림을 켜면 보충 체크인에 성공할 수 있습니다, +%1$s 보너스</string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">보충 서명이 성공했습니다</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s 보너스</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">광고를 시청하면 보충 체크인에 성공할 수 있습니다, +%1$s 보너스</string>
+    <string name="sign_in_watch_ad_fragment_btn">광고 시청 (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">구매함</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">알림을 더 빨리 받을 수 있도록 권한 활성화하기</string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">특권을 누려보세요</string>
+    <string name="rfm_guide_dialog_content">더 낮은 가격과 더 많은 혜택</string>
+    <string name="rfm_guide_dialog_btn">즉시 충전</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">충전 실패</string>
+    <string name="billing_unavailable_tip_dialog_content">네트워크 연결이 비정상적이거나 Google 계정에 이상이 있습니다. 고객 서비스에 문의하여 피드백하세요.
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">구독 변경 확인</string>
+    <string name="subs_update_dialog_current_subs_title">현재 구독</string>
+    <string name="subs_update_dialog_new_subs_title">새로운 구독</string>
+    <string name="subs_update_dialog_upgrade_content">새 구독은 즉시 적용되고 현재 구독의 남은 시간은 새 구독의 시간으로 변환됩니다.</string>
+    <string name="subs_update_dialog_downgrade_content">현재 구독은 %1$s에 만료되며, 이때 새 구독이 적용됩니다.</string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">한정 %1$s</string>
+    <string name="task_coin_view_completed">임무 완료\n총 %1$s 보상 코인 획득</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">드라마 시청</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">드라마를 시청하고 보너스를 받으세요</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">총 %1$s 보너스</string>
+</resources>

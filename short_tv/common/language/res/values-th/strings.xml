@@ -1,0 +1,661 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้,โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="common_unknown_exception">เกิดข้อผิดพลาด</string>
+    <string name="common_login_expired">เซสชันของคุณหมดอายุแล้ว กรุณาเข้าสู่ระบบใหม่</string>
+    <string name="common_re_login">เข้าสู่ระบบอีกครั้ง</string>
+    <string name="common_error_code">รหัสข้อผิดพลาด: %1$s</string>
+    <string name="common_waiting">กำลังรอ…</string>
+    <string name="common_retry">ลองอีกครั้ง</string>
+    <string name="common_no_more_data">ไม่มีข้อมูลเพิ่มเต็ม</string>
+    <string name="common_data_empty">ที่นี่ว่างเปล่า</string>
+    <string name="common_not_find_app_to_send_email">หาแอปที่ส่งอีเมลไม่ได้</string>
+    <string name="common_google_pay_not_support">อุปกรณ์ปัจจุบันของคุณไม่รองรับการชำระเงินของ Google</string>
+    <string name="common_user_canceled">ยกเลิกโดยผู้ใช้</string>
+    <string name="common_coins">%1$s เหรียญ</string>
+    <string name="common_bonus">โโบนัส%1$s</string>
+    <string name="common_current_ep">อีพี %1$s</string>
+    <string name="common_total_ep">%1$sชุด</string>
+    <string name="common_delete">ลบ</string>
+    <string name="common_cancel">ยกเลิก</string>
+    <string name="common_continue">ดำเนินการต่อไป</string>
+    <string name="common_confirm">ยืนยัน</string>
+    <string name="common_submit">ส่ง</string>
+    <string name="common_play_failed">เกิดความล้มเหลว</string>
+    <string name="common_server_error">เซิร์ฟเวอร์พบข้อผิดพลาด</string>
+    <string name="common_copy_success">คัดลอกแล้ว</string>
+    <string name="common_duplicate_op_tip">โปรดอย่าทำซ้ำกับการดำเนินการ</string>
+    <string name="common_later">ไว้ภายหลัง</string>
+    <string name="common_yes">ใช่</string>
+    <string name="common_no">ไม่ใช่</string>
+    <string name="common_ok">โอเค</string>
+    <string name="common_allow">อนุญาต</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">ซีรีส์นี้ถูกนำออกแล้ว</string>
+    <string name="common_recharge_not_supported">การเติมเงินไม่ได้รับการสนับสนุนในประเทศ/ภูมิภาคปัจจุบัน</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">ค้นพบ</string>
+    <string name="main_activity_tab_shorts">ซีรี่ส์มินิ</string>
+    <string name="main_activity_tab_my_list">รายการของฉัน</string>
+    <string name="main_activity_tab_profile">โปรไฟล์</string>
+    <string name="main_activity_tab_reward">รางวัล</string>
+    <string name="main_activity_tab_guide_tip_1">[ รางวัล ] ทางเข้าย้ายมาที่นี่แล้ว</string>
+    <string name="main_activity_tab_guide_tip_2">[ รายการของฉัน ] ทางเข้าย้ายมาที่นี่แล้ว</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">เล่นตอนนี้</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">คอยติดตาม</string>
+    <string name="discover_fragment_reserve_succeed">การจองสำเร็จ โปรดค้นหาในรายการของฉัน</string>
+    <string name="discover_fragment_coming_soon_more">เพิ่มเติม</string>
+    <string name="discover_fragment_low_sku_template_notification_go">ซื้อตอนนี้</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">กระเป๋าเงินของฉัน</string>
+    <string name="profile_fragment_coins">เหรียญ</string>
+    <string name="profile_fragment_bonus">โบนัส</string>
+    <string name="profile_fragment_top_up">เติมเงิน</string>
+    <string name="profile_fragment_rewards">รางวัล</string>
+    <string name="profile_fragment_feedback">ข้อเสนอแนะ</string>
+    <string name="profile_fragment_language">ภาษา</string>
+    <string name="profile_fragment_settings">การตั้งค่า</string>
+    <string name="profile_fragment_guest">ผู้เยี่ยมชม %1$s</string>
+    <string name="profile_fragment_user">ผู้ใช้ %1$s</string>
+    <string name="profile_fragment_feedback_content">
+        โปรดระบุปัญหาของคุณอย่างละเอียดด้านล่างนี้เพื่อช่วยให้เราเข้าใจและแก้ไขปัญหาของคุณได้ดียิ่งขึ้ن
+        (เราจะดำเนินการตรวจสอบคำถามของคุณและพยายามตอบกลับภายใน 3–7 วันทำการ)\n\n\n ประเภทปัญหา
+        (โปรดเลือกปัญหาฟังก์ชันการชำระเงินสิ่งที่แนะนำคำติชมอื่นๆ) : \n\n ข้อมูลที่เกี่ยวข้อง: \n UID (ไม่ต้องลบ):
+        %1$s\n หมายเลขเวอร์ชันของแอป (ไม่ต้องลบ): %2$s\nระบบปฏิบัติการและรุ่นของอุปกรณ์
+        (ไม่ต้องลบ):%3$s\nภาพหน้าจอหรือไฟล์แนบ (ถ้ามี):\n ปัญหาการชำระเงิน – หมายเลขคำสั่งซื้อ &amp; หมายเลขบัญชีผู้ใช้
+        (จำเป็น) : \n
+    </string>
+    <string name="profile_fragment_login_tip">ของขวัญล็อกอิน</string>
+    <string name="profile_fragment_reward_tip">รับโบนัส</string>
+    <string name="profile_fragment_reward_tip1">ซีรีส์ฟรี</string>
+    <string name="profile_fragment_reward_tip2">ได้รับโบนัส %1$s</string>
+
+    <string name="profile_fragment_official_social_media">สื่ออย่างเป็นทางการ</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">นโยบายความเป็นส่วนตัว</string>
+    <string name="settings_fragment_user_agreement">ข้อตกลงในการใช้งาน</string>
+    <string name="settings_fragment_delete_account">ลบบัญชี</string>
+    <string name="settings_fragment_logout">ออกจากระบบ</string>
+    <string name="settings_fragment_version">เวอร์ชัน %1$s</string>
+    <string name="settings_fragment_personal">ข้อมูลส่วนตัว</string>
+    <string name="settings_fragment_account_info">ข้อมูลบัญชี</string>
+    <string name="settings_fragment_else">อื่น ๆ</string>
+    <string name="settings_fragment_permissions">สิทธิ์</string>
+    <string name="settings_fragment_automatic_episode_unlock">ปลดล็อกตอนอัตโนมัติ</string>
+    <string name="settings_fragment_fsi_permission">การแจ้งเตือนแบบเต็มหน้าจอ</string>
+    <string name="settings_fragment_pip_mode">โหมดภาพซ้อนภาพ</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">การตั้งค่าภาษา</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">เข้าสู่ระบบด้วย %1$s</string>
+    <string name="login_activity_desc">การรักษาความปลอดภัยของผู้ใช้ ทางเราจะไม่เก็บข้อมูลของคุณ โปรดเข้าสู่ระบบ!
+    </string>
+    <string name="login_activity_policy">เมื่อดำเนินการต่อไป คุณตกลงยินยอมตาม\n %1$s และ %2$s ของผู้ใช้</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">คำเตือน</string>
+    <string name="delete_account_fragment_desc">คำเตือนสำหรับท่านผู้ใช้ที่เคารพ: ถ้าคุณลบบัญชีจะทำให้พลาดรายการสนุก ๆ
+        ไปมากมาย และไม่สามารถกู้คืนข้อมูลได้อีก(รวมถึงทรัพย์สินใด ๆ เช่น เหรียญ โบนัส ฯลฯ) คุณยืนยันที่จะลบหรือไม่?
+        หากคุณพบปัญหาใด โปรดติดต่อเรา เราไม่อยากให้คุณจากไปแบบนี้! ขอบคุณช่วงเวลาดี ๆ ที่เราได้เจอกัน!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">การเติมเงินหมายถึงเห็นด้วยกับ %1$s</string>
+    <string name="top_up_fragment_recharge_agreement">ข้อกำหนดการเติมเงิน</string>
+    <string name="top_up_fragment_recharge_success">เติมเงินสำเร็จ</string>
+    <string name="top_up_fragment_restore">คืนค่า</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">ไม่มีคืนค่าการซื้อ</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">
+        เหรียญที่คุณซื้อมาก่อนหน้านี้ได้รับการเติมเต็มสำเร็จแล้ว
+    </string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">การสมัครสมาชิกของคุณได้เข้าบัญชีเรียบร้อยแล้ว</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">
+        สิทธิ์การสมัครสมาชิกและเหรียญที่คุณซื้อไว้ก่อนหน้านี้ได้เข้าบัญชีเรียบร้อยแล้ว
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">ซีรีส์ที่คุณซื้อได้รับการปลดล็อกแล้ว โปรดตรวจสอบใน
+        &lt;%1$s – %2$s&gt;
+    </string>
+    <string name="top_up_fragment_desc_title">แสดงให้เห็น</string>
+    <string name="top_up_fragment_desc_content">1. การปลดล็อคเนื้อหาที่ต้องชำระเงิน:
+        เหรียญทองและโบนัสมีไว้สำหรับปลดล็อคเนื้อหาที่ต้องชำระเงินภายในแอปพลิเคชัน\n2.การเติมเงินเทียบเท่า: 1 เหรียญ = 1
+        โโบนัสโปรดทราบว่าไม่รองรับการคืนเงินสำหรับการชาร์จใหม่\n3.การหมดอายุของโบนัส:
+        โบนัสจะหมดอายุหลังจากระยะเวลาที่กำหนด โปรดตรวจสอบเวลาหมดอายุของโบนัสของคุณในส่วน \"กระเป๋าเงินของฉัน\" ของแอป
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">ราคา:</string>
+    <string name="unlock_episode_dialog_fragment_balance">คงเหลือ:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">ร้านค้าเหรียญ</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">ดูโฆษณา</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">ดูโฆษณาเพื่อปลดล็อกฟรี %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">ปลดล็อก</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">สิทธิพิเศษที่ได้รับ เติมเงินจะคุ้มกว่า
+    </string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">ปลดล็อคตอน</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">ปลดล็อค %1$s ตอน</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">ปลดล็อคทุกหมด</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">%1$s ตอนถูกปลดล็อคเป็นชุดแล้ว</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">ดูโฆษณาเพื่อปลดล็อคตอน</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">ดูโฆษณาปลดล็อคตอน%1$s/%2$s</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">ปลดล็อกฟรี</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">คอลเลกชันของฉัน</string>
+    <string name="my_list_fragment_recently_watched">ดููเมื่อเร็วๆนี้</string>
+    <string name="my_list_fragment_empty_desc">ไปที่หน้าหลักเพื่อค้นหาละครยอดฮิตมากมาย</string>
+    <string name="my_list_fragment_select_all">เลือกทั้งหมด</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">กรุณายกเลิกการเลือกละครที่เลือกไว้ก่อน</string>
+    <string name="my_list_fragment_delete_tip">ยืนยันลบรายการที่เลือกอยู่หรือไม่?</string>
+    <string name="my_list_fragment_home">หน้าหลัก</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">รายการ</string>
+    <string name="shorts_fragment_share">แชร์</string>
+    <string name="shorts_fragment_more">เพิ่มเติม</string>
+    <string name="shorts_fragment_less">เก็บขึ้น</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">อัปเดตไปยัง ตอนที่ %1$s/ทั้งหมด %2$s ตอน</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">โปรดปลดล็อกตอนก่อนหน้านี้ก่อน</string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">ดูตอนนี้</string>
+    <string name="notification_free">ฟรี</string>
+    <string name="notification_check_in_button">รับเลยตอนนี้</string>
+    <string name="notification_daemon_title_1">🥳 ยินดีต้อนรับสู่ ShortMax!</string>
+    <string name="notification_daemon_content_1">💕คลิกเพื่อเข้ามาเนื้อหาที่น่าตื่นเต้นมากขึ้นกำลังรอคุณ!</string>
+    <string name="notification_daemon_title_2">ยินดีต้อนรับสู่ ShortMax</string>
+    <string name="notification_daemon_content_2">กำลังเป็นที่นิยม</string>
+    <string name="notification_enter_now">ตอนนี้กำลังเข้าสู่</string>
+    <string name="notification_go_now">ไปเลย</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">โบนัสของคุณ:</string>
+    <string name="rewards_activity_check_in_title">การเช็คอินทุกวัน</string>
+    <string name="rewards_activity_check_in_desc">รับรางวัลสำหรับการเช็คอิน</string>
+    <string name="rewards_activity_check_in">เช็คอิน</string>
+    <string name="rewards_activity_check_in_day">วันที่ %1$s</string>
+    <string name="rewards_activity_watch_ad_title">ดูโฆษณาและรับโบนัส</string>
+    <string name="rewards_activity_watch_ad_desc">ดูโฆษณาทั้งหมดเพื่อรับโบนัสเพิ่มเติม %1$s คะแนน</string>
+    <string name="rewards_activity_watch_all_ads_desc">ได้รับแล้ว %1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">เหรียญโโบนัส%1$s</string>
+    <string name="rewards_activity_watch_ad_get">ได้รับ</string>
+    <string name="rewards_activity_watch_ad_double_rewards">รางวัลสองเท่า</string>
+    <string name="rewards_activity_get_double_rewards">รับโบนัส</string>
+    <string name="rewards_activity_description_title">คำอธิบาย</string>
+    <string name="rewards_activity_description_value">1. ShortMax ขอสงวนสิทธิ์ในการเปลี่ยนแปลงเงื่อนไขใดๆ
+        โดยไม่จำต้องแจ้งให้ทราบล่วงหน้า \n2. โบนัสสามารถใช้สำหรับดูละครเท่านั้น มีอายุ 10 วัน; โปรดใช้งานก่อนหมดอายุ
+        \n3. เมื่อดูละครจะใช้เหรียญก่อน หากเหรียญไม่พอ จะใช้เหรียญโบนัสโดยอัตโนมัติ \n4.
+        รางวัลการเช็คอินจะรีเฟรชใหม่ทุกคืนเวลา 0:00 (UTC+0)
+    </string>
+    <string name="rewards_activity_go">ไป</string>
+    <string name="rewards_activity_accept_task_reward_tip">ขอแสดงความยินดี! +%1$s โบนัส</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">ตอนที่ %1$s ถูกปลดล็อคให้คุณแล้ว</string>
+    <string name="play_episode_activity_update_speed_tip">สลับเป็นการเล่น %1$s ครั้ง</string>
+    <string name="play_episode_activity_speed_playing">เล่นด้วยความเร็ว %1$sx</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$sx</string>
+    <string name="play_episode_activity_resolution_auto">Auto</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">การโหลดล้มเหลว สลับไปที่ %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">กำลังโหลด กรุณารอสักครู่…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">เครือข่ายช้า
+        เราได้เลือกคุณภาพที่ดีที่สุดมาให้คุณแล้ว
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">วิดีโอกำลังโหลดช้า คลิกเพื่อ
+        เปลี่ยนคุณภาพ
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">เปลี่ยนคุณภาพ</string>
+    <string name="play_episode_activity_switch_resolution_tip">เปลี่ยนเป็น 1080p</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">กำลังสลับไป%1$sp</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">สลับไปเป็นโหมดอัตโนมัติ</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">กำลังเปลี่ยนเป็นโหมดอัตโนมัติ</string>
+    <string name="play_episode_activity_progress_adjust">ความคืบหน้าการปรับ</string>
+    <string name="play_episode_activity_unlock_now">ปลดล๊อคเดี๋ยวนี้</string>
+    <string name="play_episode_activity_switch_resolution_failed">เปลี่ยนไม่สำเร็จ ได้รักษาระดับความชัดเดิมไว้แล้ว
+    </string>
+    <string name="play_episode_activity_swipe_to_watch">เลื่อนสลับตอน</string>
+    <string name="play_episode_collect_tips_1">ชอบไหม แชร์เก็บไว้เลย</string>
+    <string name="play_episode_collect_tips_2">ได้เพิ่มลงในรายการของคุณแล้ว</string>
+    <string name="play_episode_collect_tips_3">ซีรีส์นี้อยู่ในรายการของฉันแล้ว</string>
+    <string name="play_episode_activity_discount_unlock_tips">กรุณาตรวจสอบได้ที่ [%1$s–%2$s]</string>
+    <string name="immersion_activity_purchase_all_episode">ซื้อชุดสมบูรณ์</string>
+    <string name="immersion_activity_free_clarity_1080p">ฟรีจำกัดเวลา</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">ความเร็วในการเล่น</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">คุณภาพของภาพ</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">ขอแสดงความยินดี!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">ดูโฆษณา\nเพื่อรับรางวัลสองเท่า!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">ดูตอนนี้</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">รับชมเพื่อรับโบนัส</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">เข้าสู่ระบบผ่าน Facebook เพื่อรับ %1$s โบนัส</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">เข้าสู่ระบบผ่าน Google เพื่อรับ %1$s โบนัส
+    </string>
+    <string name="facebook_login_dialog_fragment_huge">อุปกรณ์</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">ป้อนหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="phone_auth_fragment_hint_verification_code">ป้อนรหัสยืนยัน</string>
+    <string name="phone_auth_fragment_get">รับรหัส</string>
+    <string name="phone_auth_fragment_resend">ส่งอีกครั้ง ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">ยินดีต้อนรับ\nยืนยันหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="phone_auth_fragment_check_content">โปรดตรวจสอบเนื้อหาที่คุณป้อน!</string>
+    <string name="phone_auth_fragment_succeed">หมายเลขโทรศัพท์ของคุณได้รับการยืนยันเรียบร้อยแล้ว</string>
+    <string name="phone_auth_fragment_invalid_area_code">กรุณาป้อนรหัสพื้นที่ที่ถูกต้อง</string>
+    <string name="phone_auth_fragment_network_error">โปรดตรวจสอบสถานะเครือข่าย</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">ยินดีต้อนรับ\nยืนยันหมายเลขโทรศัพท์ของคุณ</string>
+    <string name="email_auth_fragment_hint_email_address">ป้อนที่อยู่อีเมลของคุณ</string>
+    <string name="email_auth_fragment_check_content">โปรดตรวจสอบเนื้อหาที่คุณป้อน!</string>
+    <string name="email_auth_fragment_succeed">ที่อยู่อีเมลของคุณได้รับการยืนยันเรียบร้อยแล้ว</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">คุณอาจชื่นชอบ</string>
+    <string name="immersion_back_fragment_button_play">เล่น</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">เลือกภูมิภาค</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">คลังซีรีส์</string>
+    <string name="library_activity_label_all">ทั้งหมด</string>
+    <string name="library_activity_label_male">ผู้ชาย</string>
+    <string name="library_activity_label_female">ผู้หญิง</string>
+    <string name="library_activity_label_limit">เลือกได้ไม่เกิน 5 รายการ</string>
+    <string name="library_activity_empty_text">ขออภัย ไม่พบเนื้อหาที่เกี่ยวข้อง</string>
+    <string name="library_fragment_title">กรอง</string>
+    <string name="library_fragment_interest">ความสนใจ</string>
+    <string name="library_fragment_type">ประเภท</string>
+    <string name="library_fragment_reset">รีเซ็ต</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax ชาร์ต</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">อีเมล</string>
+    <string name="bind_info_fragment_phone">หมายเลขโทรศัพท์</string>
+    <string name="bind_info_fragment_unbound">ยังไม่ผูก</string>
+    <string name="bind_info_fragment_bind">ผูกแล้ว</string>
+
+    <!-- AD-->
+    <string name="ad_loading">กำลังโหลดโฆษณา</string>
+    <string name="ad_interstitial_remove_ad_by_payment">คุณสามารถชำระเงินปิดโฆษณา เพื่อประสบการณ์การดูที่ดีขึ้น!
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">รับโโบนัส%1$s</string>
+    <string name="notification_permission_dialog_des">เปิดอนุญาตการเลื่อนการแจ้งเตือนและรับโบนัส</string>
+    <string name="notification_permission_dialog_receive">รับ</string>
+    <string name="notification_permission_dialog_choose_title">เลือกประเภทการแจ้งเตือนที่คุณต้องการรับ</string>
+    <string name="notification_permission_dialog_choose_turn_on">เปิด</string>
+    <string name="notification_permission_dialog_granted">ได้รับโโบนัส%1$s</string>
+    <string name="notification_permission_dialog_choose_item_0">ตอนใหม่ฟรี</string>
+    <string name="notification_permission_dialog_choose_item_1">อัพเดตเรื่อง</string>
+    <string name="notification_permission_dialog_choose_item_2">การแจ้งเตือนการเช็คอินรายวัน</string>
+    <string name="notification_permission_dialog_choose_item_3">ละครใหม่ออนไลน์</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">แจกสุดคุ้ม</string>
+    <string name="sku_expansion_dialog_fragment_count_down">เหลืออีก %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">เพื่อปกป้องทรัพย์สินของคุณ
+        โปรดเข้าสู่ระบบเพื่อหลีกเลี่ยงการสูญเสียข้อมูล!
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">ปกป้องทรัพย์สินของคุณ</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">เข้าสู่ระบบ</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">ชอบ ShortMax ไหม?</string>
+    <string name="rating_dialog_desc">โปรดกด 5
+        ดาวเพื่อสนับสนุนเรา!กำลังใจของคุณคือแรงผลักดันของเราในการสร้างประสบการณ์การบริการที่มีคุณภาพ
+    </string>
+    <string name="rating_dialog_desc_key_word">5 ดาว</string>
+    <string name="rating_dialog_rating_success_tip">ขอบคุณสำหรับความคิดเห็นของคุณ</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">พบเวอร์ชันใหม่</string>
+    <string name="update_dialog_now">อัปเดตตอนนี้</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">อัปโหลดโดยผู้ใช้ โปรดร้องเรียน!</string>
+    <string name="report_dialog_uploaded_by_users_des">เนื้อหาของรายการอัปโหลดโดยผู้ใช้
+        โปรดร้องเรียนทันทีหากพบปัญหาด้านลิขสิทธิ์.
+    </string>
+    <string name="report_dialog_report">ร้องเรียน</string>
+    <string name="report_dialog_drama_upload">อัปโหลดละคร</string>
+    <string name="report_dialog_upload_drama">อัปโหลดละครของคุณ</string>
+    <string name="report_dialog_add_cover">เพิ่มหน้าปก</string>
+    <string name="report_dialog_your_drama_and_win_coins">อัปโหลดละครเพื่อรับเหรียญ</string>
+    <string name="report_dialog_drama_cover">หน้าปกละคร</string>
+    <string name="report_dialog_drama_name">ชื่อละคร</string>
+    <string name="report_dialog_drama_name_hint">ใส่ชื่อละคร</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">อีเมลของคุณ</string>
+    <string name="report_dialog_your_email_hint">หลังจากที่ซีรีส์ได้รับการยอมรับแล้ว เราจะติดต่อคุณ</string>
+    <string name="report_dialog_upload_video">อัปโหลดวิดีโอ</string>
+    <string name="report_dialog_apply">ยื่นขอ</string>
+    <string name="report_dialog_under_review">กำลังตรวจสอบ</string>
+    <string name="report_dialog_report_succeed">รายงานสำเร็จ</string>
+    <string name="report_dialog_re_upload">อัปโหลดอีกครั้ง</string>
+    <string name="report_dialog_upload_permission">ต้องได้รับอนุญาตในการอัปโหลดละคร</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">กระเป๋าสตางค์</string>
+    <string name="my_wallet_fragment_empty_record">ไม่มีการบันทึก</string>
+    <string name="my_wallet_fragment_discount">ส่วนลด</string>
+    <string name="my_wallet_fragment_coins_record">บันทึกเหรียญทอง</string>
+    <string name="my_wallet_fragment_bonus_record">บันทึกเหรียญโบนัส</string>
+    <string name="my_wallet_fragment_unused">ยังไม่ได้ใช้</string>
+    <string name="my_wallet_fragment_used">ใช้แล้ว</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s ข้าม</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">ยินดีต้อนรับเข้าสู่ShortMax</string>
+    <string name="home_login_guide_dialog_button">รับ</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ โปรดรอสักครู่ คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบบัญชี?</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ เมื่อคุณเข้าสู่ระบบคุณสามารถ:</string>
+    <string name="logout_tip_dialog_desc_2">รับแนะนำล่าสุดจากเราได้ทันที</string>
+    <string name="logout_tip_dialog_desc_3">เพลิดเพลินกับเนื้อหาที่กำหนดเองได้อย่างสะดวก</string>
+    <string name="logout_tip_dialog_desc_4">บันทึกการใช้งานของคุณเพื่ออ่านหรือดูในครั้งถัดไป</string>
+    <string name="logout_tip_dialog_reconsider">คิดใหม่</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗ ตรวจพบว่าอุปกรณ์นี้มีบัญชีหลายรายการ</string>
+    <string name="merge_tourist_dialog_content">
+        คุณต้องการซิงค์ข้อมูลทรัพย์สินและบันทึกการรับชมจากบัญชีก่อนหน้าไปยังบัญชีปัจจุบันหรือไม่?
+    </string>
+    <string name="merge_tourist_dialog_processing">กำลังดำเนินการ</string>
+    <string name="merge_tourist_dialog_succeed_title">ส่งเหรียญโบนัสให้คุณ%1$s เหรียญ</string>
+    <string name="merge_tourist_dialog_succeed_content">
+        บันทึกการดูทรัพย์สินและภาพยนตร์ในบัญชีประวัติของคุณได้รับการกู้คืนแล้ว
+    </string>
+    <string name="merge_tourist_dialog_failed">ตรวจพบว่าคุณมีบัญชีหลายบัญชี
+        โปรดลองอีกครั้งเพื่อป้องกันความสูญเสียทรัพย์สิน
+    </string>
+    <string name="merge_tourist_dialog_retry">ลองอีกครั้ง</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">ปฏิเสธการให้สิทธิ์จะทำให้มีปัญหาในการใช้โฆษณาและมีผลต่อการดูซีรีส์
+        โปรดตรวจสอบให้แน่ใจว่าคุณจะให้สิทธิ์ในครั้งถัดไป
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬ดูซีรีย์ที่ฮิตอย่างมากๆ ฟรี!</string>
+    <string name="push_check_in_title_1">👇 คลิกเพื่อรับ \"สิทธิพิเศษ\"</string>
+    <string name="push_check_in_title_2">เธอเข้ามาวันนี้หรือยัง? 💕</string>
+    <string name="push_check_in_title_3">ดูซีรีย์ทุกวัน มีความสุขตลอดวัน🎉</string>
+    <string name="push_check_in_title_4">สิทธิพิเศษจำกัดเวลาที่คุณไม่ควรพลาด🎁</string>
+    <string name="push_check_in_title_new_0">ขอให้คุณเช็คอินรางวัลทุกวัน</string>
+    <string name="push_check_in_title_new_1">เช็คอินได้รับรางวัล</string>
+    <string name="push_check_in_title_new_2">เช็คอินได้รับเงินโบนัส</string>
+    <string name="push_check_in_title_new_3">ต้องการปลดล็อคชุดซีรีส์ฟรีหรือไม่?</string>
+    <string name="push_check_in_title_new_4">เช็คอินง่ายๆ ได้รับรางวัล</string>
+    <string name="push_check_in_contents_0">ดูซีรีย์ไม่ต้องเสียเงิน💰เข้าสู่ระบบแล้วได้รับบัตรภาพยนตร์เพื่อชมฟรี</string>
+    <string name="push_check_in_contents_1">🎉 สิทธิพิเศษที่น่าประทับใจ! เข้าระบบอย่างต่อเนื่องและรับบัตรภาพยนตร์ฟรี!
+    </string>
+    <string name="push_check_in_contents_2">🍿เริ่มแสวงหาการเช็คอินต่อเนื่องและชมหนังฟรี!</string>
+    <string name="push_check_in_contents_3">🎁 เช็คอินอย่างต่อเนื่ิอง อย่าพลาดโอกาสที่จะดูหนังฟรี</string>
+    <string name="push_check_in_contents_4">เบิกบัตรเข้าระบบจำกัดเวลามาเต็มที่! รีบมาร่วมสนุก! 🎬</string>
+    <string name="push_check_in_contents_new_0">อย่าพลาด!</string>
+    <string name="push_check_in_contents_new_1">รับของขวัญทุกวัน เร็วๆ มาเช็คอินกันเถอะ!</string>
+    <string name="push_check_in_contents_new_2">มาเช็คอินเพื่อรับรางวัลทุกวัน!</string>
+    <string name="push_check_in_contents_new_3">มาเช็คอินเถอะ!</string>
+    <string name="push_check_in_contents_new_4">ส่งโบนัสทุกวัน มาเช็คอินเพื่อรับรางวัลไปเถอะ!</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">สมัครสมาชิก</string>
+    <string name="profile_subscription_view_default_content">ดูตอนเพิ่มเติม</string>
+    <string name="profile_subscription_view_unsubscribed">สมัครสมาชิกตอนนี้</string>
+    <string name="profile_subscription_view_subscribed">สมัครสมาชิกแล้ว</string>
+    <string name="profile_subscription_view_weekly_card">บัตรสมาชิกรายสัปดาห์</string>
+    <string name="profile_subscription_view_monthly_card">บัตรสมาชิกรายเดือน</string>
+    <string name="profile_subscription_view_annual_card">บัตรสมาชิกรายปี</string>
+    <string name="profile_subscription_view_weekly_pro_card">แพส PRO รายสัปดาห์</string>
+    <string name="profile_subscription_view_monthly_pro_card">แพส PRO รายเดือน</string>
+    <string name="profile_subscription_view_annual_pro_card">แพส PRO รายปี</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">ปลดล็อคทุกซีรีส์หนึ่งสัปดาห์</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">ปลดล็อคทุกซีรีส์หนึ่งเดือน</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">ปลดล็อคทุกซีรีส์ตลอดปี</string>
+    <string name="profile_subscription_view_expire_time">เวลาหมดอายุ:%1$s</string>
+    <string name="profile_subscription_view_unsupport_product">ไม่สามารถแสดงได้ โปรดอัปเดตเวอร์ชันใหม่</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">พรีเมี่ยม</string>
+    <string name="subscription_detail_activity_privilege_title">%1$sสิทธิพิเศษ</string>
+    <string name="subscription_detail_activity_desc_title">สมัครเป็นสมาชิก</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1.คำอธิบายการสมัครสมาชิก\n (1)
+        ฟังก์ชันการสมัครสมาชิกมีไว้เพื่อปรับปรุงประสบการณ์การใช้แอปเท่านั้น และไม่ส่งผลต่อการใช้งานแอปปกติ
+        ไม่ว่าจะสมัครสมาชิกหรือไม่ก็ตาม\n2.คำอธิบายสิทธิประโยชน์\n (1) หลังจากซื้อ Weekly PRO/Monthly PRO แล้ว
+        คุณจะสามารถรับชมตอนต่างๆ ได้โดยไม่จำกัด \n(2) ไม่มีโฆษณา: หลังจากปลดล็อคแล้ว โฆษณาประเภทอื่นๆ จะไม่แสดงอีกต่อไป
+        ยกเว้นโฆษณาจูงใจ \n(3) ความละเอียด 1080P: การเล่นวิดีโอรองรับการเลือกความละเอียด 1080P
+        \n3.เกี่ยวกับการต่ออายุอัตโนมัติ\n (1) การสมัครสมาชิกจะต่ออายุอัตโนมัติ 24 ชั่วโมงก่อนวันหมดอายุ
+        คุณสามารถยกเลิกการต่ออายุอัตโนมัติได้ตลอดเวลา เมื่อการสมัครสมาชิกต่ออายุสำเร็จแล้ว จะไม่สามารถขอคืนเงินได้ \n4.
+        วิธีการยกเลิกการสมัครสมาชิก \n (1) เปิด %1$s แล้วคลิกที่อวาตาร์ของคุณที่มุมขวาบน \n(2) คลิกที่
+        “การชำระเงินและการสมัครสมาชิก” จากนั้นคลิกที่ “การสมัครสมาชิก” \n(3) เลือกการสมัครสมาชิก ShortMax ของคุณ \n(4)
+        คลิกยกเลิกการสมัครสมาชิก
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">รองรับ 1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">ลบโฆษณา</string>
+    <string name="subscription_detail_activity_privilege_5_desc">ฟรีทั้งหมด</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">Rre–Roll ฟรี</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">เพลิดเพลินกับวิดีโอความคมชัดสูง</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">เพลิดเพลินกับประสบการณ์การรับชมอย่างแท้จริง
+    </string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIP สามารถรับชมละครทุกเรื่องได้ฟรี</string>
+    <string name="subscription_detail_activity_subs_success">สมัครสมาชิกสำเร็จ</string>
+    <string name="subscription_detail_activity_subs_update_success">การแก้ไขสมาชิกสำเร็จ</string>
+    <string name="subscription_day_bonus_claimed">%1$s ได้รับโบนัสอัตโนมัติ!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">สมัครสมาชิกเพื่อรับสิทธิประโยชน์พิเศษ</string>
+    <string name="subscription_detail_2_activity_subscribed">สมัครสมาชิกแล้ว:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">วันหมดอายุ:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">เรื่องโปรดของคุณกำลังเล่นอยู่</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">สะสม</string>
+    <string name="subs_type_view_total_earning_2">ทั้งหมด</string>
+    <string name="subs_type_view_get_now">(รับทันทีเลย)</string>
+    <string name="subs_type_view_first_recharge_tip">เติมเงินครั้งแรก</string>
+    <string name="subs_type_view_detail">รายละเอียด</string>
+    <string name="subs_type_view_disable_subs_tip">เนื่องจากการปฏิเสธการชำระเงินหลายครั้ง
+        บัญชีของคุณจึงไม่ได้รับอนุญาตให้ใช้ฟังก์ชันสมาชิก
+    </string>
+    <string name="subs_type_view_claim_bonus">(การเช็คอินทุกวัน)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(รับได้ตลอดเวลา)</string>
+    <string name="subs_type_view_per_week_new">%1$s/สัปดาห์</string>
+    <string name="subs_type_view_per_month_new">%1$s/เดือน</string>
+    <string name="subs_type_view_per_year_new">%1$s/ปี</string>
+    <string name="subs_type_view_renew_per_week">ต่ออายุ%1$s/สัปดาห์</string>
+    <string name="subs_type_view_renew_per_month">ต่ออายุ%1$s/เดือน</string>
+    <string name="subs_type_view_renew_per_year">ต่ออายุ %1$s/ปี</string>
+
+    <!--Language-->
+    <string name="language_app">ภาษาแอป</string>
+    <string name="language_en">อังกฤษ</string>
+    <string name="language_zh_simplified">จีนตัวย่อ</string>
+    <string name="language_zh_traditional">ภาษาไทย</string>
+    <string name="language_fil">ภาษาฟิลิปปินส์</string>
+    <string name="language_hi">ภาษาฮินดี</string>
+    <string name="language_in">ภาษาอินโดนีเซีย</string>
+    <string name="language_ja">ภาษาญี่ปุ่น</string>
+    <string name="language_ko">ภาษาเกาหลี</string>
+    <string name="language_th">ภาษาไทย</string>
+    <string name="language_ar">ภาษาอาหรับ</string>
+    <string name="language_es">ภาษาสเปน</string>
+    <string name="language_pt">ภาษาโปรตุเกส</string>
+    <string name="language_vi">ภาษาเวียดนาม</string>
+    <string name="language_de">เยอรมัน</string>
+    <string name="language_fr">ภาษาฝรั่งเศส</string>
+    <string name="language_ms">ภาษามาเลย์</string>
+    <string name="language_ru">ภาษารัสเซีย</string>
+    <string name="language_it">ภาษาอิตาลี</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">สิทธิ์ไม่ได้เข้าบัญชี?</string>
+    <string name="restore_tip_view_refresh">รีเฟรช</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">ขออภัย ไม่สามารถใช้สิทธิ์ของคุณได้ กรุณาคลิกเพื่อลองใหม่</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">รับชมเต็มเรื่อง</string>
+    <string name="shorts_fragment_current_episode_finished">ซีรี่ส์จบแล้ว</string>
+    <string name="shorts_fragment_current_episode_updating">ซีรี่ส์ที่กำลังอัปเดต</string>
+    <string name="shorts_fragment_next_episode_tip">เร็วๆ นี้&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">ชมล่วงหน้า</string>
+    <string name="shorts_fragment_trailer_in_production">อยู่ในระหว่างการผลิต คอยติดตาม!</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">ประวัติการค้นหา</string>
+    <string name="search_activity_popular_title">เทรนด์</string>
+    <string name="search_activity_no_result">ไม่สามารถดูเนื้อหาในขณะนี้</string>
+    <string name="search_activity_more_no_result">– สิ้นสุดแล้ว –</string>
+    <string name="search_activity_input_keyword_hint">ป้อนการค้นหา</string>
+    <string name="search_activity_clear_history_hint">คุณแน่ใจใช่ไหมว่าล้างประวัติการค้นหา</string>
+    <string name="search_activity_search_frequently_tips">ดำเนินการมากเกินไป โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="search_activity_redeem_code_disabled">ไม่มีแลกรับรหัส</string>
+    <string name="search_activity_redeem_code_delisted">ละครถูกลบไปแล้ว</string>
+    <string name="search_activity_redeem_code_overdue">รหัสแลกรับหมดอายุ</string>
+    <string name="search_activity_redeem_code_use_up">มาสาย หมดแล้ว</string>
+    <string name="search_activity_redeem_code_unsupported">โปรดอัปเกรดเวอร์ชันแอปพลิเคชันของคุณก่อน</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">คุณสามารถดูโฆษณาเพื่อปลดล็อกตอนในปัจจุบันได้ มาเลย!</string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">ชมดูวันนี้:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">ชมโฆษณา 1 รายการเพื่อปลดล็อก EP. %1$s</string>
+    <string name="ad_continue_dialog_fragment_cancel">ยืนยันออกจากระบบ</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">ชมโฆษณาอีก 1 รายการเพื่อปลดล็อก 1 ตอน</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">ปลดล็อก EP. %1$s แล้ว</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">ปลดล็อก EP. %1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">ชมโฆษณาอีก 1 รายการ</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">ชมโฆษณาเพื่อปลดล็อคตอนต่อไปได้ฟรี</string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">วันนี้ดูแล้ว (%1$s/%2$s)</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">สิทธิพิเศษสำหรับสมาชิกใหม่</string>
+    <string name="new_recommend_shorts_fragment_more_tip">รับได้เพียงครั้งเดียวเท่านั้น</string>
+    <string name="new_recommend_shorts_fragment_more">ดูเพิ่มเติม</string>
+    <string name="new_recommend_shorts_fragment_must_read">มือใหม่ต้องอ่าน</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">การสมัครรับ%1$s ของคุณหมดอายุแล้ว คุณไม่สามารถปลดล็อกตอนใดๆ ได้
+        คุณต้องการสมัครใช้บริการอีกครั้งหรือไม่
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">การแลกเปลี่ยนสำเร็จ</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">รับโบนัส</string>
+    <string name="redeem_code_dialog_fragment_received">ได้รับเเล้ว</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">ฟีเจอร์ [ภาพในภาพ] เปิดใช้งานแล้วนะคะ~</string>
+    <string name="play_episode_activity_pip_guide_content">ดูคลิปที่คุณชอบในมินิเพลเยอร์ขณะที่คุณเรียกดู
+        ง่ายขึ้นสำหรับการทำหลายงานพร้อมกัน!
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">เนื้อหาหายไปแล้ว~\nคุณสามารถกลับไปที่ [ค้นพบ]
+        เพื่อเรียกดูเนื้อหายอดนิยมอื่นๆ
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">กลับ</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">ทั้งหมด</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">เริ่มต้นทันที</string>
+    <string name="sign_in_reminder_fragment_content">
+        เปิดใช้งานการเตือนการลงชื่อเข้าใช้เพื่อลงชื่อเข้าใช้อย่างสำเร็จแบบย้อนหลัง, +%1$s โบนัส
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">การเซ็นชื่อเข้าใช้เพิ่มเติมสำเร็จ</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s โบนัส</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">ดูโฆษณาเพื่อลงชื่อเข้าใช้อย่างสำเร็จแบบย้อนหลังและได้รับ +%1$s
+        โบนัส
+    </string>
+    <string name="sign_in_watch_ad_fragment_btn">ดูโฆษณา (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">ซื้อแล้ว</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">เปิดใช้งานสิทธิ์เพื่อรับการแจ้งเตือนได้ทันท่วงที
+    </string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">เพลิดเพลินไปกับสิทธิพิเศษ</string>
+    <string name="rfm_guide_dialog_content">ราคาถูกกว่า แต่ส่วนลดมากขึ้น</string>
+    <string name="rfm_guide_dialog_btn">เติมเงินตอนนี้</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">เติมเงินล้มเหลว</string>
+    <string name="billing_unavailable_tip_dialog_content">การเชื่อมต่อเครือข่ายของคุณผิดปกติหรือบัญชี Google
+        ของคุณผิดปกติ ติดต่อฝ่ายบริการลูกค้าของเราเพื่อรายงานปัญหา
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">ตกลงแก้ไขสมาชิก</string>
+    <string name="subs_update_dialog_current_subs_title">สมาชิกปัจจุบัน</string>
+    <string name="subs_update_dialog_new_subs_title">สมัครสมาชิกใหม่</string>
+    <string name="subs_update_dialog_upgrade_content">การสมัครใหม่ของคุณจะมีผลทันที
+        และเวลาที่เหลือของการสมัครปัจจุบันของคุณจะถูกแปลงเป็นเวลาของการสมัครใหม่
+    </string>
+    <string name="subs_update_dialog_downgrade_content">การสมัครปัจจุบันของคุณจะหมดอายุในวันที่ %1$s เมื่อถึงเวลานั้น
+        การสมัครใหม่จะมีผล
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">จำกัด %1$s</string>
+    <string name="task_coin_view_completed">ภารกิจสำเร็จ\nได้รับโบนัสรวม %1$s</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">ชมซีรีส์</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">รับชมเพื่อรับโบนัส</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">โบนัสรวม %1$s</string>
+</resources>

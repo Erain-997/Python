@@ -1,0 +1,716 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">Hindi makakonekta sa server, pakisubukang muli sa ibang pagkakataon</string>
+    <string name="common_unknown_exception">Hindi kilalang eksepsyon</string>
+    <string name="common_login_expired">Nag–expire na ang iyong session. Mangyaring muling mag–log in.</string>
+    <string name="common_re_login">muling pag–login</string>
+    <string name="common_error_code">Error code: %1$s</string>
+    <string name="common_waiting">Naghihintay…</string>
+    <string name="common_retry">Subukan ulit</string>
+    <string name="common_no_more_data">Wala nang data</string>
+    <string name="common_data_empty">Walang laman dito.</string>
+    <string name="common_not_find_app_to_send_email">Walang nakitang app para magpadala ng email</string>
+    <string name="common_google_pay_not_support">Hindi sinusuportahan ng iyong kasalukuyang device ang pagbabayad sa
+        Google.
+    </string>
+    <string name="common_user_canceled">Kinansela ng user</string>
+    <string name="common_coins">%1$s Barya</string>
+    <string name="common_bonus">%1$s Bonus</string>
+    <string name="common_current_ep">Ep.%1$s</string>
+    <string name="common_total_ep">Ep%1$s</string>
+    <string name="common_delete">Burahin</string>
+    <string name="common_cancel">Kanselahin</string>
+    <string name="common_continue">Magpatuloy</string>
+    <string name="common_confirm">Kumpirmahin</string>
+    <string name="common_submit">Ipasa</string>
+    <string name="common_play_failed">Nabigo sa pag play</string>
+    <string name="common_server_error">Error sa server</string>
+    <string name="common_copy_success">Nakopya na</string>
+    <string name="common_duplicate_op_tip">Huwag ulitin ang mga operasyon</string>
+    <string name="common_later">Mamaya</string>
+    <string name="common_yes">Oo</string>
+    <string name="common_no">Hindi</string>
+    <string name="common_ok">Ayos</string>
+    <string name="common_allow">Payagan</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">Ang serye ay inalis mula sa mga istante</string>
+    <string name="common_recharge_not_supported">Hindi sinusuportahan ang recharge sa kasalukuyang bansa/rehiyon
+    </string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">Tuklasin</string>
+    <string name="main_activity_tab_shorts">Shorts</string>
+    <string name="main_activity_tab_my_list">Listahan</string>
+    <string name="main_activity_tab_profile">Profile</string>
+    <string name="main_activity_tab_reward">Mga premyo</string>
+    <string name="main_activity_tab_guide_tip_1">[ Mga premyo ] Ang pasukan ay inilipat na dito</string>
+    <string name="main_activity_tab_guide_tip_2">[ Listahan ] Ang pasukan ay inilipat na dito</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">Mag–play</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">Malapit na</string>
+    <string name="discover_fragment_reserve_succeed">Matagumpay ang Pagpapareserba, Hanapin ito sa Listahan</string>
+    <string name="discover_fragment_coming_soon_more">Higit pa</string>
+    <string name="discover_fragment_low_sku_template_notification_go">Tapusin</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">Aking Wallet</string>
+    <string name="profile_fragment_coins">Barya</string>
+    <string name="profile_fragment_bonus">Bonus</string>
+    <string name="profile_fragment_top_up">Top–up</string>
+    <string name="profile_fragment_rewards">Mga premyo</string>
+    <string name="profile_fragment_feedback">Komentaryo</string>
+    <string name="profile_fragment_language">Wika</string>
+    <string name="profile_fragment_settings">Setting</string>
+    <string name="profile_fragment_guest">Bisita %1$s</string>
+    <string name="profile_fragment_user">User %1$s</string>
+    <string name="profile_fragment_feedback_content">Paki–detalye ang inyong isyu sa ibaba upang matulungan kaming
+        maunawaan at malutas ang inyong problema. (Rerepasuhin namin ang inyong mga katanungan at sisikapin naming
+        tumugon sa inyo sa loob ng 3–7 araw ng trabaho.)\n\n\n Uri ng isyu (mangyaring piliin ang isyu sa function, isyu
+        sa pagbabayad, mungkahi sa feedback, iba): \n\n Kaugnay na impormasyon: \n UID (Huwag tanggalin): %1$s\n Bilang
+        ng bersyon ng App (Huwag tanggalin):%2$s\nOperating system at modelo ng device (Huwag
+        tanggalin):%3$s\nScreenshots o mga attachment (kung naaangkop):\n Payment issue – order number &amp; account ID
+        (required): \n
+    </string>
+    <string name="profile_fragment_login_tip">Mag–sign in at makakuha ng regalo!</string>
+    <string name="profile_fragment_reward_tip">Kumuha ng bonus</string>
+    <string name="profile_fragment_reward_tip1">Libreng Drama</string>
+    <string name="profile_fragment_reward_tip2">Kumuha %1$s Bonus</string>
+
+    <string name="profile_fragment_official_social_media">Opisyal na Media</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">Patakaran sa Privacy</string>
+    <string name="settings_fragment_user_agreement">Kasunduan ng gumagamit</string>
+    <string name="settings_fragment_delete_account">Burahin ang Account</string>
+    <string name="settings_fragment_logout">Mag–log out</string>
+    <string name="settings_fragment_version">Bersyon %1$s</string>
+    <string name="settings_fragment_personal">Personal</string>
+    <string name="settings_fragment_account_info">Akawnt Info</string>
+    <string name="settings_fragment_else">At iba pa</string>
+    <string name="settings_fragment_permissions">Pribilehiyo</string>
+    <string name="settings_fragment_automatic_episode_unlock">Awtomatikong i–unlock Episode</string>
+    <string name="settings_fragment_fsi_permission">Buong screen na notification</string>
+    <string name="settings_fragment_pip_mode">Picture–in–picture mode</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">Setting ng Wika</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">Mag login sa %1$s</string>
+    <string name="login_activity_desc">Minamahal na user, ang pag–log in sa account ay para mas maprotektahan ang iyong
+        mga asset at mga tala sa pagtingin. Hindi namin iimbak ang iyong impormasyon, mangyaring makatitiyak na mag–log
+        in!
+    </string>
+    <string name="login_activity_policy">Patuloy na magpahayag ng pagsang–ayon sa\n %1$s at %2$s.</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">Tandaan</string>
+    <string name="delete_account_fragment_desc">Minamahal na mga user, mabilis na paalala: Kung buburahin mo ang iyong
+        account, mapapalampas mo ang mga mas kapana–panabik na palabas at hindi mo na makukuha muli ang iyong
+        data（Kabilang ang anumang ari–arian tulad ng mga barya, bonus, atbp）. Sigurado ka bang gusto mong burahin ito?
+        Kung mayroon kang anumang mga problema, maaari kang makipag–ugnay sa amin, hindi namin nais na umalis ka ng
+        ganito! Salamat sa mga alaalang nabuo natin!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">Ang Recharge ay nangangahulugang pagsang–ayon sa %1$s</string>
+    <string name="top_up_fragment_recharge_agreement">Kasunduan ng Recharge</string>
+    <string name="top_up_fragment_recharge_success">Matagumpay na nai–reload</string>
+    <string name="top_up_fragment_restore">Ibalik</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">Walang maibabalik na nabili</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">Ang iyong nabiling mga barya noon ay matagumpay na
+        napunan.
+    </string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">Ang iyong subkripsyong pangkarapatan ay dumating na.
+    </string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">Ang iyong biniling subkripsyong pangkarapatan at
+        mga barya ay na–kredito na lahat.
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">Ang seryeng iyong binili ay na–unlock na,
+        pakitignan sa &lt;%1$s – %2$s&gt;
+    </string>
+    <string name="top_up_fragment_desc_title">ilarawan</string>
+    <string name="top_up_fragment_desc_content">1.Pag–unlock ng Bayad na Nilalaman: Ang mga gintong barya at bonus ay
+        para sa pag–unlock ng bayad na nilalaman sa loob ng application.\n2. Recharge Equivalency: 1 Coin=1 Bonus.
+        Pakitandaan na ang mga refund ay hindi sinusuportahan para sa recharging.\n3.Bonus Expiration: Ang mga bonus ay
+        mawawalan ng bisa pagkatapos ng isang tinukoy na panahon. Pakisuri ang oras ng pag–expire ng iyong mga bonus sa
+        seksyong \"Aking Wallet\" ng app.
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">Presyo:</string>
+    <string name="unlock_episode_dialog_fragment_balance">Balanse:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">Tindahan ng Barya</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">Panoorin ang ad</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">Manood ng ads para sa libreng %1$s unlocks</string>
+    <string name="unlock_episode_dialog_fragment_unlock">I–unlock</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">Eksklusibo na benepisyo, mas makatipid
+        sa pagtop–up
+    </string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">I–unlock mula sa kasalukuyang episode</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">I–unlock ang %1$sEP</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">I–unlock ang lahat ng EP</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">%1$s na mga episode ang na–unlock sa mga batch
+    </string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">I–unlock ang ad</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">Manood ng mga ad para ma–unlock %1$s/%2$s
+    </string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">Libreng I–unlock</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">Ang Aking Koleksyon</string>
+    <string name="my_list_fragment_recently_watched">Kamakailan Lamang Pinanood</string>
+    <string name="my_list_fragment_empty_desc">Pumunta sa home upang makahanap ng mga sikat na bagong drama.</string>
+    <string name="my_list_fragment_select_all">Piliin Lahat</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">Pakiusap, tanggalin munua ang piniling drama</string>
+    <string name="my_list_fragment_delete_tip">Kumpirmahing burahin ang kasalukuyang pinili?</string>
+    <string name="my_list_fragment_home">Home</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">Listahan</string>
+    <string name="shorts_fragment_share">Ibahagi</string>
+    <string name="shorts_fragment_more">Higit pa</string>
+    <string name="shorts_fragment_less">Pakontiin</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">I–update sa Ep %1$s / ng Ep %2$s</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">Mangyaring i–unlock muna ang nakaraang
+        episode
+    </string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">Panoorin Ngayon</string>
+    <string name="notification_free">Libre</string>
+    <string name="notification_check_in_button">Kunin na ngayon</string>
+    <string name="notification_daemon_title_1">🥳 Maligayang pagdating sa ShortMax!</string>
+    <string name="notification_daemon_content_1">💕I–click upang pumasokhigit pang kahanga–hangang nilalaman ay
+        naghihintay sa iyo!
+    </string>
+    <string name="notification_daemon_title_2">Maligayang pagdating sa ShortMax</string>
+    <string name="notification_daemon_content_2">Mga pinapanood ng ibang tao</string>
+    <string name="notification_enter_now">Pumasok ngayon</string>
+    <string name="notification_go_now">Umalis na</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">Ang Iyong Bonus:</string>
+    <string name="rewards_activity_check_in_title">Araw–araw na check–in</string>
+    <string name="rewards_activity_check_in_desc">Mag check–in para kumita ng premyo.</string>
+    <string name="rewards_activity_check_in">Check–in</string>
+    <string name="rewards_activity_check_in_day">Araw %1$s</string>
+    <string name="rewards_activity_watch_ad_title">Panoorin and mga ads, kumita ng bonuss</string>
+    <string name="rewards_activity_watch_ad_desc">Panoorin ang lahat ng mga ads, at makakuha ng karagdagang %1$s
+    </string>
+    <string name="rewards_activity_watch_all_ads_desc">Nakuha na %1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s bonus</string>
+    <string name="rewards_activity_watch_ad_get">Makakuha</string>
+    <string name="rewards_activity_watch_ad_double_rewards">Dobleng rewards</string>
+    <string name="rewards_activity_get_double_rewards">Kumuha ng mga gantimpala</string>
+    <string name="rewards_activity_description_title">Paglalarawan</string>
+    <string name="rewards_activity_description_value">1. Lahat ng mga karapatan sa interpretasyon ng Bonus ay nauukol sa
+        ShortMax.\n2. Ang Bonus ay maaaring gamitin lamang sa panonood ng mga drama, may bisa ito nang 10 araw, at
+        awtomatikong mawawalan ng bisa at maliquidate matapos ang pagkawalang bisa.\n3. Unahin ang paggamit ng mga Barya
+        kapag nanonood ng mga drama, at kung hindi sapat, awtomatikong gagamitin ang Bonus.\n4. Ang sign–in ay
+        nagre–refresh tuwing gabi sa 0 AM (UTC+0).
+    </string>
+    <string name="rewards_activity_go">Tapusin</string>
+    <string name="rewards_activity_accept_task_reward_tip">Binabati kita! Bonus +%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">Nai–unlock na para sa iyo ang episode %1$s</string>
+    <string name="play_episode_activity_update_speed_tip">Lumipat sa %1$s beses na pag–playback</string>
+    <string name="play_episode_activity_speed_playing">%1$sx na bilis ng pag–playback</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$sx</string>
+    <string name="play_episode_activity_resolution_auto">Auto</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">Nabigo ang pag–load, lumipat sa %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">Naglo–load, mangyaring maghintay…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">Pinili ang pinakamagandang kalidad
+        para sa mabagal na network.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">Mabagal na naglo–load ang video. I–click
+        upang ilipat ang kalidad.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">ilipat ang kalidad</string>
+    <string name="play_episode_activity_switch_resolution_tip">lumipat sa 1080p</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">Lumipat sa %1$sp</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">Matagumpay na nailipat sa awtomatiko</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">Lumipat sa awtomatiko</string>
+    <string name="play_episode_activity_progress_adjust">Progreso ng pagsasaayos</string>
+    <string name="play_episode_activity_unlock_now">I–unlock ngayon</string>
+    <string name="play_episode_activity_switch_resolution_failed">Nabigo ang paglipat, orihinal na resolution na
+        retain
+    </string>
+    <string name="play_episode_activity_swipe_to_watch">Sliding Swap</string>
+    <string name="play_episode_collect_tips_1">Gusto mo? Kunin mo to!</string>
+    <string name="play_episode_collect_tips_2">Nadagdag sa listahan mo</string>
+    <string name="play_episode_collect_tips_3">Nasa listahan mo na ang serye</string>
+    <string name="play_episode_activity_discount_unlock_tips">Mangyaring tingnan ito sa [%1$s–%2$s]</string>
+    <string name="immersion_activity_purchase_all_episode">Bumili ng kumpletong serye</string>
+    <string name="immersion_activity_free_clarity_1080p">Limitadong exemption</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">Bilis ng Playback</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">Kalidad</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">Binabati kita!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">Doble ang gantimpala\n sa panonood ng ads.</string>
+    <string name="check_in_result_dialog_fragment_watch_now">Panoorin Ngayon</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">manood ng drama para makakuha ng Bonus</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Kumuha ng %1$s na bonus sa Facebook login</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Kumuha ng %1$s na bonus sa Google login</string>
+    <string name="facebook_login_dialog_fragment_huge">Malaking</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">Maglagay ng numero</string>
+    <string name="phone_auth_fragment_hint_verification_code">Beripikasyong code</string>
+    <string name="phone_auth_fragment_get">Kumuha ng code</string>
+    <string name="phone_auth_fragment_resend">Ipadala muli ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">Maligayang pagdating,\npaki beripikahin ang iyong numero sa telepono
+    </string>
+    <string name="phone_auth_fragment_check_content">Mangyaring suriin ang nilalaman ng iyong nilagay!</string>
+    <string name="phone_auth_fragment_succeed">Ang iyong numero ng telepono ay matagumpay na naiberipekado.</string>
+    <string name="phone_auth_fragment_invalid_area_code">Pakilagay ang tamang area code</string>
+    <string name="phone_auth_fragment_network_error">Pakisuri ang katayuan ng iyong linya</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">Maligayang pagdating,\npaki beripikahin ang iyong email address</string>
+    <string name="email_auth_fragment_hint_email_address">Ilagay ang email address</string>
+    <string name="email_auth_fragment_check_content">Mangyaring suriin ang nilalaman ng iyong nilagay!</string>
+    <string name="email_auth_fragment_succeed">Matagumpay na naberipikado ang iyong email.</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">Baka Gusto Mo</string>
+    <string name="immersion_back_fragment_button_play">Play</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">Pumili ng rehiyon</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">Aklatan</string>
+    <string name="library_activity_label_all">Iahat</string>
+    <string name="library_activity_label_male">Lalaki</string>
+    <string name="library_activity_label_female">Babae</string>
+    <string name="library_activity_label_limit">Ang napiling nilalaman ay hindi maaaring lumampas sa 5</string>
+    <string name="library_activity_empty_text">Paumanhin, walang nauugnay na mga video ang na–filter</string>
+    <string name="library_fragment_title">Salain</string>
+    <string name="library_fragment_interest">Interes</string>
+    <string name="library_fragment_type">Uri</string>
+    <string name="library_fragment_reset">Reset</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax Mainit</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">Email</string>
+    <string name="bind_info_fragment_phone">Telepono</string>
+    <string name="bind_info_fragment_unbound">Hindi nakakonekta</string>
+    <string name="bind_info_fragment_bind">Nakakonekta na</string>
+
+    <!-- AD-->
+    <string name="ad_loading">Naglo–load ang ads</string>
+    <string name="ad_interstitial_remove_ad_by_payment">Maari mong tanggaling ang mga ads sa pamamagitan ng pagbabayan
+        para sa mas magandang karanasan sa panonood.
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">Makakuha ng %1$s na bonus</string>
+    <string name="notification_permission_dialog_des">Buksan ang mga pahintulot sa abiso at makakuha ng mga bonus
+    </string>
+    <string name="notification_permission_dialog_receive">Tanggapin</string>
+    <string name="notification_permission_dialog_choose_title">Piliin ang uri ng mga abiso na gusto mong matanggap
+    </string>
+    <string name="notification_permission_dialog_choose_turn_on">Buksan</string>
+    <string name="notification_permission_dialog_granted">Nakatanggap ng %1$s Bonus</string>
+    <string name="notification_permission_dialog_choose_item_0">Libreng mga bagong episode</string>
+    <string name="notification_permission_dialog_choose_item_1">Mga update sa kasalukuyang episode</string>
+    <string name="notification_permission_dialog_choose_item_2">Araw–araw na paalala sa check–in</string>
+    <string name="notification_permission_dialog_choose_item_3">Bagong drama online</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">Malaking halaga na pamigay</string>
+    <string name="sku_expansion_dialog_fragment_count_down">Mawalan ng bisa %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">Upang protektahan ang iyong ari–arian, mangyaring mag–log in
+        sa inyong account upang maiwasan and pagkawala ng impormasyon.
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">protektahan ang iyong ari–arian</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">Mag–log in</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">Nagustuhan mo ba ang ShortMax?</string>
+    <string name="rating_dialog_desc">Mangyaring bigyan kami ng 5 stars para sa suporta! Ang iyong paghihikayat ay aming
+        puwersang nagtutulak upang lumikha ng isang kalidad na karanasan sa serbisyo.
+    </string>
+    <string name="rating_dialog_desc_key_word">5 stars</string>
+    <string name="rating_dialog_rating_success_tip">Salamat sa iyong pagsusuri</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">May bagong bersyon</string>
+    <string name="update_dialog_now">I–update ngayon</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">Na–upload ng user/gumagamit, paki–ulat!</string>
+    <string name="report_dialog_uploaded_by_users_des">Ang nilalaman ng programang ay na–upload ng user/gumagamit.
+        Mangyaring iulat kaagad ang anumang mga isyu sa copyright.
+    </string>
+    <string name="report_dialog_report">Iulat</string>
+    <string name="report_dialog_drama_upload">I–upload ang drama/episodes</string>
+    <string name="report_dialog_upload_drama">I–upload ang drama/episodes</string>
+    <string name="report_dialog_add_cover">Magdagdag ng Cover</string>
+    <string name="report_dialog_your_drama_and_win_coins">I–upload ang iyong drama at manalo ng mga barya</string>
+    <string name="report_dialog_drama_cover">Takip ng Drama</string>
+    <string name="report_dialog_drama_name">Pangalan ng Drama</string>
+    <string name="report_dialog_drama_name_hint">Ilagay ang pangalan ng drama</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">Iyong Email</string>
+    <string name="report_dialog_your_email_hint">Pagkatapos matanggap ang serye, makikipag–ugnayan kami sa iyo</string>
+    <string name="report_dialog_upload_video">I–upload ang video</string>
+    <string name="report_dialog_apply">I–apply</string>
+    <string name="report_dialog_under_review">Nasa ilalim ng pagsusuri</string>
+    <string name="report_dialog_report_succeed">ulat ng tagumpay</string>
+    <string name="report_dialog_re_upload">Muling Mag–upload</string>
+    <string name="report_dialog_upload_permission">kailangan ng pahintulot na Mag–upload ng Drama</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">Aking Wallet</string>
+    <string name="my_wallet_fragment_empty_record">Walang Record Sa Ngayon</string>
+    <string name="my_wallet_fragment_discount">Diskwento</string>
+    <string name="my_wallet_fragment_coins_record">Talaan ng barya</string>
+    <string name="my_wallet_fragment_bonus_record">Rekord ng Bonus</string>
+    <string name="my_wallet_fragment_unused">Hindi nagamit</string>
+    <string name="my_wallet_fragment_used">Ginamit</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s Laktawan</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">Maligayang pagdating sa ShortMax</string>
+    <string name="home_login_guide_dialog_button">Tanggapin</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ Sandali lang, sigurado ka bang gusto mong mag–log out sa account?</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ Sa pamamagitan ng pananatiling naka–log in, maaari mong:</string>
+    <string name="logout_tip_dialog_desc_2">Kunin ang aming pinakabagong mga rekomendasyon sa oras.</string>
+    <string name="logout_tip_dialog_desc_3">Maginhawang tangkilikin ang personalized na nilalaman.</string>
+    <string name="logout_tip_dialog_desc_4">I–save ang iyong mga tala sa paggamit, na maginhawa para sa pagbabasa o
+        panonood sa susunod.
+    </string>
+    <string name="logout_tip_dialog_reconsider">Pag–isipang muli</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗Natukoy na maraming account ang umiiral sa device na ito.</string>
+    <string name="merge_tourist_dialog_content">Gusto mo bang i–synchronize ang impormasyon ng asset at mga talaan ng
+        pagtingin sa mga makasaysayang account sa kasalukuyang account?
+    </string>
+    <string name="merge_tourist_dialog_processing">Pinoproseso…</string>
+    <string name="merge_tourist_dialog_succeed_title">Bigyan ka ng %1$s Bonus</string>
+    <string name="merge_tourist_dialog_succeed_content">Naibalik na ang property at mga talaan ng panonood ng pelikula
+        ng iyong makasaysayang account.
+    </string>
+    <string name="merge_tourist_dialog_failed">Maraming account ang natukoy upang maiwasan ang pagkawala ng ari–arian.
+        Pakisubukang muli.
+    </string>
+    <string name="merge_tourist_dialog_retry">Subukan muli</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">Ang pagtanggi sa awtorisasyon ay magpapahirap na humiling ng Mga Ad at
+        makakaapekto sa panonood ng serye. Mangyaring siguraduhin na pahintulutan sa sususnod na pagkakataon.
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬 Manood ng malaking kahalumigmigan ng drama nang libre!</string>
+    <string name="push_check_in_title_1">👇I–click upang matanggap ang \"benepisyo\"</string>
+    <string name="push_check_in_title_2">Pumasok ka na ba ngayong araw? 💕</string>
+    <string name="push_check_in_title_3">Manood ng drama araw–araw, happy all day🎉</string>
+    <string name="push_check_in_title_4">Ang limitadong oras na benepisyo na hindi mo dapat palampasin🎁</string>
+    <string name="push_check_in_title_new_0">Araw–araw may bonus sa pag–sign in</string>
+    <string name="push_check_in_title_new_1">Mag–sign in at kumita ng mga rewards</string>
+    <string name="push_check_in_title_new_2">Kumita ng bonus sa pag–sign in</string>
+    <string name="push_check_in_title_new_3">Gusto mo bang makakuha ng libreng pag–unlock sa mga serye?</string>
+    <string name="push_check_in_title_new_4">Madali lang kumita sa pamamagitan ng pag–sign in</string>
+    <string name="push_check_in_contents_0">Hindi kailangan gumastos ng pera para manood ng drama💰, mag–log in para
+        makakuha ng libreng tiket para manood ng pelikula
+    </string>
+    <string name="push_check_in_contents_1">🎉 Nakakagulat na benepisyo! Mag–sign in nang sunud–sunod at kumuha ng
+        libreng mga tiket para sa pelikula!
+    </string>
+    <string name="push_check_in_contents_2">🍿 Simulan ang iyong patuloy na journey sa pag–sign in at manood ng mga
+        pelikula nang libre!
+    </string>
+    <string name="push_check_in_contents_3">🎁 Mag–sign in nang sunud–sunod, huwag palampasin ang pagkakataon na manood
+        ng mga pelikula nang libre
+    </string>
+    <string name="push_check_in_contents_4">Ang mga benepisyo ng limitadong oras ng pag–sign in ay malawakang
+        ibinibigay! Halina at sumama! 🎬
+    </string>
+    <string name="push_check_in_contents_new_0">Huwag palampasin!</string>
+    <string name="push_check_in_contents_new_1">Araw–araw may regalo, pumunta na at mag–sign in!</string>
+    <string name="push_check_in_contents_new_2">Mag–sign in na at kunin ang iyong araw–araw na reward!</string>
+    <string name="push_check_in_contents_new_3">Pumunta na at mag–sign in!</string>
+    <string name="push_check_in_contents_new_4">Araw–araw mayroong paandar, pumunta na at kumita ng mga rewards!
+    </string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">Subskripsyon</string>
+    <string name="profile_subscription_view_default_content">Manood ng higit pang mga episode</string>
+    <string name="profile_subscription_view_unsubscribed">Mag–subscribe Na</string>
+    <string name="profile_subscription_view_subscribed">Naka–subscribe</string>
+    <string name="profile_subscription_view_weekly_card">Lingguhang Subskripsyon</string>
+    <string name="profile_subscription_view_monthly_card">Buwanang Subskripsyon</string>
+    <string name="profile_subscription_view_annual_card">Taunang Subskripsyon</string>
+    <string name="profile_subscription_view_weekly_pro_card">Lingguhang Pass Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">Buwanang Pass Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">Taunang Pass Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">I–unlock ang lahat ng serye sa loob ng isang linggo
+    </string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">I–unlock ang lahat ng serye sa loob ng isang buwan
+    </string>
+    <string name="profile_subscription_view_annual_pro_card_desc">I–unlock ang lahat ng serye sa loob ng isang buong
+        taon
+    </string>
+    <string name="profile_subscription_view_expire_time">Pag–expire:%1$s</string>
+    <string name="profile_subscription_view_unsupport_product">Hindi maipakita, paki–update ang bersyon</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">Premium</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s Pribilehiyo</string>
+    <string name="subscription_detail_activity_desc_title">Tungkol sa subskripsyon</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1.Paglalarawan ng Subscription\n (1) Ang subscription
+        function ay para lamang mapahusay ang karanasan sa paggamit ng APP, at hindi ito makakaapekto sa normal na
+        paggamit ng APP kung naka–subscribe man o hindi. \n2.Paliwanag ng Mga Benepisyo\n (1) Pagkatapos bumili ng
+        Lingguhang PRO/Buwanang PRO, mapapanood mo ang anumang mga episode nang walang anumang limitasyon. \n(2) Walang
+        ad: Pagkatapos ng pag–unlock, hindi na ipapakita ang ibang uri ng mga ad maliban sa mga insentibong ad. \n(3)
+        1080P Resolution: Sinusuportahan ng pag–playback ng video ang pagpili ng 1080P resolution. \n3.Tungkol sa
+        Auto–Renewal\n (1) Ang subscription ay awtomatikong mare–renew 24 na oras bago ang petsa ng pag–expire, maaari
+        mong kanselahin ang auto–renewal anumang oras. Kapag ang subscription ay matagumpay na na–renew, walang refund
+        na posible. \n4. Paano kanselahin ang iyong subscription \n (1) Buksan ang %1$s at mag–click sa iyong avatar sa
+        kanang sulok sa itaas. \n(2) Mag–click sa "Pagbabayad at Subscription", pagkatapos ay mag–click sa
+        "Subscription". \n(3) Piliin ang iyong subscription sa ShortMax. \n(4) I–click ang Kanselahin ang Subscription.
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">Suportahan ang 1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">Pumunta sa Mga Ad</string>
+    <string name="subscription_detail_activity_privilege_5_desc">Libre lahat</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">Lahat ay libre</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">Masiyahan sa mga High–Definition na Video</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">Mag–enjoy sa Pure Viewing Experience</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">Maaaring masiyahan ang VIP sa lahat ng libreng
+        Drama
+    </string>
+    <string name="subscription_detail_activity_subs_success">Matagumpay ang subskripsyon</string>
+    <string name="subscription_detail_activity_subs_update_success">Matagumpay na nabago ang bagong subscription
+    </string>
+    <string name="subscription_day_bonus_claimed">%1$s ang bonus ay awtomatikong nakuha!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">Sumuskribi para sa mga eksklusibong benepisyo</string>
+    <string name="subscription_detail_2_activity_subscribed">Naka–subscribe:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">Petsa ng Pag–expire：%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">Ang paborito mong drama ay ipinapalabas na para sa iyo</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">Kabuuan</string>
+    <string name="subs_type_view_total_earning_2">Kabuuan</string>
+    <string name="subs_type_view_get_now">(Makuha agad)</string>
+    <string name="subs_type_view_first_recharge_tip">Unang recharge na diskwento</string>
+    <string name="subs_type_view_detail">Mga detalye</string>
+    <string name="subs_type_view_disable_subs_tip">Dahil sa maraming chargeback, na–ban ang iyong account sa paggamit ng
+        tungkulin ng subskripsyon
+    </string>
+    <string name="subs_type_view_claim_bonus">(Daily Check–in)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(Kunin ito anumang oras)</string>
+    <string name="subs_type_view_per_week_new">%1$s/Linggo</string>
+    <string name="subs_type_view_per_month_new">%1$s/Buwan</string>
+    <string name="subs_type_view_per_year_new">%1$s/Taon</string>
+    <string name="subs_type_view_renew_per_week">Pag–renew%1$s/Linggo</string>
+    <string name="subs_type_view_renew_per_month">Pag–renew%1$s/Buwan</string>
+    <string name="subs_type_view_renew_per_year">Pag–renew%1$s/Taon</string>
+
+    <!--Language-->
+    <string name="language_app">App na Wika</string>
+    <string name="language_en">Ingles</string>
+    <string name="language_zh_simplified">Chinese (Pinasimple)</string>
+    <string name="language_zh_traditional">Tsino (Tradisyunal)</string>
+    <string name="language_fil">Filipino</string>
+    <string name="language_hi">Hindi</string>
+    <string name="language_in">Indonesia</string>
+    <string name="language_ja">Hapones</string>
+    <string name="language_ko">Koreano</string>
+    <string name="language_th">Thailand</string>
+    <string name="language_ar">Arabic</string>
+    <string name="language_es">Espanyol</string>
+    <string name="language_pt">Portuges</string>
+    <string name="language_vi">Vietnamese</string>
+    <string name="language_de">Aleman</string>
+    <string name="language_fr">Pranses</string>
+    <string name="language_ms">Malaysian</string>
+    <string name="language_ru">Ruso</string>
+    <string name="language_it">Italiyano</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">Hindi pa natatanggap ang Karapatan?</string>
+    <string name="restore_tip_view_refresh">Refresh</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">Paumanhin~ Hindi kami nagtagumpay na makuha ang iyong mga benepisyo,
+        pakipindot upang subukang muli.
+    </string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">Panoorin ang buong episode</string>
+    <string name="shorts_fragment_current_episode_finished">Tapos na ang Palabas</string>
+    <string name="shorts_fragment_current_episode_updating">Nag–a–update ang Palabas</string>
+    <string name="shorts_fragment_next_episode_tip">Malapit na&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">Trailer</string>
+    <string name="shorts_fragment_trailer_in_production">Paggawa ng Full–length na Pelikula, Abangan!</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">Kasaysayan ng paghahanap</string>
+    <string name="search_activity_popular_title">Lahat ay naghahanap</string>
+    <string name="search_activity_no_result">Wala pang kaugnay na nilalaman</string>
+    <string name="search_activity_more_no_result">– Ito na ang dulo –</string>
+    <string name="search_activity_input_keyword_hint">Isulat ang nilalaman ng hinahanap</string>
+    <string name="search_activity_clear_history_hint">Sigurado ka bang gusto mong burahin ang tala sa kasaysayan ng
+        paghahanap?
+    </string>
+    <string name="search_activity_search_frequently_tips">Ang paghahanap ay madalas, subukan ulit mamaya.</string>
+    <string name="search_activity_redeem_code_disabled">Wala ang redemption code</string>
+    <string name="search_activity_redeem_code_delisted">Tinanggal na ang drama</string>
+    <string name="search_activity_redeem_code_overdue">Nag–expire na ang redemption code.</string>
+    <string name="search_activity_redeem_code_use_up">Nahuli ako. Tapos na ang pagkolekta.</string>
+    <string name="search_activity_redeem_code_unsupported">Mangyaring i–upgrade muna ang iyong bersyon ng application
+    </string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">Maaari kang manood ng ads para ma–unlock ang kasalukuyang
+        episode, Subukan mo na!
+    </string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">Napanood Ngayon:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">Manood ng 1 ad upang i–unlock Ep. %1$s</string>
+    <string name="ad_continue_dialog_fragment_cancel">Patuloy na paglabas</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">Manood ng 1 pang ad para ma–unlock ang 1 episode</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">Na–unlock Ep. %1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">I–unlock Ep. %1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">Manood ng 1 pang ad</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">Manood ng mga ads upang ma–unlock ang susunod na episode nang
+        libre
+    </string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">Napanood na ngayong araw (%1$s/%2$s)
+    </string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">Bagong Dating</string>
+    <string name="new_recommend_shorts_fragment_more_tip">Ang bawat produkto ay maaari lamang ma–claim ng isang beses
+    </string>
+    <string name="new_recommend_shorts_fragment_more">Higit Pa</string>
+    <string name="new_recommend_shorts_fragment_must_read">Kailangan Basahin ng mga Baguhan</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">Ang iyong subscription sa %1$s ay nag–expire na at hindi mo
+        mai–unlock ang anumang mga episode Gusto mo bang muling mag–subscribe?
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">Matagumpay na napalitan</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">Tanggapin ang mga benepisyo</string>
+    <string name="redeem_code_dialog_fragment_received">Natanggap</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">Ang tampok na [Picture–in–Picture] ay live na ngayon!</string>
+    <string name="play_episode_activity_pip_guide_content">Manood ng iyong paboritong clips sa isang mini player habang
+        nagba–browse. Pinadali ang multi–tasking!
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">Nawala ang nilalaman~\nMaaari kang bumalik sa [Tuklasin] upang
+        mag–browse ng iba pang sikat na nilalaman.
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">Bumalik</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">lahat</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">Simulan Na</string>
+    <string name="sign_in_reminder_fragment_content">I–on ang paalala sa pag–sign in para matagumpay na makapag–sign in
+        nang retroactive, +%1$s Bonus
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">Matagumpay ang paghahabol ng sign–in</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s Bonus</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">Panoorin ang isang ad upang matagumpay na mag–sign in nang
+        retroactive at kumita ng +%1$s Bonus
+    </string>
+    <string name="sign_in_watch_ad_fragment_btn">Panoorin ang ad (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">Nabili na</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">I–activate ang mga pahintulot upang makatanggap ng mga
+        napapanahong notification.
+    </string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">Tangkilikin ang mga pribilehiyo</string>
+    <string name="rfm_guide_dialog_content">Mas mababang presyo, mas maraming diskwento</string>
+    <string name="rfm_guide_dialog_btn">Mag–recharge ngayon</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">Nabigo ang pag–recharge</string>
+    <string name="billing_unavailable_tip_dialog_content">Abnormal ang iyong koneksyon sa network o abnormal ang iyong
+        Google account. Maaari kang makipag–ugnayan sa aming serbisyo sa customer upang iulat ang problema.
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">OK na baguhin ang subscription</string>
+    <string name="subs_update_dialog_current_subs_title">Kasalukuyang Suskripsyon</string>
+    <string name="subs_update_dialog_new_subs_title">Bagong Subscription</string>
+    <string name="subs_update_dialog_upgrade_content">Ang iyong bagong subscription ay magkakabisa kaagad, at ang
+        natitirang oras ng iyong kasalukuyang subscription ay mako–convert sa oras ng bagong subscription.
+    </string>
+    <string name="subs_update_dialog_downgrade_content">Mag–e–expire ang iyong kasalukuyang subscription sa %1$s, kung
+        kailan magkakabisa ang bagong subscription.
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">Limitado %1$s</string>
+    <string name="task_coin_view_completed">Natapos ang misyon\nKabuuang reward /gantimpala na nakuha %1$s</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">Manood ng mga Drama</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">Manood ng Drama para makakuha
+        ng bonus
+    </string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">Kabuuang %1$s na Bonus</string>
+</resources>

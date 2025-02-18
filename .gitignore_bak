@@ -1,0 +1,33 @@
+# Environments
+.env
+.venv
+.vscode
+.idea
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__
+.pytest_cache
+report_output*/
+screenshots*/
+
+# Projects
+.project_tools
+*.apk
+*.log
+*.exe
+*.bat
+.exe.spec
+.gitkeep
+short_tv/devices.json
+
+# Output
+*.mp4
+*.html
+*.DS_Store
+*.zip
+*.yaml
+build/
+cache/

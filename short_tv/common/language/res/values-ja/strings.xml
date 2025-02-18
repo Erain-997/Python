@@ -1,0 +1,663 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">サーバーに接続できません、後でもう一度試してください</string>
+    <string name="common_unknown_exception">不明な異常</string>
+    <string name="common_login_expired">セッションの有効期限が切れました。再ログインしてください。</string>
+    <string name="common_re_login">再ログイン</string>
+    <string name="common_error_code">エラーコード: %1$s</string>
+    <string name="common_waiting">待っています…</string>
+    <string name="common_retry">もう一度お試しください</string>
+    <string name="common_no_more_data">もうデータはありません</string>
+    <string name="common_data_empty">何もありません</string>
+    <string name="common_not_find_app_to_send_email">メールを送信するアプリが見つかりませんでした</string>
+    <string name="common_google_pay_not_support">現在のデバイスは Google 支払いをサポートしていません。</string>
+    <string name="common_user_canceled">ユーザーによりキャンセルされました</string>
+    <string name="common_coins">%1$s コイン</string>
+    <string name="common_bonus">%1$s ボーナス</string>
+    <string name="common_current_ep">第%1$s話</string>
+    <string name="common_total_ep">%1$s話</string>
+    <string name="common_delete">削除</string>
+    <string name="common_cancel">キャンセル</string>
+    <string name="common_continue">続ける</string>
+    <string name="common_confirm">確認</string>
+    <string name="common_submit">提出</string>
+    <string name="common_play_failed">再生に失敗しました</string>
+    <string name="common_server_error">サーバーエラー</string>
+    <string name="common_copy_success">コピー済み</string>
+    <string name="common_duplicate_op_tip">操作を繰り返さないでください</string>
+    <string name="common_later">あとで</string>
+    <string name="common_yes">はい</string>
+    <string name="common_no">いいえ</string>
+    <string name="common_ok">オーケー</string>
+    <string name="common_allow">許可する</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">ドラマが削除された</string>
+    <string name="common_recharge_not_supported">トップアップは現在の国/地域では対応されていない</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">ディスカバー</string>
+    <string name="main_activity_tab_shorts">ミニドラマ</string>
+    <string name="main_activity_tab_my_list">マイリスト</string>
+    <string name="main_activity_tab_profile">プロフィール</string>
+    <string name="main_activity_tab_reward">報酬</string>
+    <string name="main_activity_tab_guide_tip_1">[ リワード ] 入口はここに移動しました</string>
+    <string name="main_activity_tab_guide_tip_2">[ マイリスト ] 入口はここに移動しました</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">今すぐ再生</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">お楽しみに</string>
+    <string name="discover_fragment_reserve_succeed">予約が完了しました。マイリストから検索してください</string>
+    <string name="discover_fragment_coming_soon_more">もっと見る</string>
+    <string name="discover_fragment_low_sku_template_notification_go">今すぐ購入</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">マイウォレット</string>
+    <string name="profile_fragment_coins">コイン</string>
+    <string name="profile_fragment_bonus">ボーナス</string>
+    <string name="profile_fragment_top_up">チャージする</string>
+    <string name="profile_fragment_rewards">リワード</string>
+    <string name="profile_fragment_feedback">フィードバック</string>
+    <string name="profile_fragment_language">言語</string>
+    <string name="profile_fragment_settings">設定</string>
+    <string name="profile_fragment_guest">訪問者 %1$s</string>
+    <string name="profile_fragment_user">ユーザー %1$s</string>
+    <string name="profile_fragment_feedback_content">
+        詳しく問題を説明してください。その後、あなたの問題やニーズを理解し、解決するために役立ちます。（お問い合わせを確認し、3–7営業日以内に戻信を試みます。）\n\n\n
+        問題の種類（機能の問題、支払いの問題、フィードバックの提案、その他を選択してください）:\n\n関連情報:\n
+        UID（削除しないでください）:%1$s\n
+        Appのバージョン番号（削除しないでください）:%2$s\nオペレーティングシステムとデバイスモデル（削除しないでください）:%3$s\nスクリーンショットまたは添付ファイル（該当する場合）:\n
+        支払いの問題 – 注文番号&amp;アカウントID（必須）:\n
+    </string>
+    <string name="profile_fragment_login_tip">ログイン特典あり！</string>
+    <string name="profile_fragment_reward_tip">ボーナスをゲット</string>
+    <string name="profile_fragment_reward_tip1">無料の短編ドラマ</string>
+    <string name="profile_fragment_reward_tip2">ボーナス%1$sを獲得</string>
+
+    <string name="profile_fragment_official_social_media">公式メディア</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_fragment_user_agreement">利用規約</string>
+    <string name="settings_fragment_delete_account">アカウント削除</string>
+    <string name="settings_fragment_logout">ログアウト</string>
+    <string name="settings_fragment_version">バージョン %1$s</string>
+    <string name="settings_fragment_personal">個人情報</string>
+    <string name="settings_fragment_account_info">アカウント情報</string>
+    <string name="settings_fragment_else">その他</string>
+    <string name="settings_fragment_permissions">権限</string>
+    <string name="settings_fragment_automatic_episode_unlock">自動でエピソード解除</string>
+    <string name="settings_fragment_fsi_permission">フルスクリーン通知</string>
+    <string name="settings_fragment_pip_mode">ピクチャーインピクチャーモード</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">言語設定</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">%1$sでログインする</string>
+    <string name="login_activity_desc">
+        親愛なるユーザー、アカウントにログインすることは、財産や視聴履歴をよりよく保護するためのものであり、お客様の情報を保存することはありませんので、安心してログインしてください！
+    </string>
+    <string name="login_activity_policy">続けるには、\n %1$s および %2$s に同意する必要があります。</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">注意してください</string>
+    <string name="delete_account_fragment_desc">ドラマファンの皆さん、こんにちは！ 注意:
+        アカウントを削除すると、いくつかの素晴らしい番組を見逃すことになり、データ (コイン、ボーナスなどの資産を含む)
+        を取り戻すことはできません。 確かにこれをしたいですか？ ご心配な点がございましたら、お気軽にお問い合わせください。
+        あなたがいなくなってしまうのは残念です！ 思い出をありがとう！
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">チャージする場合、%1$s に同意することになります。</string>
+    <string name="top_up_fragment_recharge_agreement">お支払い契約</string>
+    <string name="top_up_fragment_recharge_success">リチャージ成功</string>
+    <string name="top_up_fragment_restore">購入の復元</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">復元できる購入はありません</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">過去に購入されたコインは補填されました。</string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">定期購入の権利が反映されました。</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">
+        過去に購入された定期購入の権利とコインはすべて反映されました。
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">ご購入いただいたシリーズが解除されました、&lt;%1$s –
+        %2$s&gt;の中を確認してください
+    </string>
+    <string name="top_up_fragment_desc_title">説明する</string>
+    <string name="top_up_fragment_desc_content">1. 有料コンテンツのロックを解除: ゴールド
+        コインとボーナスは、アプリ内の有料コンテンツのロックを解除するために使用されます。\n2.
+        リチャージ相当額:金貨1枚＝ボーナスコイン1枚。リチャージは返金できませんのでご注意ください。\n3. ボーナスの有効期限:
+        ボーナスは指定された期間が経過すると期限切れになります。アプリの「マイウォレット」セクションでボーナスの有効期限をご確認ください。
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">価格:</string>
+    <string name="unlock_episode_dialog_fragment_balance">残高:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">コインストア</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">広告を見る</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">無料でアンロックするために広告を見る %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">アンロック</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">特権でお得なチャージができます</string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">現在のエピソードからアンロックする</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">%1$s話をアンロックする</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">すべてのロックを解除</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">%1$sつが一括でロック解除されました
+        セット
+    </string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">広告でアンロック</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">%1$s/%2$s のロックを無料で解除</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">無料アンロック</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">マイコレクション</string>
+    <string name="my_list_fragment_recently_watched">再生履歴</string>
+    <string name="my_list_fragment_empty_desc">ホームへ移動して新しい注目ドラマを見る</string>
+    <string name="my_list_fragment_select_all">すべて選択</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">選択したドラマの選択を先に解除してください</string>
+    <string name="my_list_fragment_delete_tip">現在選択されているものを削除しますか？</string>
+    <string name="my_list_fragment_home">ホーム</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">リスト</string>
+    <string name="shorts_fragment_share">シェアする</string>
+    <string name="shorts_fragment_more">もっと見る</string>
+    <string name="shorts_fragment_less">とじる</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">更新しました 第%1$s話/第%2$s話</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">先に前のエピソードをアンロックしてください
+    </string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">今すぐ視聴</string>
+    <string name="notification_free">無料</string>
+    <string name="notification_check_in_button">今すぐ取得</string>
+    <string name="notification_daemon_title_1">🥳 ShortMaxへようこそ！</string>
+    <string name="notification_daemon_content_1">
+        💕クリックして入るもっと多くのエキサイトングなコンテンツがあなたを待っています！
+    </string>
+    <string name="notification_daemon_title_2">ShortMaxへようこそ</string>
+    <string name="notification_daemon_content_2">近くのみんなが観ている</string>
+    <string name="notification_enter_now">今すぐ入る</string>
+    <string name="notification_go_now">移動</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">あなたのボーナス:</string>
+    <string name="rewards_activity_check_in_title">デイリーチェックイン</string>
+    <string name="rewards_activity_check_in_desc">チェックインすることでボーナスが獲得できます</string>
+    <string name="rewards_activity_check_in">チェックイン</string>
+    <string name="rewards_activity_check_in_day">%1$s 日目</string>
+    <string name="rewards_activity_watch_ad_title">広告を見てボーナスを獲得</string>
+    <string name="rewards_activity_watch_ad_desc">すべての広告を見て、さらに%1$sボーナスを獲得</string>
+    <string name="rewards_activity_watch_all_ads_desc">既に %1$s 獲得しています</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s ボーナス</string>
+    <string name="rewards_activity_watch_ad_get">取得する</string>
+    <string name="rewards_activity_watch_ad_double_rewards">報酬2倍</string>
+    <string name="rewards_activity_get_double_rewards">報酬を得る</string>
+    <string name="rewards_activity_description_title">説明</string>
+    <string name="rewards_activity_description_value">1. ボーナスの利用権は全てShortMaxに帰属します。\n2.
+        ボーナスはドラマ視聴にのみ使用でき、10日間有効で、利用期間が過ぎた後は自動的に失効・清算されます。\n3.
+        ドラマ視聴時にはまずコインが使用され、不足の場合は自動的にボーナスが使用されます。\n4. サインインは毎晩0時（UTC+0）に更新されます。
+    </string>
+    <string name="rewards_activity_go">進む</string>
+    <string name="rewards_activity_accept_task_reward_tip">おめでとう！ボーナス +%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">エピソード %1$s があなたのためにアンロックされました</string>
+    <string name="play_episode_activity_update_speed_tip">%1$s 回の再生に切り替えました</string>
+    <string name="play_episode_activity_speed_playing">%1$s倍速で再生する</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$s</string>
+    <string name="play_episode_activity_resolution_auto">自動</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">読み込みに失敗しました。%1$sp に切り替えてください
+    </string>
+    <string name="play_episode_activity_resolution_loading_tip">読み込み中、お待ちください…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">
+        ネットワークが遅いため、最高の品質が選択されました。
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">
+        動画の読み込みが遅いです。画質を切り替えるをクリックしてください。
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">画質を切り替える</string>
+    <string name="play_episode_activity_switch_resolution_tip">1080p に切り替える</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">%1$sp に切り替えます</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">自動に切り替わりました</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">自動に切り替えます</string>
+    <string name="play_episode_activity_progress_adjust">進捗の調整|</string>
+    <string name="play_episode_activity_unlock_now">すぐアンロック</string>
+    <string name="play_episode_activity_switch_resolution_failed">切り替えに失敗し、元の解像度を維持しました</string>
+    <string name="play_episode_activity_swipe_to_watch">スライディングスワップ</string>
+    <string name="play_episode_collect_tips_1">保存すればいつでも視聴できます</string>
+    <string name="play_episode_collect_tips_2">マイリストに追加済み</string>
+    <string name="play_episode_collect_tips_3">シリーズはマイリストに自動追加済みです</string>
+    <string name="play_episode_activity_discount_unlock_tips">[%1$s–%2$s]までお問い合わせください。</string>
+    <string name="immersion_activity_purchase_all_episode">全集を購入する</string>
+    <string name="immersion_activity_free_clarity_1080p">期間限定無料</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">再生速度</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">画質</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">おめでとう！</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">広告を見て\n倍の報酬をゲット！</string>
+    <string name="check_in_result_dialog_fragment_watch_now">今すぐ視聴</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">ドラマ視聴によってボーナスを獲得</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Facebook ログインで %1$s ボーナスをゲット</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Google ログインで %1$s ボーナスをゲット</string>
+    <string name="facebook_login_dialog_fragment_huge">豊富な</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">電話番号を入力</string>
+    <string name="phone_auth_fragment_hint_verification_code">認証コードを入力</string>
+    <string name="phone_auth_fragment_get">コードを取得</string>
+    <string name="phone_auth_fragment_resend">再送信 ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">ようこそ、\n電話番号を確認してください</string>
+    <string name="phone_auth_fragment_check_content">入力した内容を確認してください！</string>
+    <string name="phone_auth_fragment_succeed">あなたの電話番号は正常に確認されました。</string>
+    <string name="phone_auth_fragment_invalid_area_code">正しいエリアコードを入力してください</string>
+    <string name="phone_auth_fragment_network_error">ネットワーク状態を確認してください</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">ようこそ、\nメールアドレスを確認してください</string>
+    <string name="email_auth_fragment_hint_email_address">メールアドレスを入力してください</string>
+    <string name="email_auth_fragment_check_content">入力した内容を確認してください！</string>
+    <string name="email_auth_fragment_succeed">メールアドレスの確認に成功しました。</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">お気に入りかも</string>
+    <string name="immersion_back_fragment_button_play">再生</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">地域を選択してください</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">ドラマライブラリー</string>
+    <string name="library_activity_label_all">全て</string>
+    <string name="library_activity_label_male">男性向け</string>
+    <string name="library_activity_label_female">女性向け</string>
+    <string name="library_activity_label_limit">5つ以上の選択はできない</string>
+    <string name="library_activity_empty_text">申し訳ないが、関連動画はフィルタリングされていない</string>
+    <string name="library_fragment_title">フィルタリング</string>
+    <string name="library_fragment_interest">興味</string>
+    <string name="library_fragment_type">類型</string>
+    <string name="library_fragment_reset">リビジョン</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMaxヒットリスト</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">Eメール</string>
+    <string name="bind_info_fragment_phone">電話番号</string>
+    <string name="bind_info_fragment_unbound">バウンドされていません</string>
+    <string name="bind_info_fragment_bind">バウンド済み</string>
+
+    <!-- AD-->
+    <string name="ad_loading">広告読み込み中</string>
+    <string name="ad_interstitial_remove_ad_by_payment">
+        お支払いをすることで広告を非表示にでき、より快適にご利用いただけます。
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">%1$s ボーナスを獲得</string>
+    <string name="notification_permission_dialog_des">通知権限をオンにしてボーナスを獲得しましょう</string>
+    <string name="notification_permission_dialog_receive">受け取る</string>
+    <string name="notification_permission_dialog_choose_title">受信したい通知の種類を選択してください</string>
+    <string name="notification_permission_dialog_choose_turn_on">開始</string>
+    <string name="notification_permission_dialog_granted">%1$s ボーナスを受け取りました</string>
+    <string name="notification_permission_dialog_choose_item_0">新しい無料エピソード</string>
+    <string name="notification_permission_dialog_choose_item_1">現在のエピソードの更新</string>
+    <string name="notification_permission_dialog_choose_item_2">毎日のチェックインリマインダー</string>
+    <string name="notification_permission_dialog_choose_item_3">新ドラマ配信</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">お得なプレゼント</string>
+    <string name="sku_expansion_dialog_fragment_count_down">後に期限切れになります %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">
+        ユーザー財産と情報保護のため、アカウントにログインしてください。
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">ユーザー財産と情報保護</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">ログイン</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">五つ星をお願いします。</string>
+    <string name="rating_dialog_desc">
+        あなたのご声援が、私たちの最大の支えになります。あなたの励ましは、より良いサービス体験を提供する私たちの原動力です。
+    </string>
+    <string name="rating_dialog_desc_key_word">5つ星</string>
+    <string name="rating_dialog_rating_success_tip">レビューいただきありがとうございます</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">新バージョン発見</string>
+    <string name="update_dialog_now">今すぐ更新</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">ユーザーによってアップロードされました、ご報告ください。
+    </string>
+    <string name="report_dialog_uploaded_by_users_des">
+        この番組はこのユーザーによってアップロードされています。著作権の問題が発生した場合は、すぐにご報告ください。
+    </string>
+    <string name="report_dialog_report">報告する</string>
+    <string name="report_dialog_drama_upload">ドラマのアップロード</string>
+    <string name="report_dialog_upload_drama">あなたのドラマをアップロード</string>
+    <string name="report_dialog_add_cover">カバーを追加する</string>
+    <string name="report_dialog_your_drama_and_win_coins">あなたのドラマをアップロードしてコインを獲得</string>
+    <string name="report_dialog_drama_cover">ドラマの表紙</string>
+    <string name="report_dialog_drama_name">ドラマの名前</string>
+    <string name="report_dialog_drama_name_hint">ドラマの名前を入力</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">あなたのメールアドレス</string>
+    <string name="report_dialog_your_email_hint">シリーズが受け入れられたら、私たちはあなたに連絡します</string>
+    <string name="report_dialog_upload_video">動画をアップロード</string>
+    <string name="report_dialog_apply">申請する</string>
+    <string name="report_dialog_under_review">審査中</string>
+    <string name="report_dialog_report_succeed">報告成功</string>
+    <string name="report_dialog_re_upload">再アップロード</string>
+    <string name="report_dialog_upload_permission">ドラマをアップロードするには許可が必要です</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">マイウォレット</string>
+    <string name="my_wallet_fragment_empty_record">レコードなし</string>
+    <string name="my_wallet_fragment_discount">割引</string>
+    <string name="my_wallet_fragment_coins_record">利用履歴</string>
+    <string name="my_wallet_fragment_bonus_record">ボーナスコインの記録</string>
+    <string name="my_wallet_fragment_unused">未使用</string>
+    <string name="my_wallet_fragment_used">使用済み</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s スキップ</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">ShortMaxへようこそ</string>
+    <string name="home_login_guide_dialog_button">受け取る</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ ちょっと待って、本当にアカウントからログアウトしますか？</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ ログイン状態を維持すると、次のことができます:</string>
+    <string name="logout_tip_dialog_desc_2">最新のおすすめ情報をいち早く入手する</string>
+    <string name="logout_tip_dialog_desc_3">パーソナライズされたコンテンツを便利に楽しむ</string>
+    <string name="logout_tip_dialog_desc_4">ご利用履歴を保存して、次回の閲覧や視聴を簡単にする</string>
+    <string name="logout_tip_dialog_reconsider">考え直す</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗デバイスに複数のアカウントが検出されました。</string>
+    <string name="merge_tourist_dialog_content">過去のアカウントの財産情報、視聴履歴を現在のアカウントに同期しますか？
+    </string>
+    <string name="merge_tourist_dialog_processing">処理中です…</string>
+    <string name="merge_tourist_dialog_succeed_title">ボーナス%1$s枚をプレゼント</string>
+    <string name="merge_tourist_dialog_succeed_content">過去のアカウントのプロパティと映画視聴記録が復元されました。
+    </string>
+    <string name="merge_tourist_dialog_failed">
+        複数のアカウントが検出されました。財産の損失を避けるために、もう一度試してください
+    </string>
+    <string name="merge_tourist_dialog_retry">再試行</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">
+        承認を拒否すると広告のリクエストが困難になったり、エピソードの視聴に影響が出る場合がありますので、次回からは必ず承認を行ってください。
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬 大量のホットドラマを無料で見る！</string>
+    <string name="push_check_in_title_1">👇 \"福利\"を受け取るためにクリック</string>
+    <string name="push_check_in_title_2">今日は来ましたか？ 💕</string>
+    <string name="push_check_in_title_3">毎日ドラマを見て、一日中幸せ🎉</string>
+    <string name="push_check_in_title_4">絶対に見逃せない限定の福利🎁</string>
+    <string name="push_check_in_title_new_0">毎日のサインインでボーナスを獲得</string>
+    <string name="push_check_in_title_new_1">サインインして報酬を稼ぐ</string>
+    <string name="push_check_in_title_new_2">サインインするとボーナスがもらえる</string>
+    <string name="push_check_in_title_new_3">無料でシリーズをアンロックしたいですか？</string>
+    <string name="push_check_in_title_new_4">簡単にサインインして受け取る</string>
+    <string name="push_check_in_contents_0">
+        ドラマを追いかけるのはお金がかからない💰、ログインして映画チケットをゲットして無料視聴
+    </string>
+    <string name="push_check_in_contents_1">🎉 サプライズ！連続してサインインして、映画チケットを無料でゲット！</string>
+    <string name="push_check_in_contents_2">🍿連続サインインの旅を始めて、映画を無料で視聴！</string>
+    <string name="push_check_in_contents_3">🎁 連続してサインインし、映画を無料で視聴するチャンスを逃さないでください
+    </string>
+    <string name="push_check_in_contents_4">期間限定のサインイン特典がたくさん！ 早速参加しましょう！🎬</string>
+    <string name="push_check_in_contents_new_0">見逃せません！</string>
+    <string name="push_check_in_contents_new_1">毎日のプレゼントを受け取りましょう、早くサインインしてください！</string>
+    <string name="push_check_in_contents_new_2">早く毎日の報酬を受け取ってください！</string>
+    <string name="push_check_in_contents_new_3">さあ、サインインしましょう！</string>
+    <string name="push_check_in_contents_new_4">毎日の福利厚生、サインインして報酬を獲得しましょう！</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">定期購入</string>
+    <string name="profile_subscription_view_default_content">もっとエピソードを見る</string>
+    <string name="profile_subscription_view_unsubscribed">すぐ定期購入</string>
+    <string name="profile_subscription_view_subscribed">定期購入済</string>
+    <string name="profile_subscription_view_weekly_card">週間カード</string>
+    <string name="profile_subscription_view_monthly_card">月間カード</string>
+    <string name="profile_subscription_view_annual_card">年間カード</string>
+    <string name="profile_subscription_view_weekly_pro_card">週間カード Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">月間カード Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">年間カード Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">一週間全てのシリーズを解除する</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">一ヶ月間全てのシリーズを解除する</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">一年間全てのシリーズを解除する</string>
+    <string name="profile_subscription_view_expire_time">有効期限:%1$s</string>
+    <string name="profile_subscription_view_unsupport_product">表示できません。バージョンを更新してください</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">定期購入</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s大収益</string>
+    <string name="subscription_detail_activity_desc_title">定期購入について</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">
+        1.サブスクリプションの説明\n（1）サブスクリプション機能は、アプリの使用体験を向上させるためだけのものであり、サブスクライブしているかどうかに関係なく、アプリの通常の使用には影響しません。\n2.メリットの説明\n（1）Weekly
+        PRO / Monthly
+        PROを購入すると、制限なしですべてのエピソードを視聴できるようになります。\n（2）広告なし：ロック解除後、インセンティブ広告以外の種類の広告は表示されなくなります。\n（3）1080P解像度：ビデオ再生は1080P解像度の選択をサポートしています。\n3.自動更新について\n（1）サブスクリプションは有効期限の24時間前に自動更新されますが、いつでも自動更新をキャンセルできます。サブスクリプションが正常に更新されると、払い戻しはできません。\n4.サブスクリプションをキャンセルする方法\n（1）%1$sを開き、右上隅のアバターをクリックします。
+        \n(2)「支払いとサブスクリプション」をクリックし、「サブスクリプション」をクリックします。\n(3)
+        ShortMaxサブスクリプションを選択します。\n(4)「サブスクリプションをキャンセル」をクリックします。
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">1080pをサポート</string>
+    <string name="subscription_detail_activity_privilege_4_desc">広告を無くす</string>
+    <string name="subscription_detail_activity_privilege_5_desc">すべて無料</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">無料</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">高解像度ビデオを楽しむ</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">純粋な視聴体験を楽しむ</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIPなら全エピソードを無料で見る</string>
+    <string name="subscription_detail_activity_subs_success">定期購入成功</string>
+    <string name="subscription_detail_activity_subs_update_success">新規サブスクリプションの変更に成功</string>
+    <string name="subscription_day_bonus_claimed">%1$s ボーナスは自動で受取済みです！</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">登録して限定特典を楽しもう</string>
+    <string name="subscription_detail_2_activity_subscribed">定期購入済:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">有効期限:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">お気に入りのシリーズを再生しています</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">累計獲得</string>
+    <string name="subs_type_view_total_earning_2">合計</string>
+    <string name="subs_type_view_get_now">（すぐ獲得）</string>
+    <string name="subs_type_view_first_recharge_tip">初回購入割引</string>
+    <string name="subs_type_view_detail">詳細</string>
+    <string name="subs_type_view_disable_subs_tip">
+        複数回のチャージバックにより、このアカウントでは定期購入機能の使用が禁止されました
+    </string>
+    <string name="subs_type_view_claim_bonus">(デイリーチェックイン)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(いつでも取得可能)</string>
+    <string name="subs_type_view_per_week_new">%1$s/週</string>
+    <string name="subs_type_view_per_month_new">%1$s/月</string>
+    <string name="subs_type_view_per_year_new">%1$s/年</string>
+    <string name="subs_type_view_renew_per_week">更新%1$s/週</string>
+    <string name="subs_type_view_renew_per_month">更新%1$s/月</string>
+    <string name="subs_type_view_renew_per_year">更新%1$s/年</string>
+
+    <!--Language-->
+    <string name="language_app">アプリ言語</string>
+    <string name="language_en">英語</string>
+    <string name="language_zh_simplified">簡体字中国語</string>
+    <string name="language_zh_traditional">繁体中国語</string>
+    <string name="language_fil">フィリピン語</string>
+    <string name="language_hi">ヒンディー語</string>
+    <string name="language_in">インドネシア語</string>
+    <string name="language_ja">日本語</string>
+    <string name="language_ko">韓国語</string>
+    <string name="language_th">タイ語</string>
+    <string name="language_ar">アラビア語</string>
+    <string name="language_es">スペイン語</string>
+    <string name="language_pt">ポルトガル語</string>
+    <string name="language_vi">ベトナム語</string>
+    <string name="language_de">ドイツ語</string>
+    <string name="language_fr">フランス語</string>
+    <string name="language_ms">マレー語</string>
+    <string name="language_ru">ロシア語</string>
+    <string name="language_it">イタリア語</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">権利未反映？</string>
+    <string name="restore_tip_view_refresh">更新</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">
+        申し訳ございませんが、権利の取得に失敗しました。クリックして再度試してください
+    </string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">全エピソードを視聴</string>
+    <string name="shorts_fragment_current_episode_finished">シリーズ終了</string>
+    <string name="shorts_fragment_current_episode_updating">シリーズ更新中</string>
+    <string name="shorts_fragment_next_episode_tip">近日公開予定&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">トレーラー</string>
+    <string name="shorts_fragment_trailer_in_production">正編の制作中、乞うご期待！</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">検索履歴</string>
+    <string name="search_activity_popular_title">みんなの検索</string>
+    <string name="search_activity_no_result">関連コンテンツは見つかりません</string>
+    <string name="search_activity_more_no_result">– もう終わりです –</string>
+    <string name="search_activity_input_keyword_hint">検索内容を入力してください</string>
+    <string name="search_activity_clear_history_hint">本当に検索履歴の記録を削除しますか？</string>
+    <string name="search_activity_search_frequently_tips">検索頻度が高すぎます。後でもう一度お試しください</string>
+    <string name="search_activity_redeem_code_disabled">交換コードが存在しません</string>
+    <string name="search_activity_redeem_code_delisted">ドラマは削除されました</string>
+    <string name="search_activity_redeem_code_overdue">交換コードが期限切れです</string>
+    <string name="search_activity_redeem_code_use_up">遅いです。全部受領済です</string>
+    <string name="search_activity_redeem_code_unsupported">
+        まずアプリケーションのバージョンをアップグレードしてください
+    </string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">
+        広告を見ることで現在のエピソードをアンロックできます。試してみてください！
+    </string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">今日のアンロック：</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">1件の広告を見て、第%1$s話のロックを解除</string>
+    <string name="ad_continue_dialog_fragment_cancel">撤退を主張</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">さらに1件の広告を見て、1話のロックを解除</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">第%1$s話ロック解除済み</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">第%1$s話のロック解除</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">他の広告1件を見る</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">無料でアンロックするために広告を見る</string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">今日はすでに視聴済み（%1$s/%2$s）</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">初心者限定</string>
+    <string name="new_recommend_shorts_fragment_more_tip">各商品は一度だけ受領できます</string>
+    <string name="new_recommend_shorts_fragment_more">もっと</string>
+    <string name="new_recommend_shorts_fragment_must_read">初心者必読</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">
+        %1$sの定期購入の有効期限が切れたため、エピソードをアンロックできません。もう一度定期購入しますか?
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">交換成功</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">特典を受け取る</string>
+    <string name="redeem_code_dialog_fragment_received">受領済</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">[ピクチャーインピクチャー] 機能がリリースされました！</string>
+    <string name="play_episode_activity_pip_guide_content">
+        ブラウズしながら、ミニプレイヤーでお気に入りのクリップを引き続き視聴しよう。マルチタスクが簡単に！
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">コンテンツが見つかりません~\n[ディスカバー]
+        に戻って、他の人気コンテンツをブラウズできます。
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">戻る</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">全部</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">すぐに開始</string>
+    <string name="sign_in_reminder_fragment_content">サインインリマインダーをオンにすると補簽が可能になります。+%1$s
+        ボーナス
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">補充サインインが成功しました</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s ボーナス</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">広告を視聴すると補簽が成功します。+%1$s ボーナス</string>
+    <string name="sign_in_watch_ad_fragment_btn">広告を見る （%1$s/%2$s）</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">購入済み</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">権限を有効にし、よりタイムリーに通知を受け取る。</string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">特権をお楽しみください</string>
+    <string name="rfm_guide_dialog_content">より安く、より多くの割引</string>
+    <string name="rfm_guide_dialog_btn">今すぐトップアップ</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">トップアップ失敗</string>
+    <string name="billing_unavailable_tip_dialog_content">
+        インターネット接続に異常があるか、Googleアカウントに異常がある。フィードバックはカスタマーサービスまでご連絡ください。
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">サブスクリプション変更の確認</string>
+    <string name="subs_update_dialog_current_subs_title">現在のサブスクリプション</string>
+    <string name="subs_update_dialog_new_subs_title">新規サブスクリプション</string>
+    <string name="subs_update_dialog_upgrade_content">
+        新しいサブスクリプションは直ちに有効になり、現在のサブスクリプションの残り時間は新しいサブスクリプションの時間に変換されます。
+    </string>
+    <string name="subs_update_dialog_downgrade_content">現在のサブスクリプションは %1$s
+        に期限切れになり、その時点で新しいサブスクリプションが有効になります。
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">期間限定%1$s</string>
+    <string name="task_coin_view_completed">タスクを完了すると\n合計%1$sボーナスを得る</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">ドラマを視聴</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">観劇してボーナスをもらう
+    </string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">合計%1$s枚のボーナス</string>
+</resources>

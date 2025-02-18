@@ -1,0 +1,601 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">无法连接服务器，请稍后再试</string>
+    <string name="common_unknown_exception">未知异常</string>
+    <string name="common_login_expired">您的会话已过期,请重新登入。</string>
+    <string name="common_re_login">重新登入</string>
+    <string name="common_error_code">错误代码:%1$s</string>
+    <string name="common_waiting">正在等待…</string>
+    <string name="common_retry">请再试一次</string>
+    <string name="common_no_more_data">没有更多数据</string>
+    <string name="common_data_empty">这里空空如也</string>
+    <string name="common_not_find_app_to_send_email">找不到可发送电子邮件的应用程序</string>
+    <string name="common_google_pay_not_support">您当前的设备不支持Google Pay。</string>
+    <string name="common_user_canceled">用户取消</string>
+    <string name="common_coins">%1$s金币</string>
+    <string name="common_bonus">%1$s奖励币</string>
+    <string name="common_current_ep">第%1$s集</string>
+    <string name="common_total_ep">%1$s集</string>
+    <string name="common_delete">删除</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_continue">继续</string>
+    <string name="common_confirm">确认</string>
+    <string name="common_submit">提交</string>
+    <string name="common_play_failed">播放失败</string>
+    <string name="common_server_error">服务器错误</string>
+    <string name="common_copy_success">已复制</string>
+    <string name="common_duplicate_op_tip">请勿重复操作</string>
+    <string name="common_later">稍后再说</string>
+    <string name="common_yes">好的</string>
+    <string name="common_no">不</string>
+    <string name="common_ok">好的</string>
+    <string name="common_allow">允许</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">剧集已下架</string>
+    <string name="common_recharge_not_supported">当前国家/地区不支持充值</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">发现</string>
+    <string name="main_activity_tab_shorts">短剧</string>
+    <string name="main_activity_tab_my_list">追剧</string>
+    <string name="main_activity_tab_profile">我的</string>
+    <string name="main_activity_tab_reward">奖励</string>
+    <string name="main_activity_tab_guide_tip_1">[ 奖励 ]入口改到这里啦</string>
+    <string name="main_activity_tab_guide_tip_2">[ 追剧 ]入口改到这里啦</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">播放</string>
+    <string name="discover_fragment_remind_me">提醒我</string>
+    <string name="discover_fragment_reserved">已预约</string>
+    <string name="discover_fragment_coming_soon">敬请期待</string>
+    <string name="discover_fragment_reserve_succeed">预约成功，请在追剧中查找</string>
+    <string name="discover_fragment_coming_soon_more">更多</string>
+    <string name="discover_fragment_low_sku_template_notification_go">立即抢购</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">帐号ID %1$s</string>
+    <string name="profile_fragment_my_wallet">我的钱包</string>
+    <string name="profile_fragment_coins">金币</string>
+    <string name="profile_fragment_bonus">奖励币</string>
+    <string name="profile_fragment_top_up">充值</string>
+    <string name="profile_fragment_rewards">奖励</string>
+    <string name="profile_fragment_feedback">反馈</string>
+    <string name="profile_fragment_language">语言</string>
+    <string name="profile_fragment_settings">设置</string>
+    <string name="profile_fragment_guest">游客 %1$s</string>
+    <string name="profile_fragment_user">用户 %1$s</string>
+    <string name="profile_fragment_feedback_content">详细描述您的问题:请在下方详细描述您的问题或需求，以协助我们更好地理解和解决您的问题。
+        （我们将审核您的询问，并力争在3–7
+        个工作天内回覆您。）\n\n问题类型（请选择功能问题、付款问题、建议回馈、其他）:\n\n相关资讯:\nUID（勿删）:%1$s\nApp版本号（勿删）:%2$s\n操作系统和设备型号（勿删）:%3$s\n截图或附件（如适用）:\n付款问题–
+        订单编号&amp; 账号ID（必填）:\n
+    </string>
+    <string name="profile_fragment_login_tip">登录有礼！</string>
+    <string name="profile_fragment_reward_tip">获得奖励币</string>
+    <string name="profile_fragment_reward_tip1">免费短剧</string>
+    <string name="profile_fragment_reward_tip2">已得%1$s奖励币</string>
+
+    <string name="profile_fragment_official_social_media">官方媒体</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">隐私政策</string>
+    <string name="settings_fragment_user_agreement">用户协议</string>
+    <string name="settings_fragment_delete_account">删除帐号</string>
+    <string name="settings_fragment_logout">退出</string>
+    <string name="settings_fragment_version">版本 %1$s</string>
+    <string name="settings_fragment_personal">个人信息</string>
+    <string name="settings_fragment_account_info">账户信息</string>
+    <string name="settings_fragment_else">其他</string>
+    <string name="settings_fragment_permissions">权限</string>
+    <string name="settings_fragment_automatic_episode_unlock">自动解锁剧集</string>
+    <string name="settings_fragment_fsi_permission">全屏通知</string>
+    <string name="settings_fragment_pip_mode">画中画模式</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">语言设置</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">用%1$s登录</string>
+    <string name="login_activity_desc">
+        亲爱的用户，登录账户是为了更好的保护您的财产、观影记录，我们不会对您的信息进行存储，请放心登录！
+    </string>
+    <string name="login_activity_policy">继续表示同意我们的%1$s和%2$s</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">请注意</string>
+    <string name="delete_account_fragment_desc">
+        尊敬的用户，快速提醒:如果你删除了你的帐户，你将错过更多精彩节目，也无法找回数据（包括金币、奖励币等任何财产），你确定删除吗？如果你遇到任何问题，可以联系我们，我们可不希望你就这样离开！谢谢过去我们遇见的时光
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">充值代表同意我们的%1$s</string>
+    <string name="top_up_fragment_recharge_agreement">充值协议</string>
+    <string name="top_up_fragment_recharge_success">充值成功</string>
+    <string name="top_up_fragment_restore">恢复购买</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">没有购买可以恢复</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">您之前购买的金币已成功补发</string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">您的订阅权益已到账</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">您之前购买的订阅权益和金币已全部到账</string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">您购买的剧集已解锁，请在&lt;%1$s – %2$s&gt;中查收
+    </string>
+    <string name="top_up_fragment_desc_title">说明</string>
+    <string name="top_up_fragment_desc_content">1.解锁付费内容:金币和奖励币用于解锁应用内的付费内容。\n2.充值等值:1金币=1奖励币。
+        请注意，充值不支持退款。\n3.奖励币过期:奖励币将在指定期限后过期。 请在应用程序的“我的钱包”部分检查您的奖励币的到期时间。
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">价格:</string>
+    <string name="unlock_episode_dialog_fragment_balance">余额:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">金币商城</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">看广告</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">看广告免费解锁 %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">解锁</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">尊享特权，充值更实惠</string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">从当前剧集开始解锁</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">解锁%1$s集</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">解锁所有剧集</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">已批量解锁%1$s集</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">广告解锁</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">观看广告免费解锁 %1$s/%2$s</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">免费解锁</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">我的追剧</string>
+    <string name="my_list_fragment_recently_watched">最近播放</string>
+    <string name="my_list_fragment_empty_desc">去首页发现更多流行新剧吧</string>
+    <string name="my_list_fragment_select_all">全选</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">请先取消选中的剧</string>
+    <string name="my_list_fragment_delete_tip">确认删除选中内容吗？</string>
+    <string name="my_list_fragment_home">首页</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">选集</string>
+    <string name="shorts_fragment_share">分享</string>
+    <string name="shorts_fragment_more">更多</string>
+    <string name="shorts_fragment_less">收起</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">更新至第%1$s集/共%2$s集</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">请解锁先前集数</string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">现在看</string>
+    <string name="notification_free">免费</string>
+    <string name="notification_check_in_button">立刻领取</string>
+    <string name="notification_daemon_title_1">🥳 欢迎來到 ShortMax！</string>
+    <string name="notification_daemon_content_1">💕点击进入~更多精彩内容等你来!</string>
+    <string name="notification_daemon_title_2">欢迎使用ShortMax</string>
+    <string name="notification_daemon_content_2">你身边的人都在观看</string>
+    <string name="notification_enter_now">现在进入</string>
+    <string name="notification_go_now">前往</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">你的奖励币:</string>
+    <string name="rewards_activity_check_in_title">每日签到</string>
+    <string name="rewards_activity_check_in_desc">签到获得奖励</string>
+    <string name="rewards_activity_check_in">签到</string>
+    <string name="rewards_activity_check_in_day">第%1$s天</string>
+    <string name="rewards_activity_watch_ad_title">看广告，赢奖励</string>
+    <string name="rewards_activity_watch_ad_desc">看完所有广告，额外奖励%1$s</string>
+    <string name="rewards_activity_watch_all_ads_desc">已获得%1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s奖励币</string>
+    <string name="rewards_activity_watch_ad_get">获得</string>
+    <string name="rewards_activity_watch_ad_double_rewards">奖励翻倍</string>
+    <string name="rewards_activity_get_double_rewards">领取奖励</string>
+    <string name="rewards_activity_description_title">描述</string>
+    <string name="rewards_activity_description_value">1. 所有解释权归ShortMax 所有\n2. 奖励币只用于看剧，10天过期；请在过期前使用\n3.
+        看剧优先使用金币，不足会自动使用奖励币\n4. 每晚0点更新签到奖励（UTC+0）
+    </string>
+    <string name="rewards_activity_go">去完成</string>
+    <string name="rewards_activity_accept_task_reward_tip">恭喜！奖励币+%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">已为您解锁第%1$s集</string>
+    <string name="play_episode_activity_update_speed_tip">已切换至%1$s倍播放</string>
+    <string name="play_episode_activity_speed_playing">%1$s倍播放中</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$s倍</string>
+    <string name="play_episode_activity_resolution_auto">自动</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">加载失败，已为您切换至 %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">正在努力加载中，请稍后…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">网络较慢，已为您选择最佳画质</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">视频加载慢，点击切换画质</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">切换画质</string>
+    <string name="play_episode_activity_switch_resolution_tip">已切换至 %1$sp</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">正在切换至 1080p</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">已成功切换至自动</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">正在切换至自动</string>
+    <string name="play_episode_activity_progress_adjust">进度调节</string>
+    <string name="play_episode_activity_unlock_now">立即解锁</string>
+    <string name="play_episode_activity_switch_resolution_failed">切换失败，已为您保留原清晰度</string>
+    <string name="play_episode_activity_swipe_to_watch">滑动换集</string>
+    <string name="play_episode_collect_tips_1">点击收藏，追剧不迷路</string>
+    <string name="play_episode_collect_tips_2">已为您添加到追剧列表</string>
+    <string name="play_episode_collect_tips_3">该剧已自动添加至追剧列表</string>
+    <string name="play_episode_activity_discount_unlock_tips">请在[%1$s–%2$s]查看</string>
+    <string name="immersion_activity_purchase_all_episode">购买全集</string>
+    <string name="immersion_activity_free_clarity_1080p">限免</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">播放速度</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">画质</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">恭喜</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">再看一个广告\n奖励币翻倍!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">现在看</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">看剧得双倍奖励币</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">使用Facebook登录可获得%1$s奖励币</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">使用Google登录可获得%1$s奖励币</string>
+    <string name="facebook_login_dialog_fragment_huge">丰厚</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">输入您的电话号码</string>
+    <string name="phone_auth_fragment_hint_verification_code">输入验证码</string>
+    <string name="phone_auth_fragment_get">获取验证码</string>
+    <string name="phone_auth_fragment_resend">重新发送 ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">欢迎,\n验证您的电话号码</string>
+    <string name="phone_auth_fragment_check_content">请检查您输入的内容！</string>
+    <string name="phone_auth_fragment_succeed">您的电话号码已成功验证。</string>
+    <string name="phone_auth_fragment_invalid_area_code">请输入正确区号</string>
+    <string name="phone_auth_fragment_network_error">请检查网络状态</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">欢迎，\n验证您的邮件地址</string>
+    <string name="email_auth_fragment_hint_email_address">输入您的邮件地址</string>
+    <string name="email_auth_fragment_check_content">请检查您输入的内容！</string>
+    <string name="email_auth_fragment_succeed">您的邮件已成功验证。</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">你可能喜欢</string>
+    <string name="immersion_back_fragment_button_play">播放</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">选择地区</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">剧库</string>
+    <string name="library_activity_label_all">全部</string>
+    <string name="library_activity_label_male">男频</string>
+    <string name="library_activity_label_female">女频</string>
+    <string name="library_activity_label_limit">所选内容不可超过5个</string>
+    <string name="library_activity_empty_text">很抱歉，没有筛选到相关视频</string>
+    <string name="library_fragment_title">筛选</string>
+    <string name="library_fragment_interest">兴趣</string>
+    <string name="library_fragment_type">类型</string>
+    <string name="library_fragment_reset">重置</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax 热播榜</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">电子邮件</string>
+    <string name="bind_info_fragment_phone">手机号码</string>
+    <string name="bind_info_fragment_unbound">未绑定</string>
+    <string name="bind_info_fragment_bind">已绑定</string>
+
+    <!-- AD-->
+    <string name="ad_loading">广告加载中</string>
+    <string name="ad_interstitial_remove_ad_by_payment">您可以通过付费关闭广告，为您带来更佳的播放体验！</string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">领取%1$s奖励币</string>
+    <string name="notification_permission_dialog_des">开启通知权限，获得奖励币</string>
+    <string name="notification_permission_dialog_receive">领取</string>
+    <string name="notification_permission_dialog_choose_title">选择你想接收的通知类型</string>
+    <string name="notification_permission_dialog_choose_turn_on">开启</string>
+    <string name="notification_permission_dialog_granted">已领取%1$s奖励币</string>
+    <string name="notification_permission_dialog_choose_item_0">免费剧集上新</string>
+    <string name="notification_permission_dialog_choose_item_1">当前剧集更新</string>
+    <string name="notification_permission_dialog_choose_item_2">每日签到提醒</string>
+    <string name="notification_permission_dialog_choose_item_3">新剧上线</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">超值赠送</string>
+    <string name="sku_expansion_dialog_fragment_count_down">仅剩余 %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">为了保护您的财产，请登录账号以免信息丢失!</string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">保护您的财产</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">登录</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">喜欢ShortMax嘛？</string>
+    <string name="rating_dialog_desc">希望您给予5星支持！您的鼓励是我们打造优质服务体验的动力。</string>
+    <string name="rating_dialog_desc_key_word">5星</string>
+    <string name="rating_dialog_rating_success_tip">感谢您的评价</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">发现新版本</string>
+    <string name="update_dialog_now">立即更新</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">由用户上传，请举报！</string>
+    <string name="report_dialog_uploaded_by_users_des">节目内容由该用户上传。请立即举报任何版权问题。</string>
+    <string name="report_dialog_report">举报</string>
+    <string name="report_dialog_drama_upload">剧集上传</string>
+    <string name="report_dialog_upload_drama">上传剧集</string>
+    <string name="report_dialog_add_cover">新增封面</string>
+    <string name="report_dialog_your_drama_and_win_coins">上传剧集并赢取金币</string>
+    <string name="report_dialog_drama_cover">剧集封面</string>
+    <string name="report_dialog_drama_name">剧集名称</string>
+    <string name="report_dialog_drama_name_hint">输入剧名</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">您的电子邮件</string>
+    <string name="report_dialog_your_email_hint">系列被接受后，我们会联系您</string>
+    <string name="report_dialog_upload_video">上传视频</string>
+    <string name="report_dialog_apply">申请</string>
+    <string name="report_dialog_under_review">审核中</string>
+    <string name="report_dialog_report_succeed">举报成功</string>
+    <string name="report_dialog_re_upload">重新上传</string>
+    <string name="report_dialog_upload_permission">需要许可才能上传戏剧</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">我的钱包</string>
+    <string name="my_wallet_fragment_empty_record">暂无记录</string>
+    <string name="my_wallet_fragment_discount">优惠</string>
+    <string name="my_wallet_fragment_coins_record">金币记录</string>
+    <string name="my_wallet_fragment_bonus_record">奖励币记录</string>
+    <string name="my_wallet_fragment_unused">未使用</string>
+    <string name="my_wallet_fragment_used">已使用</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s 跳过</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">欢迎来到ShortMax</string>
+    <string name="home_login_guide_dialog_button">领取</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ 等等，你确定要退出账户吗？</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ 保持登录状态，你可以:</string>
+    <string name="logout_tip_dialog_desc_2">第一时间获取我们的最新推荐</string>
+    <string name="logout_tip_dialog_desc_3">便捷地享受个性化内容</string>
+    <string name="logout_tip_dialog_desc_4">保存你的使用记录，方便下次阅读或观看</string>
+    <string name="logout_tip_dialog_reconsider">重新考虑</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗检测到该设备上存在多个帐户。</string>
+    <string name="merge_tourist_dialog_content">是否将历史账号财产信息、观影记录同步到当前账号？</string>
+    <string name="merge_tourist_dialog_processing">正在处理中…</string>
+    <string name="merge_tourist_dialog_succeed_title">赠送您%1$s奖励币</string>
+    <string name="merge_tourist_dialog_succeed_content">已将您历史账户的财产和观影记录恢复</string>
+    <string name="merge_tourist_dialog_failed">检测到您有多个账户，为避免财产损失，请重试</string>
+    <string name="merge_tourist_dialog_retry">重试</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">拒绝授权会难以请求广告，影响剧集观看，请下次务必授权。</string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬海量爆火剧情免费看！</string>
+    <string name="push_check_in_title_1">👇点击领取“福利”</string>
+    <string name="push_check_in_title_2">今天你进来了吗？ 💕</string>
+    <string name="push_check_in_title_3">每天看剧，快乐一整天🎉</string>
+    <string name="push_check_in_title_4">你绝对不能错过的限时福利🎁</string>
+    <string name="push_check_in_title_new_0">每日签到得奖金</string>
+    <string name="push_check_in_title_new_1">签到赚奖励</string>
+    <string name="push_check_in_title_new_2">签到即得奖金</string>
+    <string name="push_check_in_title_new_3">想要免费解锁剧集？</string>
+    <string name="push_check_in_title_new_4">签到轻松领</string>
+    <string name="push_check_in_contents_0">追剧不花钱💰，登入领影票免费观影</string>
+    <string name="push_check_in_contents_1">🎉 惊喜福利！连续签到，免费拿影票！</string>
+    <string name="push_check_in_contents_2">开始你的连续签到之旅，免费观影！</string>
+    <string name="push_check_in_contents_3">🎁连续签到，不要错过免费观影的机会！</string>
+    <string name="push_check_in_contents_4">限时签到福利大放送！快来参与！ 🎬</string>
+    <string name="push_check_in_contents_new_0">不容错过！</string>
+    <string name="push_check_in_contents_new_1">好礼天天领，快来签到吧！</string>
+    <string name="push_check_in_contents_new_2">快来领取你的每日奖励！</string>
+    <string name="push_check_in_contents_new_3">快来签到吧！</string>
+    <string name="push_check_in_contents_new_4">福利天天送，快来签到赚取奖励！</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">订阅</string>
+    <string name="profile_subscription_view_default_content">观看更多的剧集</string>
+    <string name="profile_subscription_view_unsubscribed">现在订阅</string>
+    <string name="profile_subscription_view_subscribed">已订阅</string>
+    <string name="profile_subscription_view_weekly_card">周卡</string>
+    <string name="profile_subscription_view_monthly_card">月卡</string>
+    <string name="profile_subscription_view_annual_card">年卡</string>
+    <string name="profile_subscription_view_weekly_pro_card">周卡Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">月卡Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">年卡Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">解锁所有系列一个星期</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">解锁所有系列一个月</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">解锁所有系列一整年</string>
+    <string name="profile_subscription_view_expire_time">过期时间:%1$s</string>
+    <string name="profile_subscription_view_unsupport_product">无法显示，请更新版本</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">订阅</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s大权益</string>
+    <string name="subscription_detail_activity_desc_title">关于订阅</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1.订阅说明\n
+        (1)订阅功能仅为提升APP的使用体验，无论订阅与否都不影响APP的正常使用。\n2.权益说明\n（1）购买周卡PRO/月卡PRO后，您将无限制观看任意剧集。\n（2）免广告：解锁后除了激励广告，其他类型的广告将不再显示。\n（3）1080P分辨率：视频播放支持选择1080P分辨率。\n3.关于自动续订\n（1）订阅将在有效期前24小时自动续费，你可以随时取消自动续订。当续订成功则无法退款。\n4.如何取消订阅\n（1）打开%1$s，然后点击右上角头像。\n（2）点击“付款和订阅”，然后点击“订阅”。\n（3）选择您的ShortMax订阅。\n（4）点击取消订阅。
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">支持1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">去广告</string>
+    <string name="subscription_detail_activity_privilege_5_desc">所有免费</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">全场免费</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">享受高清视频</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">享受纯粹的观看体验</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIP可免费观看全部剧集</string>
+    <string name="subscription_detail_activity_subs_success">订阅成功</string>
+    <string name="subscription_detail_activity_subs_update_success">新订阅更改成功</string>
+    <string name="subscription_day_bonus_claimed">%1$s 奖励币已自动领取!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">订阅享专属权益</string>
+    <string name="subscription_detail_2_activity_subscribed">已订阅:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">失效日期:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">正在为您播放你喜欢的剧</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">累计获得</string>
+    <string name="subs_type_view_total_earning_2">总计</string>
+    <string name="subs_type_view_get_now">（立即获得）</string>
+    <string name="subs_type_view_first_recharge_tip">首充优惠</string>
+    <string name="subs_type_view_detail">详情</string>
+    <string name="subs_type_view_disable_subs_tip">由于多次退款，您的账号已被禁止使用订阅功能</string>
+    <string name="subs_type_view_claim_bonus">（每日签到）</string>
+    <string name="subs_type_view_old_test_claim_bonus">(随时领取)</string>
+    <string name="subs_type_view_per_week_new">%1$s/周</string>
+    <string name="subs_type_view_per_month_new">%1$s/月</string>
+    <string name="subs_type_view_per_year_new">%1$s/年</string>
+    <string name="subs_type_view_renew_per_week">续费%1$s/周</string>
+    <string name="subs_type_view_renew_per_month">续费%1$s/月</string>
+    <string name="subs_type_view_renew_per_year">续费%1$s/年</string>
+
+    <!--Language-->
+    <string name="language_app">App语言</string>
+    <string name="language_en">英语</string>
+    <string name="language_zh_simplified">简体中文</string>
+    <string name="language_zh_traditional">中文繁体</string>
+    <string name="language_fil">菲律宾文</string>
+    <string name="language_hi">印地文</string>
+    <string name="language_in">印度尼西亚语</string>
+    <string name="language_ja">日本语</string>
+    <string name="language_ko">韩语</string>
+    <string name="language_th">泰语</string>
+    <string name="language_ar">阿拉伯语</string>
+    <string name="language_es">西班牙语</string>
+    <string name="language_pt">葡萄牙语</string>
+    <string name="language_vi">越南语</string>
+    <string name="language_de">德语</string>
+    <string name="language_fr">法语</string>
+    <string name="language_ms">马来西亚语</string>
+    <string name="language_ru">俄语</string>
+    <string name="language_it">意大利语</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">权益未到账？</string>
+    <string name="restore_tip_view_refresh">刷新</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">抱歉~未成功获取您的权益，请点击重新尝试</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">观看全集</string>
+    <string name="shorts_fragment_current_episode_finished">全剧终</string>
+    <string name="shorts_fragment_current_episode_updating">剧集更新中</string>
+    <string name="shorts_fragment_next_episode_tip">即将播出&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">预告片</string>
+    <string name="shorts_fragment_trailer_in_production">正片制作中，敬请期待！</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">搜索历史</string>
+    <string name="search_activity_popular_title">大家都在搜</string>
+    <string name="search_activity_no_result">暂无相关内容</string>
+    <string name="search_activity_more_no_result">– 已经到底啦 –</string>
+    <string name="search_activity_input_keyword_hint">请输入搜索内容</string>
+    <string name="search_activity_clear_history_hint">是否确定删除搜索历史中的记录？</string>
+    <string name="search_activity_search_frequently_tips">搜索太频繁，请稍后再试</string>
+    <string name="search_activity_redeem_code_disabled">兑换码不存在</string>
+    <string name="search_activity_redeem_code_delisted">剧已下架</string>
+    <string name="search_activity_redeem_code_overdue">兑换码已过期</string>
+    <string name="search_activity_redeem_code_use_up">来晚了，已领完</string>
+    <string name="search_activity_redeem_code_unsupported">请先升级您的应用版本</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">你可以观看广告解锁当前剧集，来试一下吧</string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">今日解锁:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">看1个广告解锁第4集</string>
+    <string name="ad_continue_dialog_fragment_cancel">坚持退出</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">再看1个广告解锁1集</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">已解锁第%1$s集</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">解锁第%1$s集</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">再看1个广告</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">观看广告免费解锁</string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">今天已观看（%1$s/%2$s）</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">新人专享</string>
+    <string name="new_recommend_shorts_fragment_more_tip">每个商品仅限领一次</string>
+    <string name="new_recommend_shorts_fragment_more">查看更多</string>
+    <string name="new_recommend_shorts_fragment_must_read">新人必看</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">你订阅的%1$s已过期，无法解锁任意剧集，是否重新订阅?</string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">兑换成功</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">收下福利</string>
+    <string name="redeem_code_dialog_fragment_received">已领取</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">[画中画] 功能上线啦~</string>
+    <string name="play_episode_activity_pip_guide_content">在小窗口播放您喜爱的视频片段，同时轻松浏览更多内容。</string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">内容不见了~\n您可以返回 [发现] 浏览其他热门内容</string>
+    <string name="discover_more_fragment_empty_btn_text">返回</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">全部</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">立即开启</string>
+    <string name="sign_in_reminder_fragment_content">开启签到提醒即可成功补签，+%1$s奖励币</string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">补签成功</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s奖励币</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">观看广告即可成功补签，+%1$s奖励币</string>
+    <string name="sign_in_watch_ad_fragment_btn">看广告（%1$s/%2$s）</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">已购买</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">开启权限更及时收到通知。</string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">尊享特权</string>
+    <string name="rfm_guide_dialog_content">更低价格，更多优惠</string>
+    <string name="rfm_guide_dialog_btn">立即充值</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">充值失败</string>
+    <string name="billing_unavailable_tip_dialog_content">
+        你的网络连接异常或你的谷歌账号异常。您可以联系我们的客服来反馈问题。
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">确定更改订阅</string>
+    <string name="subs_update_dialog_current_subs_title">当前订阅</string>
+    <string name="subs_update_dialog_new_subs_title">新订阅</string>
+    <string name="subs_update_dialog_upgrade_content">你的新订阅即刻生效，您当前订阅剩余时间将会折算为新订阅的时间。
+    </string>
+    <string name="subs_update_dialog_downgrade_content">当前订阅在%1$s到期，届时新订阅会开始生效。</string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">限时 %1$s</string>
+    <string name="task_coin_view_completed">任务完成\n共得到%1$s奖励币</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">看剧</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">看剧获得奖励币</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">一共 %1$s 奖励币</string>
+</resources>

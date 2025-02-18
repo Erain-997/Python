@@ -1,0 +1,15 @@
+version: '3'
+services:
+  web_tools:
+    build: ./run_web_tools
+    ports:
+      - "8001:5000"
+    volumes:
+      - ./run_web_tools:/app
+
+  web_remote_debug:
+    build: ./run_web_remote_debug
+    ports:
+      - "8002:5000"
+    volumes:
+      - ./run_web_remote_debug:/app

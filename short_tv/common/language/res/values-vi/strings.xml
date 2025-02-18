@@ -1,0 +1,662 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">Không thể kết nối với máy chủ,vui lòng thử lại sau</string>
+    <string name="common_unknown_exception">Lỗi chưa xác định</string>
+    <string name="common_login_expired">Hội thoại đã hết hạn. Hãy đăng nhập lại.</string>
+    <string name="common_re_login">Đăng nhập lại</string>
+    <string name="common_error_code">Mã lỗi: %1$s</string>
+    <string name="common_waiting">Đang đợi …</string>
+    <string name="common_retry">Thử lại</string>
+    <string name="common_no_more_data">Không có thêm dữ liệu</string>
+    <string name="common_data_empty">Không có gì</string>
+    <string name="common_not_find_app_to_send_email">Không tìm thấy ứng dụng để gửi email</string>
+    <string name="common_google_pay_not_support">Thiết bị hiện tại của bạn không hỗ trợ Google Pay.</string>
+    <string name="common_user_canceled">Hủy người dùng</string>
+    <string name="common_coins">%1$s Xu vàng</string>
+    <string name="common_bonus">%1$s Thưởng</string>
+    <string name="common_current_ep">Tập %1$s</string>
+    <string name="common_total_ep">%1$sbộ</string>
+    <string name="common_delete">Xóa</string>
+    <string name="common_cancel">Hủy</string>
+    <string name="common_continue">Tiếp tục</string>
+    <string name="common_confirm">Xác nhận</string>
+    <string name="common_submit">Gửi</string>
+    <string name="common_play_failed">Phát thất bại</string>
+    <string name="common_server_error">Lỗi máy chủ</string>
+    <string name="common_copy_success">Đã copy</string>
+    <string name="common_duplicate_op_tip">Không lặp lại thao tác</string>
+    <string name="common_later">Sau đó</string>
+    <string name="common_yes">Có</string>
+    <string name="common_no">Không</string>
+    <string name="common_ok">Được</string>
+    <string name="common_allow">Cho phép</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">Vở kịch đã ngừng hoạt động</string>
+    <string name="common_recharge_not_supported">Nạp tiền không được hỗ trợ ở quốc gia/khu vực hiện tại</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">Phát hiện</string>
+    <string name="main_activity_tab_shorts">Phim ngắn</string>
+    <string name="main_activity_tab_my_list">Danh sách</string>
+    <string name="main_activity_tab_profile">Của tôi</string>
+    <string name="main_activity_tab_reward">Thưởng</string>
+    <string name="main_activity_tab_guide_tip_1">[ Thưởng ] Lối vào đã được chuyển đến đây</string>
+    <string name="main_activity_tab_guide_tip_2">[ Danh sách ] Lối vào đã được chuyển đến đây</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">Phát</string>
+    <string name="discover_fragment_remind_me">Remind Me</string>
+    <string name="discover_fragment_reserved">Reserved</string>
+    <string name="discover_fragment_coming_soon">Sắp ra mắt</string>
+    <string name="discover_fragment_reserve_succeed">Đặt hẹn thành công, hãy tìm trong Danh Sách Phim</string>
+    <string name="discover_fragment_coming_soon_more">Thêm</string>
+    <string name="discover_fragment_low_sku_template_notification_go">Mua ngay</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">Ví của tôi</string>
+    <string name="profile_fragment_coins">Xu vàng</string>
+    <string name="profile_fragment_bonus">Thưởng</string>
+    <string name="profile_fragment_top_up">Nạp</string>
+    <string name="profile_fragment_rewards">Thưởng</string>
+    <string name="profile_fragment_feedback">Phản hồi</string>
+    <string name="profile_fragment_language">Ngôn ngữ</string>
+    <string name="profile_fragment_settings">Cài đặt</string>
+    <string name="profile_fragment_guest">Khách %1$s</string>
+    <string name="profile_fragment_user">Người dùng %1$s</string>
+    <string name="profile_fragment_feedback_content">Hãy mô tả chi tiết về vấn đề của bạn:\n (Hãy mô tả chi tiết về vấn
+        đề hoặc yêu cầu của bạn vào ô phía dưới, để giúp chúng tôi hiểu và giải quyết vấn đề cho bạn. (Chúng tôi sẽ xem
+        xét yêu cầu của bạn và sẽ phản hồi lại trong vòng 3–7 ngày làm việc.)\n \nLoại vấn đề (Hãy chọn vấn đề về chức
+        năng, thanh toán, phản hồi đề xuất, khác):\n\nThông tin liên quan:\nUID (Không xóa): %1$s\nPhiên bản ứng dụng
+        (Không xóa): %2$s\nHệ điều hành và model thiết bị (Không xóa): %3$s\nẢnh chụp màn hình hoặc tệp đính kèm (nếu
+        có):\nVấn đề thanh toán – Số đơn hàng &amp; ID tài khoản (bắt buộc):\n
+    </string>
+    <string name="profile_fragment_login_tip">Đăng nhập có quà!</string>
+    <string name="profile_fragment_reward_tip">Nhận Thưởng</string>
+    <string name="profile_fragment_reward_tip1">Phim ngắn miễn phí</string>
+    <string name="profile_fragment_reward_tip2">Đã nhận %1$s xu thưởng</string>
+
+    <string name="profile_fragment_official_social_media">Truyền thông Chính thức</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">Chính sách bảo mật</string>
+    <string name="settings_fragment_user_agreement">Thỏa thuận người dùng</string>
+    <string name="settings_fragment_delete_account">Xóa tài khoản</string>
+    <string name="settings_fragment_logout">Đăng xuất</string>
+    <string name="settings_fragment_version">Phiên bản %1$s</string>
+    <string name="settings_fragment_personal">Thông tin cá nhân</string>
+    <string name="settings_fragment_account_info">Info tài khoản</string>
+    <string name="settings_fragment_else">Khác</string>
+    <string name="settings_fragment_permissions">Quyền</string>
+    <string name="settings_fragment_automatic_episode_unlock">Tự động mở tập phim</string>
+    <string name="settings_fragment_fsi_permission">Thông báo toàn màn hình</string>
+    <string name="settings_fragment_pip_mode">Chế độ hình trong hình</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">Cài đặt ngôn ngữ</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">Đăng nhập %1$s</string>
+    <string name="login_activity_desc">Người dùng thân mến, đăng nhập vào tài khoản là để bảo vệ tài sản và xem nhật ký
+        xem phim của bạn được tốt hơn. Chúng tôi sẽ không lưu trữ thông tin của bạn, hãy yên tâm đăng nhập!
+    </string>
+    <string name="login_activity_policy">Tiếp tục có nghĩa là đồng ý với \n %1$s và %2$s của chúng tôi</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">Chú ý</string>
+    <string name="delete_account_fragment_desc">Người dùng thân mến! Nhắc nhanh: Nếu bạn xóa tài khoản, thì sẽ bỏ lỡ một
+        số chương trình hấp dẫn và sẽ không thể lấy lại dữ liệu (Bao gồm bất kỳ tài sản nào như xu vàng, Thưởng, v.v.) ,
+        bạn có muốn xóa không? Nếu bạn gặp phải bất kỳ vấn đề nào, hãy liên hệ với chúng tôi. Chúng tôi không muốn bạn
+        rời đi như vậy! Cảm ơn thời gian đã cho chúng ta bên nhau!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">Nạp có nghĩa đồng ý với %1$s của chúng tôi</string>
+    <string name="top_up_fragment_recharge_agreement">Thỏa thuận nạp</string>
+    <string name="top_up_fragment_recharge_success">Nạp thành công</string>
+    <string name="top_up_fragment_restore">Khôi phục mua</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">Không mua để khôi phục</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">Xu Vàng bạn mua trước đó đã được phát bù</string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">Quyền lợi đăng ký của bạn đã về tài khoản</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">Đăng ký và Xu Vàng bạn mua trước đó đều đã về tài
+        khoản
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">Bộ phim bạn đã mua đã được mở khóa, vui lòng kiểm
+        tra tại &lt;%1$s – %2$s&gt;
+    </string>
+    <string name="top_up_fragment_desc_title">Sự miêu tả</string>
+    <string name="top_up_fragment_desc_content">1.Mở khóa nội dung trả phí: Tiền xu vàng và Thưởng dùng để mở khóa nội
+        dung trả phí trong ứng dụng.\n2.Tương đương nạp Tiền xu: 1 xu=1 Thưởng. Xin lưu ý rằng việc nạp Tiền xu không
+        được hỗ trợ hoàn Tiền xu.\n3.Hết hạn Thưởng: Thưởng sẽ hết hạn sau một khoảng thời gian nhất định. Vui lòng kiểm
+        tra thời gian hết hạn của Thưởng của bạn trong phần \"Ví của tôi\" của ứng dụng.
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">Giá:</string>
+    <string name="unlock_episode_dialog_fragment_balance">Số dư:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">Cửa hàng Xu vàng</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">Xem quảng cáo</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">Xem quảng cáo để mở khóa miễn phí %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">Mở khóa</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">Tận hưởng đặc quyền, nạp càng tiết kiệm
+        hơn
+    </string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">Mở khóa từ tập hiện tại</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">Mở khóa %1$s tập</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">Mở khóa tất cả các tập</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">Đã mở khóa %1$s tập</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">Quảng cáo mở khóa</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">Xem quảng cáo mở khóa miễn phí %1$s/%2$s</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">miễn phí</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">Phim của tôi</string>
+    <string name="my_list_fragment_recently_watched">Xem gần đây</string>
+    <string name="my_list_fragment_empty_desc">Vào Trang chủ để khám phá thêm nhiều phim mới nổi tiếng</string>
+    <string name="my_list_fragment_select_all">Chọn hết</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">Hãy hủy phim chọn trước</string>
+    <string name="my_list_fragment_delete_tip">Xác nhận xóa nội dung được chọn?</string>
+    <string name="my_list_fragment_home">Trang chủ</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">Chọn tập</string>
+    <string name="shorts_fragment_share">Chia sẻ</string>
+    <string name="shorts_fragment_more">Thêm</string>
+    <string name="shorts_fragment_less">Thu lại</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">Cập nhật lên EP.%1$s/EP.%2$s</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">Hãy mở khóa tập trước</string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">Xem ngay</string>
+    <string name="notification_free">Miễn phí</string>
+    <string name="notification_check_in_button">Nhận ngay</string>
+    <string name="notification_daemon_title_1">🥳 Chào mừng đến với ShortMax!</string>
+    <string name="notification_daemon_content_1">💕Nhấp để vào ~ Vô số nội dung hấp dẫn đang đợi bạn!</string>
+    <string name="notification_daemon_title_2">Chào mừng đến với ShortMax</string>
+    <string name="notification_daemon_content_2">Người xung quanh bạn đều đang xem.</string>
+    <string name="notification_enter_now">Vào ngay</string>
+    <string name="notification_go_now">Tiến đến</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">Thưởng của bạn:</string>
+    <string name="rewards_activity_check_in_title">Điểm danh mỗi ngày</string>
+    <string name="rewards_activity_check_in_desc">Điểm danh nhận thưởng</string>
+    <string name="rewards_activity_check_in">Điểm danh</string>
+    <string name="rewards_activity_check_in_day">Ngày %1$s</string>
+    <string name="rewards_activity_watch_ad_title">Xem quảng cáo, kiếm thưởng</string>
+    <string name="rewards_activity_watch_ad_desc">Xem tất cả quảng cáo, thưởng thêm %1$s</string>
+    <string name="rewards_activity_watch_all_ads_desc">Đã nhận %1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s Thưởng</string>
+    <string name="rewards_activity_watch_ad_get">Nhận</string>
+    <string name="rewards_activity_watch_ad_double_rewards">Thưởng gấp đôi</string>
+    <string name="rewards_activity_get_double_rewards">Nhận phần thưởng</string>
+    <string name="rewards_activity_description_title">Miêu tả</string>
+    <string name="rewards_activity_description_value">1. Mọi quyền giải thích thuộc về ShortMax\n2. Thưởng chỉ dùng để
+        xem phim và hết hạn sau 10 ngày; Hãy sử dụng trước khi hết hạn\n3. Xem phim sẽ dùng Xu vàng trước, nếu không đủ
+        sẽ tự động dùng Thưởng\n4. 0 giờ mỗi ngày cập nhật thưởng đăng nhập (UTC+0)
+    </string>
+    <string name="rewards_activity_go">Đi</string>
+    <string name="rewards_activity_accept_task_reward_tip">Chúc mừng! Thưởng +%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">Đã mở khóa tập %1$s cho bạn</string>
+    <string name="play_episode_activity_update_speed_tip">Đã chuyển sang phát x%1$s lần</string>
+    <string name="play_episode_activity_speed_playing">Đang phát tốc độ x%1$s</string>
+    <string name="play_episode_activity_speed_playing_unit">x%1$s</string>
+    <string name="play_episode_activity_resolution_auto">Tự động</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">Tải thất bại, đã chuyển sang %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">Tải vui lòng đợi…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">Mạng chậm, chất lượng tốt nhất đã
+        được chọn cho bạn.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">Video đang tải chậm. Nhấn vào đây để
+        chuyển đổi chất lượng.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">chuyển đổi chất lượng</string>
+    <string name="play_episode_activity_switch_resolution_tip">Đã chuyển sang 1080p</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">Đang đổi sang %1$sp</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">Đã chuyển sang tự động thành công</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">Đang đổi sang tự động</string>
+    <string name="play_episode_activity_progress_adjust">Điều chỉnh tiến độ</string>
+    <string name="play_episode_activity_unlock_now">Mở khóa ngay</string>
+    <string name="play_episode_activity_switch_resolution_failed">Thất bại khi chuyển đổi, đã giữ nguyên độ nét gốc
+    </string>
+    <string name="play_episode_activity_swipe_to_watch">Trượt để đổi tập</string>
+    <string name="play_episode_collect_tips_1">Nhấp để sưu tầm, để không lạc mất phim</string>
+    <string name="play_episode_collect_tips_2">Đã thêm vào Danh Sách Phim</string>
+    <string name="play_episode_collect_tips_3">Phim này đã tự động thêm vào Danh Sách Phim</string>
+    <string name="play_episode_activity_discount_unlock_tips">Vui lòng kiểm tra tại [%1$s–%2$s]</string>
+    <string name="immersion_activity_purchase_all_episode">Mua bộ sưu tập đầy đủ</string>
+    <string name="immersion_activity_free_clarity_1080p">Miễn phí có thời hạn</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">Tiến độ phát</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">Chất lượng hình ảnh</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">Chúc mừng!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">Xem thêm 1 quảng cáo\nThưởng sẽ gấp đôi!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">Xem ngay</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">Xem phim sẽ nhận xu thưởng</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Đăng nhập bằng Facebook %1$s Thưởng</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Đăng nhập bằng Google %1$s Thưởng</string>
+    <string name="facebook_login_dialog_fragment_huge">Hậu hĩnh</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">Nhập số điện thoại của bạn</string>
+    <string name="phone_auth_fragment_hint_verification_code">Nhập mã xác nhận</string>
+    <string name="phone_auth_fragment_get">Nhận mã xác minh</string>
+    <string name="phone_auth_fragment_resend">Gửi lại ( %1$ss )</string>
+    <string name="phone_auth_fragment_welcome">Chào mừng,\nXác minh số điện thoại của bạn</string>
+    <string name="phone_auth_fragment_check_content">Vui lòng kiểm tra nội dung bạn đã nhập!</string>
+    <string name="phone_auth_fragment_succeed">Số điện thoại của bạn đã được xác minh.</string>
+    <string name="phone_auth_fragment_invalid_area_code">Hãy nhập chính xác mã khu vực</string>
+    <string name="phone_auth_fragment_network_error">Hãy kiểm tra mạng</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">Chào mừng,\nXác minh địa chỉ email của bạn</string>
+    <string name="email_auth_fragment_hint_email_address">Nhập địa chỉ email của bạn</string>
+    <string name="email_auth_fragment_check_content">Vui lòng kiểm tra nội dung bạn đã nhập!</string>
+    <string name="email_auth_fragment_succeed">Email của bạn đã được xác minh.</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">Có thể bạn sẽ thích</string>
+    <string name="immersion_back_fragment_button_play">Phát</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">Chọn khu vực</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">Thư viện</string>
+    <string name="library_activity_label_all">Tất cả</string>
+    <string name="library_activity_label_male">Kênh truyện nam</string>
+    <string name="library_activity_label_female">Kênh truyện nữ</string>
+    <string name="library_activity_label_limit">Nội dung được chọn không thể vượt quá 5 mục</string>
+    <string name="library_activity_empty_text">Rất tiếc, không có video liên quan nào được lọc</string>
+    <string name="library_fragment_title">Lọc</string>
+    <string name="library_fragment_interest">Quan tâm</string>
+    <string name="library_fragment_type">Kiểu</string>
+    <string name="library_fragment_reset">Cài lại</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax BXH</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">E–mail</string>
+    <string name="bind_info_fragment_phone">Số điện thoại</string>
+    <string name="bind_info_fragment_unbound">Chưa liên kết</string>
+    <string name="bind_info_fragment_bind">Đã liên kết</string>
+
+    <!-- AD-->
+    <string name="ad_loading">Đang tải quảng cáo</string>
+    <string name="ad_interstitial_remove_ad_by_payment">Bạn có thể trả phí để tắt quảng cáo, sẽ mang lại cho bạn trải
+        nghiệm tuyệt vời hơn!
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">Nhận %1$s Thưởng</string>
+    <string name="notification_permission_dialog_des">Mở quyền thông báo, nhận Thưởng</string>
+    <string name="notification_permission_dialog_receive">Nhận</string>
+    <string name="notification_permission_dialog_choose_title">Chọn loại thông báo bạn muốn nhận</string>
+    <string name="notification_permission_dialog_choose_turn_on">Mở</string>
+    <string name="notification_permission_dialog_granted">Đã nhận %1$s Thưởng</string>
+    <string name="notification_permission_dialog_choose_item_0">Tập mới miễn phí</string>
+    <string name="notification_permission_dialog_choose_item_1">Cập nhật tập này</string>
+    <string name="notification_permission_dialog_choose_item_2">Nhắc Điểm danh mỗi ngày</string>
+    <string name="notification_permission_dialog_choose_item_3">Phim mới ra mắt</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">Tặng quà giá trị</string>
+    <string name="sku_expansion_dialog_fragment_count_down">Chỉ còn %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">Để Bảo vệ tài sản của bạn, hãy đăng nhập tài khoản để tránh
+        bị mất thông tin!
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">Bảo vệ tài sản của bạn</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">Đăng nhập</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">Thích ShortMax không?</string>
+    <string name="rating_dialog_desc">Hãy đánh giá 5 sao để để ủng hộ! Sự động viên của bạn là động lực để chúng tôi tạo
+        nên trải nghiệm dịch vụ chất lượng.
+    </string>
+    <string name="rating_dialog_desc_key_word">5 sao</string>
+    <string name="rating_dialog_rating_success_tip">Cảm ơn đánh giá của bạn</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">Phát hiện phiên bản mới</string>
+    <string name="update_dialog_now">Cập nhật ngay</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">Do người dùng tải lên, hãy tố cáo!</string>
+    <string name="report_dialog_uploaded_by_users_des">Nội dung của chương trình được người dùng này tải lên. Hãy tố cáo
+        ngay vấn đề bản quyền bất kỳ.
+    </string>
+    <string name="report_dialog_report">Tố cáo</string>
+    <string name="report_dialog_drama_upload">Tải tập lên</string>
+    <string name="report_dialog_upload_drama">Tải tập phim lên</string>
+    <string name="report_dialog_add_cover">Thêm bìa</string>
+    <string name="report_dialog_your_drama_and_win_coins">Tải tập phim lên để nhận Xu vàng</string>
+    <string name="report_dialog_drama_cover">Trang bìa phim</string>
+    <string name="report_dialog_drama_name">Tên phim</string>
+    <string name="report_dialog_drama_name_hint">Nhập tên phim</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">Email của bạn</string>
+    <string name="report_dialog_your_email_hint">Chúng tôi sẽ liên hệ với bạn khi bộ phim được chấp nhận</string>
+    <string name="report_dialog_upload_video">Tải video lên</string>
+    <string name="report_dialog_apply">Đăng ký</string>
+    <string name="report_dialog_under_review">Đang xét duyệt</string>
+    <string name="report_dialog_report_succeed">Tố cáo thành công</string>
+    <string name="report_dialog_re_upload">Tải lên lại</string>
+    <string name="report_dialog_upload_permission">Cần có Giấy phép mới được tải phim lên</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">Ví của tôi</string>
+    <string name="my_wallet_fragment_empty_record">Chưa có nhật ký</string>
+    <string name="my_wallet_fragment_discount">Ưu đãi</string>
+    <string name="my_wallet_fragment_coins_record">Nhật ký Xu vàng</string>
+    <string name="my_wallet_fragment_bonus_record">Nhật ký Thưởng</string>
+    <string name="my_wallet_fragment_unused">Chưa dùng</string>
+    <string name="my_wallet_fragment_used">Đã dùng</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s Bỏ qua</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">Chào mừng đến với ShortMax</string>
+    <string name="home_login_guide_dialog_button">Nhận</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ Đợi chút, bạn muốn đăng xuất khỏi tài khoản?</string>
+    <string name="logout_tip_dialog_desc_1">💕️️ Duy trì trạng thái đăng nhập, bạn có thể:</string>
+    <string name="logout_tip_dialog_desc_2">Nhận đề xuất mới nhất của chúng tôi ngay lập tức.</string>
+    <string name="logout_tip_dialog_desc_3">Tận hưởng nội dung cá tính một cách tiện lợi</string>
+    <string name="logout_tip_dialog_desc_4">Lưu nhật ký sử dụng của bạn, tiện để đọc hoặc xem lần sau</string>
+    <string name="logout_tip_dialog_reconsider">Xem xét lại</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗Phát hiện có nhiều tài khoản trên thiết bị này.</string>
+    <string name="merge_tourist_dialog_content">Có muốn đồng bộ hóa thông tin tài sản và nhật ký xem phim của tài khoản
+        lịch sử vào tài khoản hiện tại?
+    </string>
+    <string name="merge_tourist_dialog_processing">Dang xử lý…</string>
+    <string name="merge_tourist_dialog_succeed_title">Tặng bạn %1$s Thưởng</string>
+    <string name="merge_tourist_dialog_succeed_content">Đã khôi phục tài sản và nhật ký xem phim trong tài khoản lịch sử
+        của bạn
+    </string>
+    <string name="merge_tourist_dialog_failed">Phát hiện bạn có nhiều tài khoản, để tránh mất tài sản, hãy thử lại.
+    </string>
+    <string name="merge_tourist_dialog_retry">Thử lại</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">Từ chối ủy quyền sẽ khó tải quảng cáo, điều này sẽ ảnh hưởng đến xem phim. Hãy ủy
+        quyền vào lần sau.
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬Miễn phí xem vô số phim hot!</string>
+    <string name="push_check_in_title_1">👇Nhấp để nhận \"Phúc lợi\"</string>
+    <string name="push_check_in_title_2">Hôm nay bạn đã vào chưa? 💕</string>
+    <string name="push_check_in_title_3">Xem phim mỗi ngày, cả ngày vui vẻ🎉</string>
+    <string name="push_check_in_title_4">Bạn không thể bỏ lỡ phúc lợi hạn giờ 🎁</string>
+    <string name="push_check_in_title_new_0">Nhận tiền thưởng khi đăng nhập mỗi ngày</string>
+    <string name="push_check_in_title_new_1">Đăng nhập và kiếm phần thưởng</string>
+    <string name="push_check_in_title_new_2">Đăng nhập và nhận tiền thưởng</string>
+    <string name="push_check_in_title_new_3">Bạn muốn mở khóa các tập phim miễn phí?</string>
+    <string name="push_check_in_title_new_4">Đăng nhập và nhận nó một cách dễ dàng</string>
+    <string name="push_check_in_contents_0">Xem phim mà không tốn tiền💰! Đăng nhập nhận vé xem phim miễn phí</string>
+    <string name="push_check_in_contents_1">🎉 Bất ngờ thú vị! Điểm danh liên tiếp, nhận vé xem phim miễn phí!</string>
+    <string name="push_check_in_contents_2">🍿Bắt đầu hành trình điểm danh liên tiếp của bạn để xem phim miễn phí!
+    </string>
+    <string name="push_check_in_contents_3">🎁Điểm danh liên tiếp, không bỏ lỡ cơ hội xem phim miễn phí!</string>
+    <string name="push_check_in_contents_4">Điểm danh hạn giờ tặng phúc lợi lớn! Mau đến tham gia nào!🎬</string>
+    <string name="push_check_in_contents_new_0">Không nên bỏ qua!</string>
+    <string name="push_check_in_contents_new_1">Nhận quà tốt mỗi ngày, đến và đăng nhập!</string>
+    <string name="push_check_in_contents_new_2">Hãy đến và nhận phần thưởng hàng ngày của bạn!</string>
+    <string name="push_check_in_contents_new_3">Hãy đến và đăng nhập!</string>
+    <string name="push_check_in_contents_new_4">Lợi ích được trao mỗi ngày, hãy đến và đăng nhập để kiếm phần thưởng!
+    </string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">Đăng ký</string>
+    <string name="profile_subscription_view_default_content">Xem nhiều tập hơn</string>
+    <string name="profile_subscription_view_unsubscribed">Đăng ký ngay</string>
+    <string name="profile_subscription_view_subscribed">Đã đăng ký</string>
+    <string name="profile_subscription_view_weekly_card">Thẻ tuần</string>
+    <string name="profile_subscription_view_monthly_card">Thẻ tháng</string>
+    <string name="profile_subscription_view_annual_card">Thẻ năm</string>
+    <string name="profile_subscription_view_weekly_pro_card">Thẻ Tuần Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">Thẻ Tháng Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">Thẻ Năm Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">Mở khóa tất cả các loại trong 1 tuần</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">Mở khóa tất cả các loại trong 1 tháng</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">Mở khóa tất cả các loại trong 1 năm</string>
+    <string name="profile_subscription_view_expire_time">Hết hạn vào: %1$s</string>
+    <string name="profile_subscription_view_unsupport_product">Không thể hiển thị, hãy cập nhật phiên bản</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">Đăng ký</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s Đặc quyền</string>
+    <string name="subscription_detail_activity_desc_title">Về đăng ký</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1.Mô tả về Đăng ký\n (1) Chức năng đăng ký chỉ nhằm
+        nâng cao trải nghiệm sử dụng APP và không ảnh hưởng đến việc sử dụng APP thông thường cho dù đã đăng ký hay
+        chưa. \n2.Giải thích về Quyền lợi\n (1) Sau khi mua Weekly PRO/Monthly PRO, bạn sẽ có thể xem bất kỳ tập phim
+        nào mà không có bất kỳ giới hạn nào. \n(2) Không có quảng cáo: Sau khi mở khóa, các loại quảng cáo khác sẽ không
+        còn được hiển thị ngoại trừ quảng cáo khuyến khích. \n(3) Độ phân giải 1080P: Phát lại video hỗ trợ lựa chọn độ
+        phân giải 1080P. \n3.Về Tự động gia hạn\n (1) Đăng ký sẽ được tự động gia hạn 24 giờ trước ngày hết hạn, bạn có
+        thể hủy tự động gia hạn bất kỳ lúc nào. Khi đăng ký được gia hạn thành công thì sẽ không được hoàn lại tiền.
+        \n4. Cách hủy đăng ký của bạn \n (1) Mở %1$s và nhấp vào ảnh đại diện của bạn ở góc trên bên phải. \n(2) Nhấp
+        vào “Thanh toán và Đăng ký”, sau đó nhấp vào “Đăng ký”. \n(3) Chọn đăng ký ShortMax của bạn. \n(4) Nhấp vào Hủy
+        đăng ký.
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">Hỗ trợ 1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">Đi quảng cáo</string>
+    <string name="subscription_detail_activity_privilege_5_desc">Miễn phí hết</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">Miễn phí toàn bộ</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">Thưởng thức video độ nét cao</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">Tận hưởng trải nghiệm xem thuần túy</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIP có thể xem miễn phí tất cả các tập phim
+    </string>
+    <string name="subscription_detail_activity_subs_success">Đăng ký thành công</string>
+    <string name="subscription_detail_activity_subs_update_success">Đăng ký mới đã thay đổi thành công</string>
+    <string name="subscription_day_bonus_claimed">%1$s Thưởng nhận tự động!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">Đăng ký để nhận quyền lợi độc quyền</string>
+    <string name="subscription_detail_2_activity_subscribed">Đã đăng ký:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">Ngày hết hạn:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">Đang phát phim bạn ưa thích</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">Tổng nhận</string>
+    <string name="subs_type_view_total_earning_2">Tổng</string>
+    <string name="subs_type_view_get_now">(Nhận ngay)</string>
+    <string name="subs_type_view_first_recharge_tip">Ưu đãi nạp đầu</string>
+    <string name="subs_type_view_detail">Chi tiết</string>
+    <string name="subs_type_view_disable_subs_tip">Do hoàn tiền nhiều lần nên tài khoản của bạn đã bị cấm sử dụng tính
+        năng Đăng ký
+    </string>
+    <string name="subs_type_view_claim_bonus">(Điểm danh mỗi ngày)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(Nhận bất cứ lúc nào)</string>
+    <string name="subs_type_view_per_week_new">%1$s/Tuần</string>
+    <string name="subs_type_view_per_month_new">%1$s/ Tháng</string>
+    <string name="subs_type_view_per_year_new">%1$s/Năm</string>
+    <string name="subs_type_view_renew_per_week">Gia hạn %1$s/tuần</string>
+    <string name="subs_type_view_renew_per_month">Gia hạn %1$s/ tháng</string>
+    <string name="subs_type_view_renew_per_year">Gia hạn %1$s năm</string>
+
+    <!--Language-->
+    <string name="language_app">Ngôn ngữ APP</string>
+    <string name="language_en">Tiếng Anh</string>
+    <string name="language_zh_simplified">Tiếng Trung giản thể</string>
+    <string name="language_zh_traditional">Tiếng Trung phồn thể</string>
+    <string name="language_fil">Tiếng Philippin</string>
+    <string name="language_hi">Tiếng Hindi</string>
+    <string name="language_in">Tiếng Indonesia</string>
+    <string name="language_ja">Tiếng Nhật</string>
+    <string name="language_ko">Tiếng Hàn</string>
+    <string name="language_th">Tiếng Thái Lan</string>
+    <string name="language_ar">Tiếng Ả Rập</string>
+    <string name="language_es">người Tây Ban Nha</string>
+    <string name="language_pt">tiếng Bồ Đào Nha</string>
+    <string name="language_vi">Tiếng Việt</string>
+    <string name="language_de">Tiếng Đức</string>
+    <string name="language_fr">Tiếng Pháp</string>
+    <string name="language_ms">Tiếng Malaysia</string>
+    <string name="language_ru">Tiếng Nga</string>
+    <string name="language_it">Tiếng Ý</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">Quyền lợi chưa đến tài khoản?</string>
+    <string name="restore_tip_view_refresh">Làm mới</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">Rất tiếc, Chưa nhận được quyền lợi của bạn, hãy nhấn để thử lại
+    </string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">Xem toàn bộ tập</string>
+    <string name="shorts_fragment_current_episode_finished">Tập cuối</string>
+    <string name="shorts_fragment_current_episode_updating">Đang cập nhật</string>
+    <string name="shorts_fragment_next_episode_tip">Sắp ra mắt&lt;%1$s&gt;</string>
+    <string name="shorts_fragment_trailer">Trailer</string>
+    <string name="shorts_fragment_trailer_in_production">Đang sản xuất, hãy cùng đón đợi!</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">Lịch sử tìm kiếm</string>
+    <string name="search_activity_popular_title">Xu hướng tìm kiếm</string>
+    <string name="search_activity_no_result">Không có nội dung liên quan</string>
+    <string name="search_activity_more_no_result">–Hết rồi–</string>
+    <string name="search_activity_input_keyword_hint">Nhập nội dung tìm kiếm</string>
+    <string name="search_activity_clear_history_hint">Có chắc chắn xóa nhật ký tìm kiếm lịch sử?</string>
+    <string name="search_activity_search_frequently_tips">Tìm kiếm quá nhiều, hãy thử lại sau</string>
+    <string name="search_activity_redeem_code_disabled">Mã đổi không tồn tại</string>
+    <string name="search_activity_redeem_code_delisted">Phim đã gỡ xuống</string>
+    <string name="search_activity_redeem_code_overdue">Mã đổi đã hết hạn</string>
+    <string name="search_activity_redeem_code_use_up">Chậm chân rồi, đã nhận hết</string>
+    <string name="search_activity_redeem_code_unsupported">Vui lòng nâng cấp phiên bản ứng dụng của bạn trước</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">Bạn có thể xem quảng cáo để mở khóa tập hiện tại, hãy thử xem!
+    </string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">Hôm nay mở khóa:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">Xem 1 quảng cáo được mở khóa tập %1$s</string>
+    <string name="ad_continue_dialog_fragment_cancel">Kiên quyết thoát ra</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">Xem thêm 1 quảng cáo được mở khóa 1 tập</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">Đã mở khóa tập %1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">Mở khóa tập %1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">Xem thêm 1 quảng cáo</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">Xem quảng cáo để mở khóa miễn phí</string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">Hôm nay đã xem (%1$s/%2$s)</string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">Người Mới Độc Quyền</string>
+    <string name="new_recommend_shorts_fragment_more_tip">Mỗi sản phẩm chỉ nhận 1 lần</string>
+    <string name="new_recommend_shorts_fragment_more">Thêm</string>
+    <string name="new_recommend_shorts_fragment_must_read">Người Mới Cần Biết</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">Đăng ký %1$s của bạn đã hết hạn, sẽ không thể mở khóa bất kỳ tập nào,
+        có đăng ký lại?
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">Đổi thành công</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">Nhận lợi ích</string>
+    <string name="redeem_code_dialog_fragment_received">Đã nhận</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">Tính năng [Hình trong Hình] đã được ra mắt!</string>
+    <string name="play_episode_activity_pip_guide_content">Tiếp tục xem các đoạn clip yêu thích của bạn trong cửa sổ
+        phát nhỏ khi bạn duyệt web. Đa nhiệm trở nên dễ dàng!
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">Nội dung đã biến mất~\nBạn có thể quay lại [Phát hiện] để duyệt
+        qua nội dung phổ biến khác.
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">Quay lại</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">Tất cả</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">Bắt Đầu Ngay</string>
+    <string name="sign_in_reminder_fragment_content">Bật nhắc nhở đăng ký để ký kết thành công một cách hồi tố, +%1$s
+        Thưởng
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">Đăng ký bù thành công</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s Thưởng</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">Xem quảng cáo để ký kết thành công một cách hồi tố và kiếm +%1$s
+        Thưởng
+    </string>
+    <string name="sign_in_watch_ad_fragment_btn">Xem quảng cáo (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">Đã mua</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">Bật quyền để nhận thông báo nhanh hơn</string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">Tận hưởng đặc quyền</string>
+    <string name="rfm_guide_dialog_content">Giá thấp hơn, giảm giá nhiều hơn</string>
+    <string name="rfm_guide_dialog_btn">Nạp tiền ngay bây giờ</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">Nạp tiền không thành công</string>
+    <string name="billing_unavailable_tip_dialog_content">Kết nối mạng của bạn không bình thường hoặc tài khoản Google
+        của bạn không bình thường. Bạn có thể liên hệ với bộ phận chăm sóc khách hàng của chúng tôi để báo cáo sự cố.
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">Xác định thay đổi đăng ký</string>
+    <string name="subs_update_dialog_current_subs_title">Đăng ký hiện tại</string>
+    <string name="subs_update_dialog_new_subs_title">Đăng ký mới</string>
+    <string name="subs_update_dialog_upgrade_content">Đăng ký mới của bạn sẽ có hiệu lực ngay lập tức và thời gian còn
+        lại của đăng ký hiện tại sẽ được chuyển đổi thành thời gian của đăng ký mới.
+    </string>
+    <string name="subs_update_dialog_downgrade_content">Đăng ký hiện tại của bạn sẽ hết hạn vào %1$s, khi đó đăng ký mới
+        sẽ có hiệu lực.
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">Giới hạn %1$s</string>
+    <string name="task_coin_view_completed">Hoàn thành nhiệm vụ\nTổng nhận được %1$s Xu Thưởng</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">Xem phim</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">Xem phim nhận Xu Thưởng
+    </string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">Tổng %1$s xu thưởng</string>
+</resources>

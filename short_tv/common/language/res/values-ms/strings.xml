@@ -1,0 +1,683 @@
+<resources>
+    <string name="app_name">ShortMax</string>
+
+    <string name="common_network_error">Tidak dapat menyambung ke pelayan, sila cuba sebentar lagi</string>
+    <string name="common_unknown_exception">Ralat tidak diketahui</string>
+    <string name="common_login_expired">Sesi anda telah tamat tempoh. Sila log masuk semula.</string>
+    <string name="common_re_login">Log Masuk Semula</string>
+    <string name="common_error_code">Kod ralat: %1$s</string>
+    <string name="common_waiting">Menunggu…</string>
+    <string name="common_retry">Cuba Lagi</string>
+    <string name="common_no_more_data">Tiada data lagi</string>
+    <string name="common_data_empty">Tiada Apa–apa Di Sini</string>
+    <string name="common_not_find_app_to_send_email">Tiada apl e–mel ditemui</string>
+    <string name="common_google_pay_not_support">Peranti semasa anda tidak menyokong Google Pay.</string>
+    <string name="common_user_canceled">Dibatalkan oleh pengguna</string>
+    <string name="common_coins">%1$s Syiling</string>
+    <string name="common_bonus">%1$s Bonus</string>
+    <string name="common_current_ep">EP.%1$s</string>
+    <string name="common_total_ep">EP %1$s</string>
+    <string name="common_delete">Padam</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_continue">Teruskan</string>
+    <string name="common_confirm">Sahkan</string>
+    <string name="common_submit">Hantar</string>
+    <string name="common_play_failed">Gagal bermain</string>
+    <string name="common_server_error">Ralat pelayan</string>
+    <string name="common_copy_success">Disalin</string>
+    <string name="common_duplicate_op_tip">Jangan ulangi operasi</string>
+    <string name="common_later">Nanti</string>
+    <string name="common_yes">Ya</string>
+    <string name="common_no">Tidak</string>
+    <string name="common_ok">Okey</string>
+    <string name="common_allow">Benarkan</string>
+    <string name="common_ad" translatable="false">Ad</string>
+    <string name="common_drama_not_available">Siri ini telah dialih keluar</string>
+    <string name="common_recharge_not_supported">Caj semula tidak disokong di negara/rantau semasa</string>
+    <string name="common_ssl_verified_fail" translatable="false">SSL certificate verification failed</string>
+
+    <!--MainActivity-->
+    <string name="main_activity_tab_discover">Temui</string>
+    <string name="main_activity_tab_shorts">Drama Pendek</string>
+    <string name="main_activity_tab_my_list">Senarai Saya</string>
+    <string name="main_activity_tab_profile">Profil</string>
+    <string name="main_activity_tab_reward">Ganjaran</string>
+    <string name="main_activity_tab_guide_tip_1">Pintu masuk [ Ganjaran ] telah dipindah ke sini</string>
+    <string name="main_activity_tab_guide_tip_2">Pintu masuk [ Senarai Saya ] telah dipindah ke sini</string>
+
+    <!--DiscoverFragment-->
+    <string name="discover_fragment_play_now">Main Sekarang</string>
+    <string name="discover_fragment_remind_me">Ingatkan Saya</string>
+    <string name="discover_fragment_reserved">Ditempah</string>
+    <string name="discover_fragment_coming_soon">Akan datang</string>
+    <string name="discover_fragment_reserve_succeed">Tempahan Berjaya. Anda boleh mencarinya dalam Senarai Saya.
+    </string>
+    <string name="discover_fragment_coming_soon_more">Lagi</string>
+    <string name="discover_fragment_low_sku_template_notification_go">Pergi</string>
+
+    <!--ProfileFragment-->
+    <string name="profile_fragment_uid">UID %1$s</string>
+    <string name="profile_fragment_my_wallet">Dompet Saya</string>
+    <string name="profile_fragment_coins">Syiling</string>
+    <string name="profile_fragment_bonus">Bonus</string>
+    <string name="profile_fragment_top_up">Tambah Nilai</string>
+    <string name="profile_fragment_rewards">Ganjaran</string>
+    <string name="profile_fragment_feedback">Maklum Balas</string>
+    <string name="profile_fragment_language">Bahasa</string>
+    <string name="profile_fragment_settings">Tetapan</string>
+    <string name="profile_fragment_guest">Pelawat %1$s</string>
+    <string name="profile_fragment_user">Pengguna %1$s</string>
+    <string name="profile_fragment_feedback_content">Sila berikan penerangan terperinci tentang masalah anda:\n(Sila
+        gunakan ruang di bawah untuk memberikan penerangan terperinci tentang masalah atau permintaan anda. Kami akan
+        menyemak pertanyaan anda dan berhasrat untuk menghubungi anda semula dalam masa 3–7 hari bekerja.)\n \n\nJenis
+        masalah:\n(sila pilih Isu Fungsi, Isu Pembayaran, Cadangan, lain–lain)\n\n\nMaklumat Berkaitan:\nUID (Jangan
+        padamkan): %1$s\nVersi App (Jangan padamkan): %2$s\nSistem Pengendalian dan Model Peranti (Jangan padamkan):
+        %3$s\nTangkapan skrin atau Lampiran (jika berkenaan):\nIsu Pembayaran – Nombor pesanan &amp; akaun ID
+        (diperlukan):\n
+    </string>
+    <string name="profile_fragment_login_tip">Log masuk dan dapatkan hadiah!</string>
+    <string name="profile_fragment_reward_tip">Dapat Bonus</string>
+    <string name="profile_fragment_reward_tip1">Drama Percuma</string>
+    <string name="profile_fragment_reward_tip2">Dapatkan %1$s Bonus</string>
+
+    <string name="profile_fragment_official_social_media">Media Sosial Rasmi</string>
+
+    <!--SettingsFragment-->
+    <string name="settings_fragment_privacy_policy">Dasar Privasi</string>
+    <string name="settings_fragment_user_agreement">Perjanjian Pengguna</string>
+    <string name="settings_fragment_delete_account">Padam Akaun</string>
+    <string name="settings_fragment_logout">Log Keluar</string>
+    <string name="settings_fragment_version">Versi %1$s</string>
+    <string name="settings_fragment_personal">Peribadi</string>
+    <string name="settings_fragment_account_info">Maklumat Akaun</string>
+    <string name="settings_fragment_else">Lain</string>
+    <string name="settings_fragment_permissions">Kebenaran</string>
+    <string name="settings_fragment_automatic_episode_unlock">Buka Kunci Episod Automatik</string>
+    <string name="settings_fragment_fsi_permission">Pemberitahuan skrin penuh</string>
+    <string name="settings_fragment_pip_mode">Mod gambar dalam gambar</string>
+
+    <!--AppLanguageFragment-->
+    <string name="app_language_fragment_title">Tetapan Bahasa</string>
+
+    <!--LoginActivity-->
+    <string name="login_activity_login_with">Log masuk %1$s</string>
+    <string name="login_activity_desc">Pengguna yang dihormati, log masuk ke akaun adalah untuk melindungi aset dan
+        rekod tontonan dengan lebih baik. Kami tidak akan menyimpan maklumat anda, sila yakin untuk log masuk!
+    </string>
+    <string name="login_activity_policy">Dengan meneruskan, anda bersetuju menerima\n %1$s dan %2$s.</string>
+
+    <!--DeleteAccountFragment-->
+    <string name="delete_account_fragment_title">Beri Perhatian</string>
+    <string name="delete_account_fragment_desc">Hai, peminat drama! Makluman pantas: jika anda memadamkan akaun anda,
+        anda akan terlepas beberapa rancangan hebat dan tidak boleh mendapatkan semula data anda (Termasuk sebarang
+        harta seperti syiling, bonus, dll). Pasti anda mahu melakukan ini? Jika anda mempunyai kebimbangan, hubungi
+        kami. Kami tidak harap melihat anda pergi! Terima kasih untuk kenangan ini!
+    </string>
+
+    <!--TopUpFragment-->
+    <string name="top_up_fragment_recharge_tip">Caj semula bermakna bersetuju dengan %1$s</string>
+    <string name="top_up_fragment_recharge_agreement">Perjanjian Caj Semula</string>
+    <string name="top_up_fragment_recharge_success">Tambah nilai berjaya</string>
+    <string name="top_up_fragment_restore">Pulihkan</string>
+    <string name="top_up_fragment_not_find_lost_order_tip">Tiada pembelian untuk dipulihkan</string>
+    <string name="top_up_fragment_lost_coins_restore_success_tip">Syiling yang anda beli telah diagihkan semula.
+    </string>
+    <string name="top_up_fragment_lost_subs_restore_success_tip">Keistimewaan langganan anda telah diaktifkan.</string>
+    <string name="top_up_fragment_lost_coins_subs_restore_success_tip">Keistimewaan langganan dan syiling yang anda beli
+        telah dikreditkan.
+    </string>
+    <string name="top_up_fragment_lost_discount_restore_success_tip">Siri yang anda beli telah dibuka kunci, sila semak
+        dalam &lt;%1$s – %2$s&gt;
+    </string>
+    <string name="top_up_fragment_desc_title">Penerangan</string>
+    <string name="top_up_fragment_desc_content">1.Membuka Kunci Kandungan Berbayar: Syiling emas dan Bonus adalah untuk
+        membuka kunci kandungan berbayar dalam aplikasi.\n2.Kesamaan Caj Semula: 1 Syiling=1 Bonus. Sila ambil perhatian
+        bahawa bayaran balik tidak disokong untuk pengecasan semula.\n3.Tamat Tempoh Bonus: Bonus akan tamat tempoh
+        selepas tempoh yang ditetapkan. Sila semak masa tamat Bonus anda dalam bahagian \"Dompet Saya\" apl.
+    </string>
+
+    <!--SingleUnlockEpisodeDialogFragment-->
+    <string name="unlock_episode_dialog_fragment_price">Harga:</string>
+    <string name="unlock_episode_dialog_fragment_balance">Baki:</string>
+    <string name="unlock_episode_dialog_fragment_coin_store">Kedai Syiling</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads">Tonton Iklan</string>
+    <string name="unlock_episode_dialog_fragment_watch_ads_desc">Iklan Dibuka Kunci %1$s</string>
+    <string name="unlock_episode_dialog_fragment_unlock">Buka kunci</string>
+    <string name="unlock_episode_dialog_fragment_low_sku_template_notification">Keistimewaan eksklusif, tambah nilai
+        yang lebih berpatutan
+    </string>
+
+    <!--BatchUnlockEpisodeDialogFragment-->
+    <string name="batch_unlock_episode_dialog_fragment_title">Buka kunci dari episod semasa</string>
+    <string name="batch_unlock_episode_dialog_fragment_coin_sku_title">Buka kunci %1$s episod</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_all_episodes">Buka kunci semua episod</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_success">%1$s episod telah dibuka secara berkelompok
+    </string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_title">Iklan Dibuka Kunci</string>
+    <string name="batch_unlock_episode_dialog_fragment_unlock_ad_desc">Tonton Iklan Buka Kunci %1$s/%2$s</string>
+
+    <!--CoinStoreDialogFragment-->
+    <string name="coin_store_dialog_fragment_free_unlock">Percuma</string>
+
+    <!--MyListFragment-->
+    <string name="my_list_fragment_my_collection">Koleksi Saya</string>
+    <string name="my_list_fragment_recently_watched">Baru–baru Ditonton</string>
+    <string name="my_list_fragment_empty_desc">Pergi ke Laman Utama untuk menemui lebih banyak drama popular baharu
+    </string>
+    <string name="my_list_fragment_select_all">Pilih Semua</string>
+    <string name="my_list_fragment_edit_mode_tab_disable_tip">Sila nyahpilih drama dahulu</string>
+    <string name="my_list_fragment_delete_tip">Sahkan untuk memadam yang dipilih?</string>
+    <string name="my_list_fragment_home">Laman Utama</string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_list">Senarai</string>
+    <string name="shorts_fragment_share">Kongsi</string>
+    <string name="shorts_fragment_more">Lagi</string>
+    <string name="shorts_fragment_less">Simpan</string>
+
+    <!--EpisodeListDialogFragment-->
+    <string name="episode_list_dialog_fragment_shorts_episode_status">Kemas kini kepada EP.%1$s/EP.%2$s</string>
+    <string name="episode_list_dialog_fragment_disable_skip_locked_episode">Sila buka kunci episod sebelumnya dahulu
+    </string>
+
+    <!--Notification-->
+    <string name="notification_watch_now">Tonton Sekarang</string>
+    <string name="notification_free">Percuma</string>
+    <string name="notification_check_in_button">Dapatkannya Sekarang</string>
+    <string name="notification_daemon_title_1">🥳 Selamat datang ke ShortMax!</string>
+    <string name="notification_daemon_content_1">💕Klik untuk masuk~Lebih banyak akan datang!</string>
+    <string name="notification_daemon_title_2">Selamat datang ke ShortMax</string>
+    <string name="notification_daemon_content_2">Orang sekeliling sedang menonton</string>
+    <string name="notification_enter_now">Masuk Sekarang</string>
+    <string name="notification_go_now">Pergi Sekarang</string>
+
+    <!--RewardsActivity-->
+    <string name="rewards_activity_bonus">Bonus Anda:</string>
+    <string name="rewards_activity_check_in_title">Daftar masuk harian</string>
+    <string name="rewards_activity_check_in_desc">Dapatkan ganjaran untuk daftar masuk</string>
+    <string name="rewards_activity_check_in">Daftar Masuk</string>
+    <string name="rewards_activity_check_in_day">Hari %1$s</string>
+    <string name="rewards_activity_watch_ad_title">Tonton Iklan, Dapatkan bonus</string>
+    <string name="rewards_activity_watch_ad_desc">Tonton semua iklan, dapatkan %1$s ekstra</string>
+    <string name="rewards_activity_watch_all_ads_desc">Sudah memperoleh %1$s</string>
+    <string name="rewards_activity_watch_ad_bonus_value">%1$s Bonus</string>
+    <string name="rewards_activity_watch_ad_get">Dapat</string>
+    <string name="rewards_activity_watch_ad_double_rewards">Ganjaran Berganda</string>
+    <string name="rewards_activity_get_double_rewards">Dapatkan Ganjaran</string>
+    <string name="rewards_activity_description_title">Penerangan</string>
+    <string name="rewards_activity_description_value">1. Semua hak tafsiran Bonus adalah milik ShortMax\n2. Bonus hanya
+        boleh digunakan untuk menonton drama, sah selama 10 hari, dan akan tamat tempoh secara automatik dan dibubarkan
+        selepas tamat tempoh\n3. Syiling emas akan digunakan dahulu apabila menonton drama, jika tidak mencukupi, Bonus
+        akan digunakan secara automatik\n4. Log masuk dimuat semula setiap petang pada 0 a.m(UTC+0)
+    </string>
+    <string name="rewards_activity_go">Pergi</string>
+    <string name="rewards_activity_accept_task_reward_tip">Tahniah！Bonus+%1$s</string>
+
+    <!--PlayEpisodeActivity-->
+    <string name="play_episode_activity_unlock_success">Kami telah membuka kunci episod %1$s untuk anda</string>
+    <string name="play_episode_activity_update_speed_tip">Bertukar kepada %1$s kali main balik</string>
+    <string name="play_episode_activity_speed_playing">%1$sx Kelajuan Main</string>
+    <string name="play_episode_activity_speed_playing_unit">%1$sx</string>
+    <string name="play_episode_activity_resolution_auto">Auto</string>
+    <string name="play_episode_activity_resolution_auto_select_tip">Gagal memuatkan, tukar kepada %1$sp</string>
+    <string name="play_episode_activity_resolution_loading_tip">Memuatkan, sila tunggu…</string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_auto">Rangkaian perlahan, kualiti terbaik
+        telah dipilih untuk anda.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton">Video dimuatkan dengan perlahan. Klik
+        untuk menukar kualiti.
+    </string>
+    <string name="play_episode_activity_downgrade_resolution_due_to_net_caton_switch">Tukar kualiti</string>
+    <string name="play_episode_activity_switch_resolution_tip">Bertukar kepada 1080p</string>
+    <string name="play_episode_activity_switch_resolution_process_tip">Bertukar kepada %1$sp</string>
+    <string name="play_episode_activity_switch_resolution_auto_tip">Tukar kepada automatik</string>
+    <string name="play_episode_activity_switch_resolution_auto_process_tip">Bertukar kepada automatik</string>
+    <string name="play_episode_activity_progress_adjust">Laraskan Kemajuan</string>
+    <string name="play_episode_activity_unlock_now">Buka kunci sekarang</string>
+    <string name="play_episode_activity_switch_resolution_failed">Tukar gagal, resolusi asal telah dikekalkan</string>
+    <string name="play_episode_activity_swipe_to_watch">Leret untuk tukar</string>
+    <string name="play_episode_collect_tips_1">Tambah ke senarai tonton kemudian</string>
+    <string name="play_episode_collect_tips_2">Drama ditambahkan pada Senarai Saya.</string>
+    <string name="play_episode_collect_tips_3">Drama ditambah secara automatik pada Senarai Saya.</string>
+    <string name="play_episode_activity_discount_unlock_tips">Sila semak di [%1$s–%2$s]</string>
+    <string name="immersion_activity_purchase_all_episode">Beli semua siri</string>
+    <string name="immersion_activity_free_clarity_1080p">Percuma Terhad</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_speed_fragment_title">Kelajuan Main</string>
+
+    <!--EpisodePlaySpeedFragment-->
+    <string name="episode_play_resolution_fragment_title">Kualiti</string>
+
+    <!--CheckInResultDialogFragment-->
+    <string name="check_in_result_dialog_fragment_title">Tahniah!</string>
+    <string name="check_in_result_dialog_fragment_watch_ad_desc">Tonton Iklan\nDapatkan Ganjaran Berganda!</string>
+    <string name="check_in_result_dialog_fragment_watch_now">Tonton Sekarang</string>
+
+    <!--CheckInSuccessFragment-->
+    <string name="check_in_dialog_fragment_watch_tv">Tonton drama dan dapat bonus</string>
+
+    <!--LoginDialogFragment-->
+    <string name="login_dialog_fragment_fb_first_login_bonus_tip">Dapat %1$s Bonus login Facebook</string>
+    <string name="login_dialog_fragment_google_first_login_bonus_tip">Dapatkan %1$s Bonus dengan log masuk Google
+    </string>
+    <string name="facebook_login_dialog_fragment_huge">Besar</string>
+
+    <!--PhoneAuthFragment-->
+    <string name="phone_auth_fragment_hint_phone_number">Masukkan Nombor Telefon Anda</string>
+    <string name="phone_auth_fragment_hint_verification_code">Kod Pengesahan</string>
+    <string name="phone_auth_fragment_get">Dapatkan kod</string>
+    <string name="phone_auth_fragment_resend">Hantar semula (%1$ss)</string>
+    <string name="phone_auth_fragment_welcome">Selamat datang,\nSahkan Alamat Telefon Anda</string>
+    <string name="phone_auth_fragment_check_content">Sila semak kandungan yang anda masukkan！</string>
+    <string name="phone_auth_fragment_succeed">Nombor telefon anda telah berjaya disahkan.</string>
+    <string name="phone_auth_fragment_invalid_area_code">Sila masukkan kod kawasan yang betul</string>
+    <string name="phone_auth_fragment_network_error">Sila semak status rangkaian.</string>
+
+    <!--EmailAuthFragment-->
+    <string name="email_auth_fragment_welcome">Selamat datang,\nSahkan Alamat E–mel Anda</string>
+    <string name="email_auth_fragment_hint_email_address">Masukkan Alamat E–mel Anda</string>
+    <string name="email_auth_fragment_check_content">Sila semak kandungan yang anda masukkan！</string>
+    <string name="email_auth_fragment_succeed">E–mel anda telah berjaya disahkan.</string>
+
+    <!--ImmersionBackFragment-->
+    <string name="immersion_back_fragment_title">Anda mungkin suka</string>
+    <string name="immersion_back_fragment_button_play">Main</string>
+
+    <!--RegionSelectFragment-->
+    <string name="region_select_fragment_title">Pilih Rantau</string>
+
+    <!--LibraryActivity-->
+    <string name="library_activity_title">Perpustakaan</string>
+    <string name="library_activity_label_all">Semua</string>
+    <string name="library_activity_label_male">Lelaki</string>
+    <string name="library_activity_label_female">Perempuan</string>
+    <string name="library_activity_label_limit">Pilih tidak lebih daripada 5 item</string>
+    <string name="library_activity_empty_text">Maaf, tiada video berkaitan ditemui</string>
+    <string name="library_fragment_title">Penapis</string>
+    <string name="library_fragment_interest">Minat</string>
+    <string name="library_fragment_type">Jenis</string>
+    <string name="library_fragment_reset">Tetap semula</string>
+
+    <!--RankingActivity-->
+    <string name="ranking_activity_title">ShortMax Hotlist</string>
+
+    <!--BindInfoFragment-->
+    <string name="bind_info_fragment_email">E–mel</string>
+    <string name="bind_info_fragment_phone">Telefon</string>
+    <string name="bind_info_fragment_unbound">Tidak terikat</string>
+    <string name="bind_info_fragment_bind">Terikat</string>
+
+    <!-- AD-->
+    <string name="ad_loading">Memuatkan iklan</string>
+    <string name="ad_interstitial_remove_ad_by_payment">Anda boleh mengalihkan iklan dengan membuat pembayaran untuk
+        pengalaman tontonan yang lebih baik.
+    </string>
+
+    <!--NotificationPermissionDialogFragment-->
+    <string name="notification_permission_dialog_title">Dapatkan %1$s bonus</string>
+    <string name="notification_permission_dialog_des">Benarkan pemberitahuan dan dapatkan bonus</string>
+    <string name="notification_permission_dialog_receive">Terima</string>
+    <string name="notification_permission_dialog_choose_title">Pilih jenis pemberitahuan yang ingin anda terima</string>
+    <string name="notification_permission_dialog_choose_turn_on">Benarkan</string>
+    <string name="notification_permission_dialog_granted">Menerima Bonus %1$s</string>
+    <string name="notification_permission_dialog_choose_item_0">Episod baharu percuma</string>
+    <string name="notification_permission_dialog_choose_item_1">Kemas kini episod semasa</string>
+    <string name="notification_permission_dialog_choose_item_2">Peringatan daftar masuk harian</string>
+    <string name="notification_permission_dialog_choose_item_3">Drama baru dalam talian</string>
+
+    <!--SkuExpansionDialogFragment-->
+    <string name="sku_expansion_dialog_fragment_title">Hadiah Bernilai Hebat</string>
+    <string name="sku_expansion_dialog_fragment_count_down">Tamat tempoh selepas %1$s</string>
+
+    <!--NormalLoginGuideDialog-->
+    <string name="normal_login_guide_dialog_fragment_desc">Untuk melindungi harta anda, sila log masuk ke akaun anda
+        untuk mengelakkan kehilangan maklumat!
+    </string>
+    <string name="normal_login_guide_dialog_fragment_protect_your_property">melindungi harta anda</string>
+    <string name="normal_login_guide_dialog_fragment_log_in">Log masuk</string>
+
+    <!--RatingDialog-->
+    <string name="rating_dialog_title">Suka ShortMax?</string>
+    <string name="rating_dialog_desc">Sila berikan kami 5 bintang untuk sokongan! Dorongan anda menggerakkan kami untuk
+        mencipta pengalaman perkhidmatan yang berkualiti.
+    </string>
+    <string name="rating_dialog_desc_key_word">5 bintang</string>
+    <string name="rating_dialog_rating_success_tip">Terima kasih atas ulasan anda</string>
+
+    <!--UpdateDialog-->
+    <string name="update_dialog_title">Versi Baharu Ditemui</string>
+    <string name="update_dialog_now">Kemas kini Sekarang</string>
+
+    <!--ReportDialog-->
+    <string name="report_dialog_uploaded_by_users_report_it">Dimuat naik oleh pengguna, laporkan!</string>
+    <string name="report_dialog_uploaded_by_users_des">Kandungan rancangan itu dimuat naik oleh pengguna ini. Sila
+        laporkan sebarang isu hak cipta dengan segera.
+    </string>
+    <string name="report_dialog_report">Laporkan</string>
+    <string name="report_dialog_drama_upload">Muat Naik Drama</string>
+    <string name="report_dialog_upload_drama">Muat Naik Drama Anda</string>
+    <string name="report_dialog_add_cover">Tambah Penutup</string>
+    <string name="report_dialog_your_drama_and_win_coins">Muat naik drama anda dan menangi syiling</string>
+    <string name="report_dialog_drama_cover">Muka Depan Drama</string>
+    <string name="report_dialog_drama_name">Nama Drama</string>
+    <string name="report_dialog_drama_name_hint">Masukkan nama drama</string>
+    <string name="report_dialog_drama_name_length_hint">%1$s/20</string>
+    <string name="report_dialog_your_email">E–mel Anda</string>
+    <string name="report_dialog_your_email_hint">Kami akan menghubungi anda sebaik sahaja siri ini diterima</string>
+    <string name="report_dialog_upload_video">Muat naik Video</string>
+    <string name="report_dialog_apply">Mohon</string>
+    <string name="report_dialog_under_review">Di bawah Semakan</string>
+    <string name="report_dialog_report_succeed">Laporan berjaya</string>
+    <string name="report_dialog_re_upload">Muat Naik Semula</string>
+    <string name="report_dialog_upload_permission">Perlukan kebenaran untuk muat naik drama</string>
+
+    <!--MyWalletFragment-->
+    <string name="my_wallet_fragment_title">Dompet Saya</string>
+    <string name="my_wallet_fragment_empty_record">Tiada Rekod Buat Masa Ini</string>
+    <string name="my_wallet_fragment_discount">Diskaun</string>
+    <string name="my_wallet_fragment_coins_record">Rekod Syiling</string>
+    <string name="my_wallet_fragment_bonus_record">Rekod Bonus</string>
+    <string name="my_wallet_fragment_unused">Belum diguna</string>
+    <string name="my_wallet_fragment_used">Diguna</string>
+
+    <!--Act AppOpen-->
+    <string name="act_app_open_skip">%1$s Langkau</string>
+
+    <!--HomeLoginGuideDialog-->
+    <string name="home_login_guide_dialog_title">Selamat Datang Ke ShortMax</string>
+    <string name="home_login_guide_dialog_button">Terima</string>
+
+    <!--LogoutTipDialog-->
+    <string name="logout_tip_dialog_title">❤️ Tunggu sebentar, adakah anda pasti mahu log keluar daripada akaun?
+    </string>
+    <string name="logout_tip_dialog_desc_1">💕️️ Dengan kekal log masuk, anda boleh:</string>
+    <string name="logout_tip_dialog_desc_2">Dapatkan pengesyoran terkini kami tepat pada masanya.</string>
+    <string name="logout_tip_dialog_desc_3">Nikmati kandungan diperibadikan dengan mudah.</string>
+    <string name="logout_tip_dialog_desc_4">Simpan rekod penggunaan anda untuk dibaca atau ditonton kali seterusnya.
+    </string>
+    <string name="logout_tip_dialog_reconsider">Lewat</string>
+
+    <!--MergeTouristDialog-->
+    <string name="merge_tourist_dialog_title">❗Dikesan bahawa berbilang akaun wujud pada peranti ini.</string>
+    <string name="merge_tourist_dialog_content">Adakah anda ingin menyegerakkan maklumat harta akaun sejarah dan rekod
+        tontonan ke akaun semasa?
+    </string>
+    <string name="merge_tourist_dialog_processing">Memproses…</string>
+    <string name="merge_tourist_dialog_succeed_title">%1$s Bonus Percuma</string>
+    <string name="merge_tourist_dialog_succeed_content">Harta dan rekod tontonan akaun sejarah anda telah dipulihkan.
+    </string>
+    <string name="merge_tourist_dialog_failed">Berbilang akaun telah dikesan. Untuk mengelakkan kehilangan harta benda,
+        sila cuba lagi.
+    </string>
+    <string name="merge_tourist_dialog_retry">Cuba semula</string>
+
+    <!--隐私弹窗-->
+    <string name="gdpr_refusing_toast">Menolak kebenaran akan menyukarkan permintaan iklan dan menjejaskan tontonan.
+        Sila pertimbangkan lain kali.
+    </string>
+
+    <!--Push-->
+    <string name="push_check_in_title_0">🎬Ton drama hangat secara percuma!</string>
+    <string name="push_check_in_title_1">👇Klik untuk menuntut \"ganjaran\"</string>
+    <string name="push_check_in_title_2">Sudahkah anda masuk hari ini? 💕</string>
+    <string name="push_check_in_title_3">Gembira menonton drama sepanjang hari🎉</string>
+    <string name="push_check_in_title_4">Hampir terlepas 🎁</string>
+    <string name="push_check_in_title_new_0">Daftar masuk setiap hari untuk bonus</string>
+    <string name="push_check_in_title_new_1">Daftar masuk untuk mendapatkan ganjaran</string>
+    <string name="push_check_in_title_new_2">Daftar masuk dan dapatkan bonus segera</string>
+    <string name="push_check_in_title_new_3">Mahu buka kunci rancangan secara percuma?</string>
+    <string name="push_check_in_title_new_4">Daftar masuk untuk menuntut</string>
+    <string name="push_check_in_contents_0">Tonton Tanpa Berbelanja!💰 Daftar masuk dan dapatkan Bonus</string>
+    <string name="push_check_in_contents_1">🎉 Kejutan menarik menanti! Daftar masuk Harian untuk mendapatkan Bonus
+        percuma.
+    </string>
+    <string name="push_check_in_contents_2">🍿Mulakan tugas Daftar Masuk untuk dapatkan Bonus.</string>
+    <string name="push_check_in_contents_3">🎫Jangan Lepaskan Peluang untuk Bonus Percuma dengan Daftar Masuk Harian!
+    </string>
+    <string name="push_check_in_contents_4">Bonanza Ganjaran Daftar Masuk Masa Terhad!!! Percuma untuk ditonton🎬
+    </string>
+    <string name="push_check_in_contents_new_0">Jangan lepaskan peluang!</string>
+    <string name="push_check_in_contents_new_1">Tuntut ganjaran setiap hari, jom daftar masuk sekarang!</string>
+    <string name="push_check_in_contents_new_2">Ayuh dapatkan ganjaran harian anda!</string>
+    <string name="push_check_in_contents_new_3">Jom daftar masuk sekarang!</string>
+    <string name="push_check_in_contents_new_4">Faedah harian, daftar masuk untuk mendapatkan ganjaran!</string>
+
+    <!--ProfileSubsView-->
+    <string name="profile_subscription_view_default_title">Langgan</string>
+    <string name="profile_subscription_view_default_content">Tonton episod lebih</string>
+    <string name="profile_subscription_view_unsubscribed">Langgan Sekarang</string>
+    <string name="profile_subscription_view_subscribed">Dilanggan</string>
+    <string name="profile_subscription_view_weekly_card">Pas Mingguan</string>
+    <string name="profile_subscription_view_monthly_card">Pas Bulanan</string>
+    <string name="profile_subscription_view_annual_card">Pas Tahunan</string>
+    <string name="profile_subscription_view_weekly_pro_card">Pas Mingguan Pro</string>
+    <string name="profile_subscription_view_monthly_pro_card">Pas Bulanan Pro</string>
+    <string name="profile_subscription_view_annual_pro_card">Pas Tahunan Pro</string>
+    <string name="profile_subscription_view_weekly_pro_card_desc">Buka kunci semua siri selama satu minggu</string>
+    <string name="profile_subscription_view_monthly_pro_card_desc">Buka kunci semua siri selama sebulan</string>
+    <string name="profile_subscription_view_annual_pro_card_desc">Buka kunci semua siri selama satu tahun</string>
+    <string name="profile_subscription_view_expire_time">Tamat Tempoh Dalam: %1$s</string>
+    <string name="profile_subscription_view_unsupport_product">Tidak dapat dipaparkan, sila kemas kini versi</string>
+
+    <!--SubsDetailActivity-->
+    <string name="subscription_detail_activity_title">Langgan</string>
+    <string name="subscription_detail_activity_privilege_title">%1$s Keistimewaan</string>
+    <string name="subscription_detail_activity_desc_title">Mengenai Langganan</string>
+    <string name="subscription_detail_activity_pro_desc_content_2">1.Perihalan Langganan\n (1) Fungsi langganan hanya
+        untuk meningkatkan pengalaman menggunakan APP dan ia tidak menjejaskan penggunaan biasa APP sama ada melanggan
+        atau tidak. \n2.Penjelasan Faedah\n (1) Selepas membeli Mingguan PRO/Bulanan PRO, anda akan dapat menonton
+        mana–mana episod tanpa sebarang had.\n (2) Bebas Iklan: Selepas membuka kunci ciri ini, semua iklan, tidak
+        termasuk iklan insentif, akan disekat.\n
+        (3) Resolusi 1080P: Resolusi 1080P disokong untuk memainkan video.\n 2. Perihal Langganan Auto\n (1) Langganan
+        anda akan diperbaharui secara automatik dalam masa 24 jam sebelum tamat tempoh. Anda boleh melumpuhkan fungsi
+        auto–langganan pada bila–bila masa. Setelah langganan diperbaharui, anda tidak akan dapat meminta bayaran
+        balik.\n3. Cara Pembatalan Langganan Anda\n (1) Buka %1$s dan ketik avatar di penjuru kanan sebelah atas.\n (2)
+        Navigasi ke "Pembayaran &amp; Langganan" dan kemudian ketik "Langgan."\ n (3) Pilih langganan ShortMax anda.\n
+        (4) Ketik untuk membatalkan langganan anda.
+    </string>
+    <string name="subscription_detail_activity_privilege_3_desc">Sokong 1080p</string>
+    <string name="subscription_detail_activity_privilege_4_desc">Bebas Iklan</string>
+    <string name="subscription_detail_activity_privilege_5_desc">Semua percuma</string>
+    <string name="subscription_detail_activity_privilege_new_5_title">Semuanya Percuma</string>
+    <string name="subscription_detail_activity_privilege_new_3_desc">Nikmati Video Definisi Tinggi</string>
+    <string name="subscription_detail_activity_privilege_new_4_desc">Nikmati Pengalaman Menonton Murni</string>
+    <string name="subscription_detail_activity_privilege_new_5_desc">VIP Boleh Menikmati Semua Drama Secara Percuma
+    </string>
+    <string name="subscription_detail_activity_subs_success">Langganan berjaya</string>
+    <string name="subscription_detail_activity_subs_update_success">Langganan baharu berjaya diubah suai</string>
+    <string name="subscription_day_bonus_claimed">%1$s bonus dikumpul secara automatik!</string>
+
+    <!--SubsDetail2Activity-->
+    <string name="subscription_detail_2_activity_title">ShortMax VIP</string>
+    <string name="subscription_detail_2_activity_desc">Langgan Untuk Manfaat Eksklusif</string>
+    <string name="subscription_detail_2_activity_subscribed">Dilanggan:%1$s</string>
+    <string name="subscription_detail_2_activity_expire_time">Tarikh luput:%1$s</string>
+
+    <!--CampaignShortsFloatView-->
+    <string name="campaign_shorts_tip_float_view_title">Bermain drama kegemaran anda</string>
+
+    <!--SubsTypeView-->
+    <string name="subs_type_view_total_earning">Jumlah Pendapatan</string>
+    <string name="subs_type_view_total_earning_2">Jumlah</string>
+    <string name="subs_type_view_get_now">(Dapatkan Sekarang)</string>
+    <string name="subs_type_view_first_recharge_tip">Diskaun Tambah Nilai Pertama</string>
+    <string name="subs_type_view_detail">Butiran</string>
+    <string name="subs_type_view_disable_subs_tip">Akaun anda telah disekat daripada melanggan kerana berbilang caj
+        balik.
+    </string>
+    <string name="subs_type_view_claim_bonus">(Daftar masuk harian)</string>
+    <string name="subs_type_view_old_test_claim_bonus">(Tuntut pada bila–bila masa)</string>
+    <string name="subs_type_view_per_week_new">%1$s/minggu</string>
+    <string name="subs_type_view_per_month_new">%1$s/bulan</string>
+    <string name="subs_type_view_per_year_new">%1$s/tahun</string>
+    <string name="subs_type_view_renew_per_week">Perbaharui %1$s/Minggu</string>
+    <string name="subs_type_view_renew_per_month">Perbaharui %1$s/Bulan</string>
+    <string name="subs_type_view_renew_per_year">Perbaharui %1$s/Tahun</string>
+
+    <!--Language-->
+    <string name="language_app">Bahasa apl</string>
+    <string name="language_en">Inggeris</string>
+    <string name="language_zh_simplified">Cina (Mudah)</string>
+    <string name="language_zh_traditional">Cina (Tradisional)</string>
+    <string name="language_fil">Filipina</string>
+    <string name="language_hi">Hindi</string>
+    <string name="language_in">Indonesia</string>
+    <string name="language_ja">Jepun</string>
+    <string name="language_ko">Korea</string>
+    <string name="language_th">Thai</string>
+    <string name="language_ar">Bahasa Arab</string>
+    <string name="language_es">Bahasa Sepanyol</string>
+    <string name="language_pt">Portugis</string>
+    <string name="language_vi">Bahasa Vietnam</string>
+    <string name="language_de">Jerman</string>
+    <string name="language_fr">Perancis</string>
+    <string name="language_ms">Melayu</string>
+    <string name="language_ru">bahasa Rusia</string>
+    <string name="language_it">Itali</string>
+
+    <!--RestoreTipView-->
+    <string name="restore_tip_view_tip">Keistimewaan tidak diaktifkan?</string>
+    <string name="restore_tip_view_refresh">Segarkan semula</string>
+
+    <!--PurchaseFailedTipDialog-->
+    <string name="purchase_failed_tip_dialog_desc">Maaf, kami tidak dapat mengakses keistimewaan anda, sila ketik untuk
+        mencuba lagi.
+    </string>
+
+    <!--ShortsFragment-->
+    <string name="shorts_fragment_trailer_enter_immersion">Tonton episod penuh</string>
+    <string name="shorts_fragment_current_episode_finished">Drama Tamat</string>
+    <string name="shorts_fragment_current_episode_updating">Kemas Kini Drama</string>
+    <string name="shorts_fragment_next_episode_tip">&lt;%1$s&gt; akan dimainkan</string>
+    <string name="shorts_fragment_trailer">Treler</string>
+    <string name="shorts_fragment_trailer_in_production">Dalam produksi, nantikan!</string>
+
+    <!--SearchActivity-->
+    <string name="search_activity_history_title">Sejarah Carian</string>
+    <string name="search_activity_popular_title">Trending</string>
+    <string name="search_activity_no_result">Tiada kandungan berkaitan</string>
+    <string name="search_activity_more_no_result">– Sudah penghujungnya –</string>
+    <string name="search_activity_input_keyword_hint">Masukkan kandungan carian</string>
+    <string name="search_activity_clear_history_hint">Adakah anda pasti mahu memadamkan rekod carian anda?</string>
+    <string name="search_activity_search_frequently_tips">Kekerapan carian terlalu tinggi, sila cuba sebentar lagi
+    </string>
+    <string name="search_activity_redeem_code_disabled">Kod penebusan tidak wujud</string>
+    <string name="search_activity_redeem_code_delisted">Siri itu telah dialih keluar</string>
+    <string name="search_activity_redeem_code_overdue">Kod penebusan telah tamat tempoh</string>
+    <string name="search_activity_redeem_code_use_up">Awak lambat! Ganjaran telah pun habis.</string>
+    <string name="search_activity_redeem_code_unsupported">Sila tingkatkan versi aplikasi anda terlebih dahulu</string>
+
+    <!--AdRetentionDialogFragment-->
+    <string name="ad_retention_dialog_fragment_content">Anda boleh menonton iklan untuk membuka kunci episod semasa,
+        cubalah!
+    </string>
+    <string name="ad_retention_dialog_fragment_unlocked_today">Dibuka kunci hari ini:</string>
+
+    <!--AdContinueDialogFragment-->
+    <string name="ad_continue_dialog_fragment_content">Tonton 1 iklan untuk membuka kunci EP.%1$s</string>
+    <string name="ad_continue_dialog_fragment_cancel">Terus keluar</string>
+
+    <!--AdContinueRetentionDialogFragment-->
+    <string name="ad_continue_retention_dialog_fragment_title">Tonton 1 iklan lagi untuk buka kunci 1 episod</string>
+    <string name="ad_continue_retention_dialog_fragment_unlocked_episode">Buka kunci EP.%1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_episode">Buka kunci EP.%1$s</string>
+    <string name="ad_continue_retention_dialog_fragment_locked_ad">Tonton 1 iklan lagi</string>
+
+    <!--AdDramaDialogFragment-->
+    <string name="ad_free_drama_dialog_fragment_content">Tonton iklan untuk membuka kunci episod seterusnya secara
+        percuma
+    </string>
+
+    <!--PurePayingUserAdRetentionDialogFragment-->
+    <string name="pure_paying_user_ad_retention_dialog_fragment_unlocked_today">Sudah menonton hari ini (%1$s/%2$s)
+    </string>
+
+    <!--NewUserRecommendShortsFragment-->
+    <string name="new_recommend_shorts_fragment_title">Eksklusif Untuk Pendatang Baru</string>
+    <string name="new_recommend_shorts_fragment_more_tip">Setiap produk hanya boleh dituntut sekali sahaja</string>
+    <string name="new_recommend_shorts_fragment_more">Lagi</string>
+    <string name="new_recommend_shorts_fragment_must_read">Wajib Dibaca untuk Pendatang Baru</string>
+
+    <!--SubsProExpiredDialog-->
+    <string name="subs_pro_expired_dialog_content">Langganan anda kepada %1$s telah tamat tempoh dan anda tidak boleh
+        membuka kunci mana–mana episod. Adakah anda mahu melanggan semula?
+    </string>
+
+    <!-- EpisodeRedeemCodeDialogFragment -->
+    <string name="redeem_code_dialog_fragment_redemption_successful">Pertukaran Berjaya</string>
+    <string name="redeem_code_dialog_fragment_receive_benefits">Terima Faedah</string>
+    <string name="redeem_code_dialog_fragment_received">Diterima</string>
+
+    <!-- PlayEpisodeListActivity -->
+    <string name="play_episode_activity_pip_guide_title">Ciri [Gambar dalam Gambar] kini dalam talian!</string>
+    <string name="play_episode_activity_pip_guide_content">Mainkan klip video kegemaran anda dalam tetingkap kecil
+        sambil menyemak imbas lebih banyak kandungan dengan mudah.
+    </string>
+
+    <!-- DiscoverMoreFragment -->
+    <string name="discover_more_fragment_empty_content">Kandungan telah hilang~\nAnda boleh kembali ke [Temui] untuk
+        menonton kandungan popular yang lain.
+    </string>
+    <string name="discover_more_fragment_empty_btn_text">Kembali</string>
+
+    <!-- DiscoverMoreCategoryFilterFragment -->
+    <string name="discover_more_category_filter_fragment_all">Semua</string>
+
+    <!-- SignInReminderFragment -->
+    <string name="sign_in_reminder_fragment_btn">Mulakan Sekarang</string>
+    <string name="sign_in_reminder_fragment_content">Hidupkan peringatan log masuk untuk berjaya log masuk secara
+        retroaktif, +%1$s Bonus
+    </string>
+
+    <!-- SignInSuccessDialog -->
+    <string name="sign_in_success_dialog_content">Log masuk tambahan berjaya</string>
+    <string name="sign_in_success_dialog_bonus">+%1$s Bonus</string>
+
+    <!-- SignInWatchAdFragment -->
+    <string name="sign_in_watch_ad_fragment_content">Tonton iklan untuk berjaya log masuk secara retroaktif dan peroleh
+        +%1$s Bonus
+    </string>
+    <string name="sign_in_watch_ad_fragment_btn">Tonton Iklan (%1$s/%2$s)</string>
+
+    <!-- MyCollectionFragment -->
+    <string name="my_collection_fragment_drama_has_purchase">Dibeli</string>
+
+    <!--FullScreenIntentPermissionDialog-->
+    <string name="full_screen_intent_permission_dialog_content">Dayakan kebenaran untuk menerima pemberitahuan dengan
+        lebih segera
+    </string>
+
+    <!-- RFMGuideDialog -->
+    <string name="rfm_guide_dialog_title">Nikmati keistimewaan</string>
+    <string name="rfm_guide_dialog_content">Harga lebih rendah, diskaun lebih banyak</string>
+    <string name="rfm_guide_dialog_btn">Isi semula sekarang</string>
+
+    <!-- BillingUnavailableTipDialog-->
+    <string name="billing_unavailable_tip_dialog_title">Caj semula gagal</string>
+    <string name="billing_unavailable_tip_dialog_content">Sambungan rangkaian atau akaun Google anda tidak normal. Anda
+        boleh menghubungi perkhidmatan pelanggan kami untuk melaporkan masalah tersebut.
+    </string>
+
+    <!--SubsUpdateDialog-->
+    <string name="subs_update_dialog_title">Sahkan perubahan langganan</string>
+    <string name="subs_update_dialog_current_subs_title">Langganan Semasa</string>
+    <string name="subs_update_dialog_new_subs_title">Langganan Baharu</string>
+    <string name="subs_update_dialog_upgrade_content">Langganan baharu anda akan berkuat kuasa serta–merta, dan baki
+        masa langganan semasa anda akan ditukar kepada masa langganan baharu.
+    </string>
+    <string name="subs_update_dialog_downgrade_content">Langganan semasa anda akan tamat tempoh pada %1$s, pada masa itu
+        langganan baharu akan berkuat kuasa.
+    </string>
+
+    <!-- TaskCoinView-->
+    <string name="task_coin_view_limited">Terhad %1$s</string>
+    <string name="task_coin_view_completed">Misi tercapai\nJumlah perolehan %1$s ganjaran</string>
+
+    <!-- ImmersionAccumulatedTaskDialogFragment-->
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_title">Tonton Drama</string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_sub_title">Tonton Drama Untuk Dapat
+        Bonus
+    </string>
+    <string name="immersion_accumulated_task_dialog_fragment_reward_watch_drama_total">Jumlah %1$s Bonus</string>
+</resources>

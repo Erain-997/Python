@@ -1,0 +1,42 @@
+image: alpine:latest
+
+before_script:
+  # 确保 curl 已安装
+  - apk add --no-cache curl
+variables:
+  webhook_url: "https://open.feishu.cn/open-apis/bot/v2/hook/3116d3b9-f901-41a0-b27c-ff09104b7744"
+  CI_MERGE_REQUEST_TITLE: "https://gitlab.shorttv.live/shorttv/tools/mobile-ui-automation-tests/-/merge_requests"
+  plan_id: 10027
+
+stages:
+  - daily_task
+  - update_case
+
+daily_task_job:
+  stage: daily_task
+  script:
+    - echo $plan_id
+    - |
+      curl --location "http://192.168.120.150:9988/run_cases" \
+            --header "Content-Type: application/json" \
+            --data "{\"plan_id\": \"$plan_id\"}"
+
+
+#  only:
+#    - dev_1.1_web
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+  tags:
+    - daily
+
+update_case_job:
+  stage: update_case
+  script:
+    - |
+      curl --location "http://192.168.120.150:9988/run_cases" \
+            --header "Content-Type: application/json" \
+            --data "{\"plan_id\": -1}"
+  only:
+    - dev_1.1
+  tags:
+    - daily
