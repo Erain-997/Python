@@ -1,0 +1,4 @@
+2025-08-07 17:01:06 [INFO] stressCases.behavior.login: [User 4389417856] 登录成功: user_id=109325596, trace_id=Locust-8260a822-024d-433b-804d-322ae6c242b1
+2025-08-07 17:01:06 [INFO] utils.report_saver: 📊 已启动报告保存监听器和信号处理
+2025-08-07 17:01:16 [INFO] utils.report_saver: 📥 正在下载 HTML 报告: http://localhost:8089/stats/report?download=1&theme=light
+2025-08-07 17:01:16 [INFO] utils.report_saver: ✅ 已保存 HTML 报告: reports/SaveWatchHistory_20250807_170116.html

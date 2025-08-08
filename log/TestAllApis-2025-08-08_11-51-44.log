@@ -1,0 +1,89 @@
+2025-08-08 11:51:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:45 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/addBind
+2025-08-08 11:51:45 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20031 - Binding failed 
+实际响应: {'status': 20031, 'message': 'Binding failed', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:45 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:46 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/bindByPhone
+2025-08-08 11:51:46 [INFO] utils.http_api: ❌ 接口返回错误状态码: 10002 - failed  
+实际响应: {'status': 10002, 'message': 'failed ', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:46 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:47 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/bindByEmail
+2025-08-08 11:51:47 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20034 - The email verification code is wrong or expired 
+实际响应: {'status': 20034, 'message': 'The email verification code is wrong or expired', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:47 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:48 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:48 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/android/coinSkuBuy
+2025-08-08 11:51:48 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - pay fail 
+实际响应: {'status': 1, 'message': 'pay fail', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:48 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:48 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:49 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:49 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/iOS/coinSkuBuy
+2025-08-08 11:51:50 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - 错误 
+实际响应: {'status': 1, 'message': '错误', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:50 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/message/sendMessageVerificationCode
+2025-08-08 11:51:51 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20064 - Mobile phone numbers in this region are currently not supported 
+实际响应: {'status': 20064, 'message': 'Mobile phone numbers in this region are currently not supported', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:51 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/ad/signWatchAd
+2025-08-08 11:51:52 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20017 - please sign 
+实际响应: {'status': 20017, 'message': 'please sign', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:52 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:52 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/appTask/receiveRewards
+2025-08-08 11:51:53 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:53 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:53 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:53 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:53 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/push/sign/missSignReminder
+2025-08-08 11:51:54 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T03:51:54.046+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/push/sign/missSignReminder'} 
+预期响应: {'status': 0}
+2025-08-08 11:51:54 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:54 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:54 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:54 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/subscription/android
+2025-08-08 11:51:55 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20048 - subscription token verify fail. 
+实际响应: {'status': 20048, 'message': 'subscription token verify fail.', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:55 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:55 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/subscription/iosV2
+2025-08-08 11:51:56 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - 错误 
+实际响应: {'status': 1, 'message': '错误', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:56 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:56 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/dramaInfo/encrypt/dramaDetail
+2025-08-08 11:51:56 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20012 - Series has been removed 
+实际响应: {'status': 20012, 'message': 'Series has been removed', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:51:56 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:51:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:51:57 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:51:57 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/push/bonusExpiring/getPushInfo
+2025-08-08 11:51:57 [INFO] utils.http_api: ❌ 接口返回错误状态码: 405 - None 
+实际响应: {'timestamp': '2025-08-08T03:51:57.514+00:00', 'status': 405, 'error': 'Method Not Allowed', 'path': '/ffff/push/bonusExpiring/getPushInfo'} 
+预期响应: {'status': 0}
+2025-08-08 11:51:57 [INFO] api_cases.test_all_apis: 用例环境清理

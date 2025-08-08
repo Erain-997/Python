@@ -1,0 +1,295 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API",
+    "version": "last"
+  },
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Project Name: ffff-api-app",
+      "description": "Project Name: ffff-api-app"
+    },
+    {
+      "name": "支付相关",
+      "description": "支付相关"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/ffff/login/initLogin": {
+      "post": {
+        "tags": [
+          "登录接口"
+        ],
+        "summary": "初始化注册登录",
+        "description": "",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "root",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "deviceId": {
+                  "type": "string",
+                  "description": "设备唯一编号"
+                },
+                "secretKey": {
+                  "type": "string",
+                  "description": ""
+                },
+                "gaid": {
+                  "type": "string",
+                  "description": "gaid"
+                },
+                "idfa": {
+                  "type": "string",
+                  "description": "idfa"
+                }
+              },
+              "required": [
+                "deviceId"
+              ],
+              "$schema": "http://json-schema.org/draft-04/schema#"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "message": {
+                  "type": "string",
+                  "description": ""
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "token": {
+                      "type": "string",
+                      "description": "用户token"
+                    },
+                    "notification": {
+                      "type": "string",
+                      "description": "notification"
+                    },
+                    "userResponse": {
+                      "type": "object",
+                      "properties": {
+                        "userId": {
+                          "type": "string",
+                          "description": "用户编号"
+                        },
+                        "countryCode": {
+                          "type": "string",
+                          "description": "国家code"
+                        },
+                        "isRecharged": {
+                          "type": "boolean",
+                          "description": "是否充值过  true：充值过；false未充值"
+                        },
+                        "isSubscriptionBlack": {
+                          "type": "boolean",
+                          "description": "是否订阅黑名单"
+                        },
+                        "subscriptionType": {
+                          "type": "integer",
+                          "description": "订阅类型：1.周卡，2.月卡，3.季卡，4.年卡"
+                        },
+                        "receiveType": {
+                          "type": "integer",
+                          "description": "level=0是对照组，只能领取当天\nlevel=1是实验组，可以领取之前所有未领取的天数的"
+                        },
+                        "subscriptionUserCode": {
+                          "type": "string",
+                          "description": "订阅用户编号"
+                        },
+                        "subscriptionProvider": {
+                          "type": "integer",
+                          "description": "订阅用户三方账号类型\n提供者 10代表谷歌 20代表facebook 30代表twitter 40代表github 50代表email 60代表手机号 70代表whatsapp 80代表apple 90代表匿名登录"
+                        },
+                        "subscriptionNickName": {
+                          "type": "string",
+                          "description": "订阅用户昵称"
+                        },
+                        "giveBonus": {
+                          "type": "integer",
+                          "description": "订阅下发的bonus"
+                        },
+                        "isReview": {
+                          "type": "integer",
+                          "description": "是否是审核用户 0 否 1 是"
+                        },
+                        "isDisplayedTripartite": {
+                          "type": "boolean",
+                          "description": "三方支付开关"
+                        },
+                        "tripartiteRewardUrl": {
+                          "type": "string",
+                          "description": "三方支付url"
+                        },
+                        "tripartiteRewardRatio": {
+                          "type": "string",
+                          "description": "三方支付额外获得bonus比例"
+                        },
+                        "enableRechargeLoginGuide": {
+                          "type": "boolean",
+                          "description": "是否显示充值后登录引导弹窗"
+                        }
+                      },
+                      "required": [
+                        "autoUnlock",
+                        "autoUnlockEpisode"
+                      ],
+                      "description": ""
+                    }
+                  },
+                  "description": ""
+                }
+              },
+              "$schema": "http://json-schema.org/draft-04/schema#",
+              "description": ""
+            }
+          }
+        }
+      }
+    },
+    "/ffff/homeData/encrypt/getTabHomeData": {
+      "post": {
+        "tags": [
+          "首页推荐,轮播相关接口"
+        ],
+        "summary": "获取tab化的首页数据  ;支持多tab的首页,支持视频加密",
+        "description": "",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "root",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "experimentKey": {
+                  "type": "string",
+                  "description": "客户端实验key"
+                },
+                "experimentParam": {
+                  "type": "integer",
+                  "description": "实验参数"
+                },
+                "newbieShowType": {
+                  "type": "integer",
+                  "description": "新人信息展示类型；1-新人页面，2-新人tab"
+                },
+                "installTime": {
+                  "type": "integer",
+                  "description": "用户安装时间， 毫秒的时间戳"
+                },
+                "isCodeStarted": {
+                  "type": "boolean",
+                  "description": "是否冷启动"
+                }
+              },
+              "$schema": "http://json-schema.org/draft-04/schema#"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "message": {
+                  "type": "string",
+                  "description": ""
+                },
+                "data": {
+                  "type": "object",
+                  "properties": {
+                    "tabResponseList": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "tabId": {
+                            "type": "integer",
+                            "description": ""
+                          },
+                          "tabFlagName": {
+                            "type": "string",
+                            "description": "Tab标识\n预值值：home_page_recommendation、newbie_tab、premium_drama_tab、activity_tab、member_area_tab、tab_one、tab_two、tab_three、tab_four、tab_five"
+                          },
+                          "tabDisplayName": {
+                            "type": "string",
+                            "description": "Tab显示名称"
+                          },
+                          "realizeType": {
+                            "type": "integer",
+                            "description": "实现方式，1:原生，2:H5链接"
+                          },
+                          "linkUrl": {
+                            "type": "string",
+                            "description": "链接指向"
+                          },
+                          "sortValue": {
+                            "type": "integer",
+                            "description": "排序值"
+                          }
+                        }
+                      },
+                      "description": "tab列表"
+                    },
+                    "tabPageResponse": {
+                      "type": "object",
+                      "properties": {
+                        "tabId": {
+                          "type": "integer",
+                          "description": "tab id"
+                        },
+                        "realizeType": {
+                          "type": "integer",
+                          "description": "实现方式，1:原生，2:H5链接"
+                        }
+                      },
+                      "description": "tab页面数据响应体"
+                    },
+                    "dramaRepository": {
+                      "type": "integer",
+                      "description": "是否显示剧库，1:显示，0:不显示"
+                    },
+                    "autoPlay": {
+                      "type": "integer",
+                      "description": "是否自动播放，1-是，0-不是"
+                    }
+                  },
+                  "description": ""
+                }
+              },
+              "$schema": "http://json-schema.org/draft-04/schema#",
+              "description": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

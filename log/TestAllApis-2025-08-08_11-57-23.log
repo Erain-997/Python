@@ -1,0 +1,7 @@
+2025-08-08 11:57:23 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:57:24 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:57:24 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/dramaInfo/encrypt/dramaDetail
+2025-08-08 11:57:25 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20012 - Series has been removed 
+实际响应: {'status': 20012, 'message': 'Series has been removed', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:57:25 [INFO] api_cases.test_all_apis: 用例环境清理

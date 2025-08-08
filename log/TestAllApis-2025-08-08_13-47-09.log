@@ -1,0 +1,9 @@
+2025-08-08 13:47:09 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:47:10 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:47:10 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/ad/watchAdUnLockComplete
+2025-08-08 13:47:10 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:47:10 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/ad/signWatchAd
+2025-08-08 13:47:10 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20017 - please sign 
+实际响应: {'status': 20017, 'message': 'please sign', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 13:47:10 [INFO] api_cases.test_all_apis: 用例环境清理

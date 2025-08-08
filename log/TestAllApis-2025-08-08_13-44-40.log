@@ -1,0 +1,87 @@
+2025-08-08 13:44:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:40 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/tripartiteLogin
+2025-08-08 13:44:41 [INFO] utils.http_api: ❌ 接口返回错误状态码: 10002 - failed  
+实际响应: {'status': 10002, 'message': 'failed ', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 13:44:41 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:41 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/forYou/encrypt/getForYouListPageNewV2
+2025-08-08 13:44:42 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:42.255+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/forYou/encrypt/getForYouListPageNewV2'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:42 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:42 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:42 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:42 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sku/getUnlockedPageSkuList
+2025-08-08 13:44:43 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:43.379+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/sku/getUnlockedPageSkuList'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:43 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:43 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/search/hotSearch
+2025-08-08 13:44:43 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:44.203+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/search/hotSearch'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:44 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:44 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/homeData/encrypt/getBannerMore
+2025-08-08 13:44:44 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:45.103+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/homeData/encrypt/getBannerMore'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:44 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:45 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/system/getUpgradeVersionManageInfo
+2025-08-08 13:44:45 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:45.913+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/system/getUpgradeVersionManageInfo'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:45 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:46 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/android/recover
+2025-08-08 13:44:46 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:46.836+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/pay/android/recover'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:46 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:47 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/iOS/recover
+2025-08-08 13:44:47 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:47.661+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/pay/iOS/recover'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:47 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:48 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:48 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/subscription
+2025-08-08 13:44:48 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:48.804+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/subscription'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:48 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:48 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:49 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:49 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sku/getCoinsStoreListAndAdInfoBySkuModel
+2025-08-08 13:44:49 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:49.959+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/sku/getCoinsStoreListAndAdInfoBySkuModel'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:49 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:49 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:50 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/bonusRecord/getBonusTotal
+2025-08-08 13:44:50 [INFO] utils.http_api: ❌ 接口返回错误状态码: 500 - None 
+实际响应: {'timestamp': '2025-08-08T05:44:50.875+00:00', 'status': 500, 'error': 'Internal Server Error', 'path': '/ffff/bonusRecord/getBonusTotal'} 
+预期响应: {'status': 0}
+2025-08-08 13:44:50 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/push/sign/missSignReminder
+2025-08-08 13:44:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:51 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 13:44:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 13:44:52 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/retain/getComingSoonShortPlays
+2025-08-08 13:44:52 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 13:44:52 [INFO] api_cases.test_all_apis: 用例环境清理

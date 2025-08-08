@@ -1,0 +1,390 @@
+2025-08-08 11:04:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/recommend/checkNewUserRecommend
+2025-08-08 11:04:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:32 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/recommend/getNewUserRecommendInfo
+2025-08-08 11:04:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:33 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/recommend/getNewUserTimeInfo
+2025-08-08 11:04:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:33 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:34 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/bindList
+2025-08-08 11:04:34 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:34 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:34 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/addBind
+2025-08-08 11:04:34 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20031 - Binding failed 
+实际响应: {'status': 20031, 'message': 'Binding failed', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:34 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:35 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:35 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/bindByPhone
+2025-08-08 11:04:35 [INFO] utils.http_api: ❌ 接口返回错误状态码: 10002 - failed  
+实际响应: {'status': 10002, 'message': 'failed ', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:35 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:35 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:35 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:35 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/bindByEmail
+2025-08-08 11:04:35 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20034 - The email verification code is wrong or expired 
+实际响应: {'status': 20034, 'message': 'The email verification code is wrong or expired', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:35 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:35 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:36 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:36 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/localDollarCurrencyConversion
+2025-08-08 11:04:36 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:36 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:36 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:36 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:36 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/android/coinSkuBuy
+2025-08-08 11:04:37 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - pay fail 
+实际响应: {'status': 1, 'message': 'pay fail', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:37 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:37 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:37 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:37 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/pay/iOS/coinSkuBuy
+2025-08-08 11:04:38 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - 错误 
+实际响应: {'status': 1, 'message': '错误', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:38 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:38 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:39 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:39 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/subscription/getProductListV3
+2025-08-08 11:04:39 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:39 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:39 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:39 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:39 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/feedWatchHistory/saveWatchHistory
+2025-08-08 11:04:39 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:39 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:39 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:40 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/message/sendMessageVerificationCode
+2025-08-08 11:04:40 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20064 - Mobile phone numbers in this region are currently not supported 
+实际响应: {'status': 20064, 'message': 'Mobile phone numbers in this region are currently not supported', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:40 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:40 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/reportDefaultShortPlay
+2025-08-08 11:04:40 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:40 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:41 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/getFBUserInfo
+2025-08-08 11:04:41 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:41 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:41 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/setUserLanguage
+2025-08-08 11:04:41 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:41 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:42 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:42 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/reportUserAdInfo
+2025-08-08 11:04:42 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:42 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:42 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:43 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/reportActiveTime
+2025-08-08 11:04:43 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:43 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:43 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/getUserBalance
+2025-08-08 11:04:43 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:43 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:44 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/getAnotherUserInfo
+2025-08-08 11:04:44 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:44 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:44 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/user/migrateAccount
+2025-08-08 11:04:44 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:44 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:45 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/system/getConfigByKey
+2025-08-08 11:04:45 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:45 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:46 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/ad/watchAdUnLockComplete
+2025-08-08 11:04:46 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:46 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:47 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/ad/signWatchAd
+2025-08-08 11:04:47 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20017 - please sign 
+实际响应: {'status': 20017, 'message': 'please sign', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:47 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:48 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:48 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/homeData/encrypt/getTabHomeData
+2025-08-08 11:04:49 [INFO] utils.http_api: ✅ 接口返回成功: SUCCESS
+2025-08-08 11:04:49 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:49 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:50 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/homeData/getHomeConfig
+2025-08-08 11:04:50 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:50 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/adMatch/deepLinkReport
+2025-08-08 11:04:51 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:51 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:52 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sig/signRecord
+2025-08-08 11:04:52 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:52 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:53 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:53 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sig/sign
+2025-08-08 11:04:53 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:53 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:53 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:54 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:54 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/watchTimeTask/getTaskConfig
+2025-08-08 11:04:54 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:54 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:54 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:55 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/watchTimeTask/receiveReward
+2025-08-08 11:04:55 [INFO] utils.http_api: ❌ 接口返回错误状态码: 10002 - failed  
+实际响应: {'status': 10002, 'message': 'failed ', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:04:55 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:55 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/appTask/getAppTaskList
+2025-08-08 11:04:56 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:56 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:56 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/appTask/receiveRewards
+2025-08-08 11:04:56 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:56 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:57 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:57 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/push/sign/signReminder
+2025-08-08 11:04:57 [INFO] utils.http_api: ❌ 接口返回错误状态码: 405 - None 
+实际响应: {'timestamp': '2025-08-08T03:04:57.750+00:00', 'status': 405, 'error': 'Method Not Allowed', 'path': '/ffff/push/sign/signReminder'} 
+预期响应: {'status': 0}
+2025-08-08 11:04:57 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:57 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:58 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:58 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/push/sign/missSignReminder
+2025-08-08 11:04:58 [INFO] utils.http_api: ❌ 接口返回错误状态码: 405 - None 
+实际响应: {'timestamp': '2025-08-08T03:04:58.620+00:00', 'status': 405, 'error': 'Method Not Allowed', 'path': '/ffff/push/sign/missSignReminder'} 
+预期响应: {'status': 0}
+2025-08-08 11:04:58 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:58 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:59 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:59 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/retain/getComingSoonShortPlays
+2025-08-08 11:04:59 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:04:59 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:04:59 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:00 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:00 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/retain/getExitRetainShortPlays
+2025-08-08 11:05:01 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:01 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:01 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:01 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:01 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/activityResource/resourceListByTypes
+2025-08-08 11:05:01 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:01 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:01 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:02 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:02 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/subscription/android
+2025-08-08 11:05:02 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20048 - subscription token verify fail. 
+实际响应: {'status': 20048, 'message': 'subscription token verify fail.', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:05:02 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:02 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:03 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:03 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/subscription/iosV2
+2025-08-08 11:05:04 [INFO] utils.http_api: ❌ 接口返回错误状态码: 1 - 错误 
+实际响应: {'status': 1, 'message': '错误', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:05:04 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:04 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:04 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:04 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/watchHistory/saveWatchHistory
+2025-08-08 11:05:04 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:04 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:04 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:05 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:05 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/watchHistory/delWatchHistory
+2025-08-08 11:05:05 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:05 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:05 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:06 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:06 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/watchHistory/getWatchHistoryList
+2025-08-08 11:05:06 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:06 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:06 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:07 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:07 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/collect/cancelCollect
+2025-08-08 11:05:07 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:07 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:07 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:07 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:07 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/collect/batchCancelCollect
+2025-08-08 11:05:07 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:07 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:07 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:08 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:08 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/collect/collectOp
+2025-08-08 11:05:08 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:08 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:08 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:09 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:09 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/collect/collectList
+2025-08-08 11:05:09 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20016 - param error 
+实际响应: {'status': 20016, 'message': 'param error', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:05:09 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:09 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:09 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:10 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/dramaInfo/dramaDetailV2
+2025-08-08 11:05:10 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:10 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:10 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:11 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:11 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/dramaInfo/encrypt/dramaDetail
+2025-08-08 11:05:11 [INFO] utils.http_api: ❌ 接口返回错误状态码: 20012 - Series has been removed 
+实际响应: {'status': 20012, 'message': 'Series has been removed', 'data': None} 
+预期响应: {'status': 0}
+2025-08-08 11:05:11 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:11 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:11 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:11 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/dramaInfo/getDramaIdByShortPlayId
+2025-08-08 11:05:12 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:12 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:12 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:12 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:12 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/user_config
+2025-08-08 11:05:12 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:12 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:12 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:13 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:13 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sku/getCoinsStoreListBySkuModel
+2025-08-08 11:05:13 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:13 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:13 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:14 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:14 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/search/searchPage
+2025-08-08 11:05:14 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:14 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:14 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:15 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:15 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/userRegistrationToken/report
+2025-08-08 11:05:15 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:15 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:15 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:16 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:16 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/correction/time
+2025-08-08 11:05:16 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:16 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:16 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:17 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:17 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/appReport/lpReport
+2025-08-08 11:05:17 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:17 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:17 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:18 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:18 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/unlockEpisodeByWatchAd
+2025-08-08 11:05:18 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:18 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:18 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:19 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:19 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/watchAdUnlockInfo
+2025-08-08 11:05:19 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:19 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:19 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:20 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:20 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/unlockByWatchAd
+2025-08-08 11:05:20 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:20 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:20 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:21 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:21 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/unlockByCoin
+2025-08-08 11:05:22 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:22 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:22 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:23 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:23 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/unlockEpisodeByGold
+2025-08-08 11:05:23 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:23 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:23 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:24 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:24 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/push/bonusExpiring/getPushInfo
+2025-08-08 11:05:24 [INFO] utils.http_api: ❌ 接口返回错误状态码: 405 - None 
+实际响应: {'timestamp': '2025-08-08T03:05:24.838+00:00', 'status': 405, 'error': 'Method Not Allowed', 'path': '/ffff/push/bonusExpiring/getPushInfo'} 
+预期响应: {'status': 0}
+2025-08-08 11:05:24 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:24 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:25 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:25 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/clickAd/lpReport
+2025-08-08 11:05:25 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:25 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:25 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:26 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:26 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/shortPlayDetail
+2025-08-08 11:05:26 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:26 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:26 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:27 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:27 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/getTopRechargeShortPlays
+2025-08-08 11:05:28 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:28 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:28 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:29 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:29 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/getSearchCarouselPlays
+2025-08-08 11:05:29 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:29 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:29 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:29 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:29 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/shortPlay/getPopularShortPlay
+2025-08-08 11:05:30 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:30 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:30 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:30 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:30 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/forYou/encrypt/getForYouListOnlyOne
+2025-08-08 11:05:31 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:31 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:31 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:32 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/getUserInfo
+2025-08-08 11:05:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:33 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/deleteAccount
+2025-08-08 11:05:33 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:33 [INFO] api_cases.test_all_apis: 用例环境清理
+2025-08-08 11:05:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:05:34 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/loginOut
+2025-08-08 11:05:34 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 11:05:34 [INFO] api_cases.test_all_apis: 用例环境清理

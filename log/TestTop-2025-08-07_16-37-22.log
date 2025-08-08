@@ -1,0 +1,10 @@
+2025-08-07 16:37:22 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-07 16:37:22 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-07 16:37:22 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/sig/signRecord
+2025-08-07 16:37:22 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-07 16:37:22 [INFO] test_top: 用例环境清理
+2025-08-07 16:37:22 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-07 16:37:23 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-07 16:37:23 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/homeData/encrypt/getTabHomeData
+2025-08-07 16:37:24 [INFO] utils.http_api: ✅ 接口返回成功: SUCCESS
+2025-08-07 16:37:24 [INFO] test_top: 用例环境清理

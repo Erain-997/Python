@@ -1,0 +1,5 @@
+2025-08-08 14:43:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 14:43:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 14:43:32 [INFO] utils.http_api: 🚀 发起 GET 请求: https://api-stress.ffff.team/ffff/user_config
+2025-08-08 14:43:32 [INFO] utils.http_api: ✅ 接口返回成功: 成功
+2025-08-08 14:43:32 [INFO] api_cases.test_all_apis: 用例环境清理

@@ -1,0 +1,144 @@
+2025-08-08 10:58:21 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:26 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:26 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:31 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:36 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:36 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:41 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:46 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:51 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:58:56 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:58:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:01 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:02 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:07 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:07 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:12 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:12 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:17 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:17 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:22 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:22 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:27 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:27 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:32 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:32 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:37 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:37 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:42 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:42 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:47 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:47 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:52 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:52 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 10:59:57 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 10:59:57 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:02 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:02 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:07 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:08 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:13 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:13 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:18 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:18 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:23 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:23 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:28 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:28 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:33 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:33 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:38 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:38 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:43 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:43 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:48 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:48 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:53 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:53 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:00:58 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:00:58 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:03 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:03 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:08 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:08 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:13 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:14 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:19 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:19 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:24 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:24 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:29 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:29 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:34 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:34 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:39 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:39 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:44 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:44 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:49 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:49 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:54 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:54 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:01:59 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:01:59 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:04 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:04 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:09 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:09 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:14 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:14 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:19 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:20 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:25 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:25 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:30 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:30 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:35 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:35 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:40 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:40 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:45 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:45 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:50 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:50 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:02:55 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:02:55 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:00 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:00 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:05 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:05 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:10 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:10 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:15 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:15 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:20 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:20 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:25 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:25 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:30 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:31 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:36 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:36 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:41 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:41 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:46 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:46 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:51 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:51 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:03:56 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:03:56 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:01 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:04:01 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:06 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:04:06 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:11 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:04:11 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:16 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:04:16 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:21 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-08-08 11:04:21 [INFO] utils.http_api: 🚀 发起 POST 请求: https://api-stress.ffff.team/ffff/login/initLogin
+2025-08-08 11:04:26 [INFO] utils.http_api: ⚠️ 请求异常: HTTPSConnectionPool(host='api-stress.ffff.team', port=443): Max retries exceeded with url: /ffff/login/initLogin (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
